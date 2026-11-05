@@ -1,0 +1,18 @@
+{
+  "project": "aire-abierto",
+  "data_kind": "official_workbook",
+  "source_mode": "live",
+  "year_requested": 2025,
+  "url": "https://aire.jalisco.gob.mx/reportes/BD_2025.xlsx",
+  "sha256": "5a646c10b06155a0275342757eda673323eb321dcd8b6659d270c23acbd1ddae",
+  "retrieved_at": "2026-11-05T22:44:31+00:00",
+  "built_at": "2026-11-05T22:44:38+00:00",
+  "hourly_rows": 113880,
+  "note_es": "Archivo horario público de SEMADET para el SIMAJ, zona metropolitana de Guadalajara, año 2025. No es un feed de hoy.",
+  "note_en": "Public SEMADET hourly workbook for the Guadalajara SIMAJ network, 2025. This is not today's feed.",
+  "fallback_reason": null,
+  "norm": "NOM-172-SEMARNAT-2023",
+  "particle_band_column": "A partir de enero de 2026",
+  "not_official_index": true,
+  "publisher": "Secretaría de Medio Ambiente y Desarrollo Territorial de Jalisco (SEMADET), Sistema de Monitoreo Atmosférico de Jalisco (SIMAJ)"
+}

@@ -1,0 +1,14 @@
+station_code,name,municipalities,notes
+AGU,Águilas,Guadalajara; San Pedro Tlaquepaque; Zapopan,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+ATM,Atemajac,Guadalajara; Zapopan,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+CEN,Centro,Guadalajara,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+COU,Country,Guadalajara,Código publicado por SEMADET en el reporte diario (numeralia).
+LDO,Loma Dorada,Tonalá; Guadalajara,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+MIR,Miravalle,Guadalajara; San Pedro Tlaquepaque,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+OBL,Oblatos,Guadalajara,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+PIN,Las Pintas,El Salto; San Pedro Tlaquepaque; Tlajomulco de Zúñiga,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+SAN,Santa Anita,Tlajomulco de Zúñiga,Código publicado por SEMADET en el reporte diario (numeralia).
+SFE,Santa Fe,Tlajomulco de Zúñiga; San Pedro Tlaquepaque; El Salto,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+SMT,Santa Margarita,Zapopan,El archivo horario de 2025 usa SMT. Documentos anteriores de SEMADET usaban SMA para Santa Margarita. El listado vigente de 13 estaciones no deja otro código sin nombre.
+TLA,Tlaquepaque,San Pedro Tlaquepaque; Guadalajara,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.
+VAL,Vallarta,Guadalajara; Zapopan,Código publicado por SEMADET en el reporte diario (numeralia) y en documentos de contingencia atmosférica.

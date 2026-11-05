@@ -1,0 +1,46 @@
+[project]
+name = "aire-abierto"
+version = "0.1.0"
+description = "Lectura cívica de la calidad del aire en la zona metropolitana de Guadalajara con datos públicos de SEMADET."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Aire abierto contributors"}]
+dependencies = [
+  "duckdb>=1.1.0",
+  "openpyxl>=3.1.0",
+  "streamlit>=1.40.0",
+  "altair>=5.0.0",
+  "pandas>=2.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0",
+]
+
+[project.scripts]
+aire-abierto = "aire_abierto.pipeline:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# The dashboard is bilingual prose. Wrapping those sentences does not make them easier to read.
+"dashboard/app.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

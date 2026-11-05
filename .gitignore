@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+data/raw/
+data/metrics/_hourly.csv
+data/metrics/*.duckdb
+data/warehouse/
+.streamlit/secrets.toml
+.DS_Store

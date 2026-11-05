@@ -1,0 +1,14 @@
+station_code,station_name,municipalities,days_with_index,days_buena,days_aceptable,days_mala,days_muy_mala,days_extremadamente_mala,days_mala_or_worse,share_mala_or_worse,mean_pm25,max_pm25,mean_pm10,most_frequent_dominant
+SFE,Santa Fe,Tlajomulco de Zúñiga; San Pedro Tlaquepaque; El Salto,365,53,58,220,33,1,254,0.6959,27.8611,169.7500,80.1432,pm25
+PIN,Las Pintas,El Salto; San Pedro Tlaquepaque; Tlajomulco de Zúñiga,365,73,55,183,42,12,237,0.6493,31.3792,306.1250,84.7201,pm25
+MIR,Miravalle,Guadalajara; San Pedro Tlaquepaque,361,92,81,179,8,1,188,0.5208,,,55.2918,pm10
+COU,Country,Guadalajara,364,79,105,160,19,1,180,0.4945,13.9968,106.5417,53.6249,o3
+LDO,Loma Dorada,Tonalá; Guadalajara,365,73,114,175,2,1,178,0.4877,21.0547,106.2857,43.3918,pm25
+SAN,Santa Anita,Tlajomulco de Zúñiga,360,82,105,168,4,1,173,0.4806,17.2537,84.2917,50.9742,pm25
+OBL,Oblatos,Guadalajara,365,80,129,146,10,0,156,0.4274,21.0293,103.0417,41.1791,pm10
+TLA,Tlaquepaque,San Pedro Tlaquepaque; Guadalajara,354,66,136,148,3,1,152,0.4294,28.9816,174.2083,39.7349,pm25
+ATM,Atemajac,Guadalajara; Zapopan,365,71,167,115,12,0,127,0.3479,24.1126,73.8750,31.5109,o3
+CEN,Centro,Guadalajara,361,96,147,115,2,1,118,0.3269,15.4744,155.2500,39.2761,pm25
+VAL,Vallarta,Guadalajara; Zapopan,364,75,172,117,0,0,117,0.3214,23.7356,70.9167,38.2551,pm25
+SMT,Santa Margarita,Zapopan,365,94,163,92,15,1,108,0.2959,10.6906,50.3500,27.0818,o3
+AGU,Águilas,Guadalajara; San Pedro Tlaquepaque; Zapopan,290,96,131,61,2,0,63,0.2172,14.5492,66.2083,36.2869,pm25

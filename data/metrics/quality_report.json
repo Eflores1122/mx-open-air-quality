@@ -1,0 +1,110 @@
+{
+  "as_of": "2026-11-05",
+  "data_kind": "official_workbook",
+  "ok": true,
+  "summary": {
+    "n": 113880,
+    "stations": 13,
+    "min_ts": "2025-01-01T01:00:00",
+    "max_ts": "2026-01-01T00:00:00",
+    "days": 366,
+    "o3_median": 0.028,
+    "pm25_median": 16.0,
+    "pm10_median": 36.0,
+    "o3_null_rate": 0.058404,
+    "no2_null_rate": 0.058289,
+    "so2_null_rate": 0.626633,
+    "co_null_rate": 0.155813,
+    "pm10_null_rate": 0.105919,
+    "pm25_null_rate": 0.313541,
+    "o3_flag_rate": 0.058404,
+    "no2_flag_rate": 0.058289,
+    "so2_flag_rate": 0.626633,
+    "co_flag_rate": 0.155813,
+    "pm10_flag_rate": 0.105919,
+    "pm25_flag_rate": 0.313541,
+    "duplicate_keys": 0,
+    "hour_pairs": 113867,
+    "bad_hour_gaps": 0
+  },
+  "checks": [
+    {
+      "id": "row_count",
+      "status": "pass",
+      "detail_es": "113880 horas en 13 estaciones.",
+      "detail_en": "113880 hours across 13 stations.",
+      "metrics": {
+        "rows": 113880,
+        "stations": 13
+      }
+    },
+    {
+      "id": "duplicate_keys",
+      "status": "pass",
+      "detail_es": "Cada estación tiene una sola fila por hora.",
+      "detail_en": "Each station has one row per hour.",
+      "metrics": {
+        "duplicate_keys": 0
+      }
+    },
+    {
+      "id": "unit_sanity",
+      "status": "pass",
+      "detail_es": "Las medianas caben en ppm para el ozono y en µg/m³ para PM2.5.",
+      "detail_en": "The medians fit ppm for ozone and µg/m³ for PM2.5.",
+      "metrics": {
+        "o3_median": 0.028,
+        "pm25_median": 16.0,
+        "pm10_median": 36.0
+      }
+    },
+    {
+      "id": "null_rates",
+      "status": "warn",
+      "detail_es": "Más de la mitad de las horas no tienen número válido en: so2. Esas horas suelen traer una bandera de SEMADET (ND, IO u otra) y no se inventan.",
+      "detail_en": "More than half of hours have no valid number for: so2. Those hours usually carry a SEMADET flag (ND, IO, or another) and are not filled in.",
+      "metrics": {
+        "null_rates": {
+          "o3": 0.058404,
+          "no2": 0.058289,
+          "so2": 0.626633,
+          "co": 0.155813,
+          "pm10": 0.105919,
+          "pm25": 0.313541
+        },
+        "flag_rates": {
+          "o3": 0.058404,
+          "no2": 0.058289,
+          "so2": 0.626633,
+          "co": 0.155813,
+          "pm10": 0.105919,
+          "pm25": 0.313541
+        }
+      }
+    },
+    {
+      "id": "hourly_continuity",
+      "status": "pass",
+      "detail_es": "Las horas de cada estación avanzan de una en una.",
+      "detail_en": "Hours at each station step forward one at a time.",
+      "metrics": {
+        "hour_pairs": 113867,
+        "bad_hour_gaps": 0,
+        "bad_share": 0.0
+      }
+    },
+    {
+      "id": "freshness",
+      "status": "warn",
+      "detail_es": "El día civil más reciente es el 2025-12-31 (309 días antes del 2026-11-05). El archivo anual de SEMADET es histórico. No sirve para decidir si hoy se puede correr al aire libre. Para el aire de hoy hay que abrir el reporte horario oficial.",
+      "detail_en": "The newest civil day is 2025-12-31 (309 days before 2026-11-05). SEMADET's annual file is historical. It cannot say whether it is fine to exercise outside today. For today's air, open the official hourly report.",
+      "metrics": {
+        "max_date": "2025-12-31",
+        "max_timestamp": "2026-01-01T00:00:00",
+        "min_date": "2025-01-01T01:00:00",
+        "age_days": 309,
+        "distinct_days": 366
+      }
+    }
+  ]
+}
