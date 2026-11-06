@@ -1,0 +1,172 @@
+ensu_city,ensu_city_code,state_code,state_name,mun_code,mun_name,cvegeo_example
+Acapulco de Juárez,21,12,Guerrero,12001,Acapulco de Juárez,120010001
+Aguascalientes,01,01,Aguascalientes,1001,Aguascalientes,010011025
+Aguascalientes,01,01,Aguascalientes,1005,Jesús María,010050001
+Apodaca,66,19,Nuevo León,19006,Apodaca,190060389
+Atizapán de Zaragoza,89,15,México,15013,Atizapán de Zaragoza,150130001
+Azcapotzalco,71,09,Ciudad de México,9002,Azcapotzalco,090020001
+Benito Juárez,83,09,Ciudad de México,9014,Benito Juárez,090140001
+Cancún,38,23,Quintana Roo,23005,Benito Juárez,230050001
+Chetumal,38,23,Quintana Roo,23004,Othón P. Blanco,230040001
+Chihuahua,13,08,Chihuahua,8019,Chihuahua,080190001
+Chilpancingo de los Bravo,22,12,Guerrero,12029,Chilpancingo de los Bravo,120290047
+Chimalhuacán,91,15,México,15031,Chimalhuacán,150310001
+Ciudad Nezahualcóyotl,28,15,México,15058,Nezahualcóyotl,150580001
+Ciudad Obregón,94,26,Sonora,26018,Cajeme,260180364
+Ciudad Victoria,47,28,Tamaulipas,28041,Victoria,280410001
+Ciudad del Carmen,56,04,Campeche,4003,Carmen,040030001
+Coatzacoalcos,50,30,Veracruz de Ignacio de la Llave,30039,Coatzacoalcos,300390170
+Coatzacoalcos,50,30,Veracruz de Ignacio de la Llave,30048,Cosoleacaque,300480011
+Colima,09,06,Colima,6002,Colima,060020001
+Colima,09,06,Colima,6010,Villa de Álvarez,060100001
+Coyoacán,72,09,Ciudad de México,9003,Coyoacán,090030001
+Cuajimalpa de Morelos,73,09,Ciudad de México,9004,Cuajimalpa de Morelos,090040020
+Cuauhtémoc,84,09,Ciudad de México,9015,Cuauhtémoc,090150001
+Cuautitlán Izcalli,89,15,México,15121,Cuautitlán Izcalli,151210046
+Cuernavaca,32,17,Morelos,17007,Cuernavaca,170070001
+Cuernavaca,32,17,Morelos,17008,Emiliano Zapata,170080004
+Cuernavaca,32,17,Morelos,17011,Jiutepec,170110009
+Cuernavaca,32,17,Morelos,17018,Temixco,170180001
+Cuernavaca,32,17,Morelos,17028,Xochitepec,170280104
+Cuernavaca,32,17,Morelos,17029,Yautepec,170290024
+Culiacán Rosales,39,25,Sinaloa,25006,Culiacán,250060001
+Durango,19,10,Durango,10005,Durango,100050001
+Ecatepec de Morelos,27,15,México,15033,Ecatepec de Morelos,150330001
+Fresnillo,,32,Zacatecas,32010,Fresnillo,320100001
+General Escobedo,68,19,Nuevo León,19021,General Escobedo,190210001
+Guadalajara,59,14,Jalisco,14039,Guadalajara,140390001
+Guadalupe,67,19,Nuevo León,19026,Guadalupe,190260001
+Guanajuato,,11,Guanajuato,11015,Guanajuato,110150375
+Gustavo A. Madero,74,09,Ciudad de México,9005,Gustavo A. Madero,090050001
+Hermosillo,43,26,Sonora,26030,Hermosillo,260300001
+Heroica Puebla de Zaragoza,36,21,Puebla,21015,Amozoc,210150001
+Heroica Puebla de Zaragoza,36,21,Puebla,21041,Cuautlancingo,210410001
+Heroica Puebla de Zaragoza,36,21,Puebla,21106,Ocoyucan,211060042
+Heroica Puebla de Zaragoza,36,21,Puebla,21114,Puebla,211140190
+Heroica Puebla de Zaragoza,36,21,Puebla,21119,San Andrés Cholula,211190013
+Heroica Puebla de Zaragoza,36,21,Puebla,21136,San Miguel Xoxtla,211360001
+Heroica Puebla de Zaragoza,36,21,Puebla,21140,San Pedro Cholula,211400001
+Irapuato,92,11,Guanajuato,11017,Irapuato,110170001
+Ixtapa- Zihuatanejo,58,12,Guerrero,12038,Zihuatanejo de Azueta,120380124
+Iztacalco,75,09,Ciudad de México,9006,Iztacalco,090060001
+Iztapalapa,76,09,Ciudad de México,9007,Iztapalapa,090070001
+Juárez,14,08,Chihuahua,8037,Juárez,080370001
+La Laguna,07,05,Coahuila de Zaragoza,5017,Matamoros,050170001
+La Laguna,07,05,Coahuila de Zaragoza,5035,Torreón,050350180
+La Laguna,07,10,Durango,10007,Gómez Palacio,100070001
+La Laguna,07,10,Durango,10012,Lerdo,100120001
+La Magdalena Contreras,77,09,Ciudad de México,9008,La Magdalena Contreras,090080001
+La Paz,04,03,Baja California Sur,3003,La Paz,030030001
+León de los Aldama,20,11,Guanajuato,11020,León,110201269
+León de los Aldama,20,11,Guanajuato,11031,San Francisco del Rincón,110310001
+Los Cabos,55,03,Baja California Sur,3008,Los Cabos,030080054
+Los Mochis,41,25,Sinaloa,25001,Ahome,250010001
+Lázaro Cárdenas,31,16,Michoacán de Ocampo,16052,Lázaro Cárdenas,160520137
+Manzanillo,10,06,Colima,6007,Manzanillo,060070001
+Mazatlán,41,25,Sinaloa,25012,Mazatlán,250120001
+Mexicali,02,02,Baja California,2002,Mexicali,020020001
+Miguel Hidalgo,85,09,Ciudad de México,9016,Miguel Hidalgo,090160001
+Milpa Alta,78,09,Ciudad de México,9009,Milpa Alta,090090300
+Monterrey,64,19,Nuevo León,19039,Monterrey,190390001
+Morelia,29,16,Michoacán de Ocampo,16053,Morelia,160530086
+Morelia,29,16,Michoacán de Ocampo,16088,Tarímbaro,160880145
+Mérida,52,31,Yucatán,31041,Kanasín,310410001
+Mérida,52,31,Yucatán,31050,Mérida,310500084
+Mérida,52,31,Yucatán,31059,Progreso,310590001
+Mérida,52,31,Yucatán,31101,Umán,311010001
+Naucalpan de Juárez,88,15,México,15057,Naucalpan de Juárez,150570267
+Nogales,43,26,Sonora,26043,Nogales,260430001
+Nuevo Laredo,48,28,Tamaulipas,28027,Nuevo Laredo,280270001
+Oaxaca de Juárez,35,20,Oaxaca,20067,Oaxaca de Juárez,200670001
+Oaxaca de Juárez,35,20,Oaxaca,20083,San Agustín de las Juntas,200830001
+Oaxaca de Juárez,35,20,Oaxaca,20091,San Andrés Huayápam,200910001
+Oaxaca de Juárez,35,20,Oaxaca,20107,San Antonio de la Cal,201070001
+Oaxaca de Juárez,35,20,Oaxaca,20157,San Jacinto Amilpas,201570001
+Oaxaca de Juárez,35,20,Oaxaca,20227,San Lorenzo Cacaotepec,202270001
+Oaxaca de Juárez,35,20,Oaxaca,20350,San Sebastián Tutla,203500002
+Oaxaca de Juárez,35,20,Oaxaca,20375,Santa Cruz Amilpas,203750001
+Oaxaca de Juárez,35,20,Oaxaca,20385,Santa Cruz Xoxocotlán,203850070
+Oaxaca de Juárez,35,20,Oaxaca,20390,Santa Lucía del Camino,203900001
+Oaxaca de Juárez,35,20,Oaxaca,20399,Santa María Atzompa,203990001
+Oaxaca de Juárez,35,20,Oaxaca,20519,Santo Domingo Tomaltepec,205190001
+Pachuca de Soto,23,13,Hidalgo,13048,Pachuca de Soto,130480001
+Pachuca de Soto,23,13,Hidalgo,13051,Mineral de la Reforma,130510143
+Pachuca de Soto,23,13,Hidalgo,13083,Zempoala,130830102
+Piedras Negras,08,05,Coahuila de Zaragoza,5022,Nava,050220051
+Piedras Negras,08,05,Coahuila de Zaragoza,5025,Piedras Negras,050250001
+Puerto Vallarta,25,14,Jalisco,14067,Puerto Vallarta,140670031
+Querétaro,37,22,Querétaro,22006,Corregidora,220060044
+Querétaro,37,22,Querétaro,22011,El Marqués,220110438
+Querétaro,37,22,Querétaro,22014,Querétaro,220140107
+Reynosa,47,28,Tamaulipas,28032,Reynosa,280320001
+Saltillo,06,05,Coahuila de Zaragoza,5030,Saltillo,050300001
+Saltillo,06,50,Coahuila de Zaragoza,50270,Ramos Arizpe,50270001
+San Francisco de Campeche,05,04,Campeche,4002,Campeche,040020087
+San Luis Potosí,39,24,San Luis Potosí,24028,San Luis Potosí,240280001
+San Luis Potosí,39,24,San Luis Potosí,24035,Soledad de Graciano Sánchez,240350001
+San Nicolás de los Garza,69,19,Nuevo León,19046,San Nicolás de los Garza,190460001
+San Pedro Garza García,65,19,Nuevo León,19019,San Pedro Garza García,190190001
+San Pedro Tlaquepaque,62,14,Jalisco,14098,San Pedro Tlaquepaque,140980014
+Santa Catarina,70,19,Nuevo León,19048,Santa Catarina,190480001
+Tampico,46,28,Tamaulipas,28003,Altamira,280030122
+Tampico,46,28,Tamaulipas,28009,Ciudad Madero,280090001
+Tampico,46,28,Tamaulipas,28038,Tampico,280380001
+Tampico,49,30,Veracruz de Ignacio de la Llave,30123,Pánuco,301230029
+Tampico,49,30,Veracruz de Ignacio de la Llave,30133,Pueblo Viejo,301330017
+Tapachula,12,07,Chiapas,7089,Tapachula,070890991
+Tepic,33,18,Nayarit,18008,Xalisco,180080001
+Tepic,33,18,Nayarit,18017,Tepic,180170001
+Tijuana,03,02,Baja California,2004,Tijuana,020040001
+Tlajomulco de Zúñiga,61,14,Jalisco,14097,Tlajomulco de Zúñiga,140970884
+Tlalnepantla de Baz,87,15,México,15104,Tlalnepantla,151040105
+Tlalpan,81,09,Ciudad de México,9012,Tlalpan,090120027
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29001,Amaxac de Guerrero,290010001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29002,Apetatitlán de Antonio Carvajal,290020005
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29005,Apizaco,290050009
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29010,Chiautempan,290100012
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29017,Mazatecochco de José María Morelos,290170001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29018,Contla de Juan Cuamatzi,290180001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29023,Natívitas,290230001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29024,Panotla,290240001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29026,Santa Cruz Tlaxcala,290260005
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29027,Tenancingo,290270001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29028,Teolocholco,290280001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29029,Tepeyanco,290290003
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29031,Tetla de la Solidaridad,290310010
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29032,Tetlatlahuca,290320007
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29033,Tlaxcala,290330018
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29038,Tzompantepec,290380002
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29039,Xaloztoc,290390006
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29041,Papalotla de Xicohténcatl,290410001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29042,Xicohtzinco,290420001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29043,Yauhquemehcan,290430008
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29044,Zacatelco,290440001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29048,La Magdalena Tlaltelulco,290480001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29050,San Francisco Tetlanohcan,290500001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29053,San Juan Huactzinco,290530001
+Tlaxcala de Xicohténcatl,49,29,Tlaxcala,29059,Santa Cruz Quilehtla,290590001
+Tláhuac,80,09,Ciudad de México,9011,Tláhuac,090110026
+Toluca de Lerdo,26,15,México,15051,Lerma,150510086
+Toluca de Lerdo,26,15,México,15054,Metepec,150540049
+Toluca de Lerdo,26,15,México,15076,San Mateo Atenco,150760001
+Toluca de Lerdo,,15,México,15106,Toluca,151060235
+Toluca de Lerdo,,15,México,15118,Zinacantepec,151180075
+Tonalá,60,14,Jalisco,14101,Tonalá,141010193
+Torreón,,05,Coahuila de Zaragoza,5035,Torreón,050350001
+Tuxtla Gutiérrez,11,07,Chiapas,7027,Chiapa de Corzo,070270622
+Tuxtla Gutiérrez,11,07,Chiapas,7101,Tuxtla Gutiérrez,071010001
+Uruapan,30,16,Michoacán de Ocampo,16102,Uruapan,161020110
+Venustiano Carranza,86,09,Ciudad de México,9017,Venustiano Carranza,090170001
+Veracruz,50,30,Veracruz de Ignacio de la Llave,30028,Boca del Río,300280037
+Veracruz,50,30,Veracruz de Ignacio de la Llave,30193,Veracruz,301930232
+Villahermosa,45,27,Tabasco,27004,Centro,270040160
+Villahermosa,45,27,Tabasco,27013,Nacajuca,270130069
+Xalapa,96,30,Veracruz de Ignacio de la Llave,30026,Banderilla,300260001
+Xalapa,96,30,Veracruz de Ignacio de la Llave,30065,Emiliano Zapata,300650260
+Xalapa,96,30,Veracruz de Ignacio de la Llave,30087,Xalapa,300870135
+Xochimilco,82,09,Ciudad de México,9013,Xochimilco,090130001
+Zacatecas,53,31,Yucatán,31017,Guadalupe,310170042
+Zacatecas,53,32,Yucatán,32017,Guadalupe,320170001
+Zacatecas,53,32,Yucatán,32056,Zacatecas,320560001
+Zapopan,63,14,Jalisco,14120,Zapopan,141200062
+Álvaro Obregón,79,09,Ciudad de México,9010,Álvaro Obregón,090100001

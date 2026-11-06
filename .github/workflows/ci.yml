@@ -22,3 +22,7 @@ jobs:
         run: python -m aire_abierto.pipeline --source sample --out build/dashboard-data
       - name: Build dashboard data from the synthetic fallback
         run: python -m aire_abierto.pipeline --source synthetic --out build/synthetic-data
+      - name: Build the livability mart from committed public excerpts
+        run: python -m aire_abierto.livability.pipeline --source sample --out build/livability
+      - name: Build the livability mart from the synthetic fallback
+        run: python -m aire_abierto.livability.pipeline --source synthetic --out build/livability-synthetic
