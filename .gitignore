@@ -10,6 +10,10 @@ dist/
 data/raw/
 data/metrics/_hourly.csv
 data/metrics/*.duckdb
+data/livability/metrics/*.duckdb
+data/livability/metrics/_hourly.csv
+data/livability/**/_download/
+data/livability/**/_live/
 data/warehouse/
 .streamlit/secrets.toml
 .DS_Store

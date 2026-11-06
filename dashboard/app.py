@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import sys
 from datetime import date, datetime
 from pathlib import Path
 
@@ -121,12 +122,25 @@ COPY = {
 
 def main() -> None:
     st.set_page_config(
-        page_title="Aire abierto · Guadalajara",
+        page_title="Vivir en México",
         layout="wide",
-        initial_sidebar_state="collapsed",
+        initial_sidebar_state="expanded",
     )
     _css()
+    view = st.sidebar.radio(
+        "Lectura",
+        ("vivir", "gdl"),
+        format_func=lambda code: "Vivir en México" if code == "vivir" else "Aire en Guadalajara",
+    )
     language = st.sidebar.radio("Idioma / Language", ("es", "en"), format_func=lambda code: "Español" if code == "es" else "English")
+    if view == "vivir":
+        dashboard_dir = Path(__file__).resolve().parent
+        if str(dashboard_dir) not in sys.path:
+            sys.path.insert(0, str(dashboard_dir))
+        from vivir import render
+
+        render(language)
+        return
     text = COPY[language]
     st.sidebar.caption(text["language"])
 

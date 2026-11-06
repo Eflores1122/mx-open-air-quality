@@ -1,0 +1,2677 @@
+place_id,mun_code,mun_name
+city:coyoacan,9003,Coyoacán
+city:aguascalientes,1001,Aguascalientes
+city:aguascalientes,1005,Jesús María
+city:la-magdalena-contreras,9008,La Magdalena Contreras
+city:mexicali,2002,Mexicali
+city:tlalpan,9012,Tlalpan
+city:tijuana,2004,Tijuana
+city:iztapalapa,9007,Iztapalapa
+city:la-paz,3003,La Paz
+city:milpa-alta,9009,Milpa Alta
+city:los-cabos,3008,Los Cabos
+city:tlahuac,9011,Tláhuac
+city:san-francisco-de-campeche,4002,Campeche
+city:xochimilco,9013,Xochimilco
+city:ciudad-del-carmen,4003,Carmen
+city:alvaro-obregon,9010,Álvaro Obregón
+city:saltillo,5030,Saltillo
+city:saltillo,50270,Ramos Arizpe
+city:azcapotzalco,9002,Azcapotzalco
+city:la-laguna,5017,Matamoros
+city:la-laguna,5035,Torreón
+city:la-laguna,10007,Gómez Palacio
+city:la-laguna,10012,Lerdo
+city:cuajimalpa-de-morelos,9004,Cuajimalpa de Morelos
+city:torreon,5035,Torreón
+city:miguel-hidalgo,9016,Miguel Hidalgo
+city:piedras-negras,5022,Nava
+city:piedras-negras,5025,Piedras Negras
+city:durango,10005,Durango
+city:colima,6002,Colima
+city:colima,6010,Villa de Álvarez
+city:leon-de-los-aldama,11020,León
+city:leon-de-los-aldama,11031,San Francisco del Rincón
+city:manzanillo,6007,Manzanillo
+city:guanajuato,11015,Guanajuato
+city:tuxtla-gutierrez,7027,Chiapa de Corzo
+city:tuxtla-gutierrez,7101,Tuxtla Gutiérrez
+city:irapuato,11017,Irapuato
+city:tapachula,7089,Tapachula
+city:acapulco-de-juarez,12001,Acapulco de Juárez
+city:chihuahua,8019,Chihuahua
+city:chilpancingo-de-los-bravo,12029,Chilpancingo de los Bravo
+city:juarez,8037,Juárez
+city:ixtapa-zihuatanejo,12038,Zihuatanejo de Azueta
+city:gustavo-a-madero,9005,Gustavo A. Madero
+city:pachuca-de-soto,13048,Pachuca de Soto
+city:pachuca-de-soto,13051,Mineral de la Reforma
+city:pachuca-de-soto,13083,Zempoala
+city:iztacalco,9006,Iztacalco
+city:guadalajara,14039,Guadalajara
+city:venustiano-carranza,9017,Venustiano Carranza
+city:tonala,14101,Tonalá
+city:cuauhtemoc,9015,Cuauhtémoc
+city:tlajomulco-de-zuniga,14097,Tlajomulco de Zúñiga
+city:benito-juarez,9014,Benito Juárez
+city:san-pedro-tlaquepaque,14098,San Pedro Tlaquepaque
+city:zapopan,14120,Zapopan
+city:heroica-puebla-de-zaragoza,21015,Amozoc
+city:heroica-puebla-de-zaragoza,21041,Cuautlancingo
+city:heroica-puebla-de-zaragoza,21106,Ocoyucan
+city:heroica-puebla-de-zaragoza,21114,Puebla
+city:heroica-puebla-de-zaragoza,21119,San Andrés Cholula
+city:heroica-puebla-de-zaragoza,21136,San Miguel Xoxtla
+city:heroica-puebla-de-zaragoza,21140,San Pedro Cholula
+city:puerto-vallarta,14067,Puerto Vallarta
+city:queretaro,22006,Corregidora
+city:queretaro,22011,El Marqués
+city:queretaro,22014,Querétaro
+city:toluca-de-lerdo,15051,Lerma
+city:toluca-de-lerdo,15054,Metepec
+city:toluca-de-lerdo,15076,San Mateo Atenco
+city:toluca-de-lerdo,15106,Toluca
+city:toluca-de-lerdo,15118,Zinacantepec
+city:cancun,23005,Benito Juárez
+city:ecatepec-de-morelos,15033,Ecatepec de Morelos
+city:chetumal,23004,Othón P. Blanco
+city:ciudad-nezahualcoyotl,15058,Nezahualcóyotl
+city:san-luis-potosi,24028,San Luis Potosí
+city:san-luis-potosi,24035,Soledad de Graciano Sánchez
+city:naucalpan-de-juarez,15057,Naucalpan de Juárez
+city:culiacan-rosales,25006,Culiacán
+city:tlalnepantla-de-baz,15104,Tlalnepantla
+city:mazatlan,25012,Mazatlán
+city:cuautitlan-izcalli,15121,Cuautitlán Izcalli
+city:los-mochis,25001,Ahome
+city:atizapan-de-zaragoza,15013,Atizapán de Zaragoza
+city:hermosillo,26030,Hermosillo
+city:chimalhuacan,15031,Chimalhuacán
+city:nogales,26043,Nogales
+city:morelia,16053,Morelia
+city:morelia,16088,Tarímbaro
+city:ciudad-obregon,26018,Cajeme
+city:uruapan,16102,Uruapan
+city:villahermosa,27004,Centro
+city:villahermosa,27013,Nacajuca
+city:lazaro-cardenas,16052,Lázaro Cárdenas
+city:tampico,28003,Altamira
+city:tampico,28009,Ciudad Madero
+city:tampico,28038,Tampico
+city:tampico,30123,Pánuco
+city:tampico,30133,Pueblo Viejo
+city:cuernavaca,17007,Cuernavaca
+city:cuernavaca,17008,Emiliano Zapata
+city:cuernavaca,17011,Jiutepec
+city:cuernavaca,17018,Temixco
+city:cuernavaca,17028,Xochitepec
+city:cuernavaca,17029,Yautepec
+city:reynosa,28032,Reynosa
+city:tepic,18008,Xalisco
+city:tepic,18017,Tepic
+city:nuevo-laredo,28027,Nuevo Laredo
+city:monterrey,19039,Monterrey
+city:ciudad-victoria,28041,Victoria
+city:san-pedro-garza-garcia,19019,San Pedro Garza García
+city:tlaxcala-de-xicohtencatl,29001,Amaxac de Guerrero
+city:tlaxcala-de-xicohtencatl,29002,Apetatitlán de Antonio Carvajal
+city:tlaxcala-de-xicohtencatl,29005,Apizaco
+city:tlaxcala-de-xicohtencatl,29010,Chiautempan
+city:tlaxcala-de-xicohtencatl,29017,Mazatecochco de José María Morelos
+city:tlaxcala-de-xicohtencatl,29018,Contla de Juan Cuamatzi
+city:tlaxcala-de-xicohtencatl,29023,Natívitas
+city:tlaxcala-de-xicohtencatl,29024,Panotla
+city:tlaxcala-de-xicohtencatl,29026,Santa Cruz Tlaxcala
+city:tlaxcala-de-xicohtencatl,29027,Tenancingo
+city:tlaxcala-de-xicohtencatl,29028,Teolocholco
+city:tlaxcala-de-xicohtencatl,29029,Tepeyanco
+city:tlaxcala-de-xicohtencatl,29031,Tetla de la Solidaridad
+city:tlaxcala-de-xicohtencatl,29032,Tetlatlahuca
+city:tlaxcala-de-xicohtencatl,29033,Tlaxcala
+city:tlaxcala-de-xicohtencatl,29038,Tzompantepec
+city:tlaxcala-de-xicohtencatl,29039,Xaloztoc
+city:tlaxcala-de-xicohtencatl,29041,Papalotla de Xicohténcatl
+city:tlaxcala-de-xicohtencatl,29042,Xicohtzinco
+city:tlaxcala-de-xicohtencatl,29043,Yauhquemehcan
+city:tlaxcala-de-xicohtencatl,29044,Zacatelco
+city:tlaxcala-de-xicohtencatl,29048,La Magdalena Tlaltelulco
+city:tlaxcala-de-xicohtencatl,29050,San Francisco Tetlanohcan
+city:tlaxcala-de-xicohtencatl,29053,San Juan Huactzinco
+city:tlaxcala-de-xicohtencatl,29059,Santa Cruz Quilehtla
+city:apodaca,19006,Apodaca
+city:veracruz,30028,Boca del Río
+city:veracruz,30193,Veracruz
+city:guadalupe,19026,Guadalupe
+city:coatzacoalcos,30039,Coatzacoalcos
+city:coatzacoalcos,30048,Cosoleacaque
+city:general-escobedo,19021,General Escobedo
+city:xalapa,30026,Banderilla
+city:xalapa,30065,Emiliano Zapata
+city:xalapa,30087,Xalapa
+city:san-nicolas-de-los-garza,19046,San Nicolás de los Garza
+city:merida,31041,Kanasín
+city:merida,31050,Mérida
+city:merida,31059,Progreso
+city:merida,31101,Umán
+city:santa-catarina,19048,Santa Catarina
+city:zacatecas,31017,Guadalupe
+city:zacatecas,32017,Guadalupe
+city:zacatecas,32056,Zacatecas
+city:oaxaca-de-juarez,20067,Oaxaca de Juárez
+city:oaxaca-de-juarez,20083,San Agustín de las Juntas
+city:oaxaca-de-juarez,20091,San Andrés Huayápam
+city:oaxaca-de-juarez,20107,San Antonio de la Cal
+city:oaxaca-de-juarez,20157,San Jacinto Amilpas
+city:oaxaca-de-juarez,20227,San Lorenzo Cacaotepec
+city:oaxaca-de-juarez,20350,San Sebastián Tutla
+city:oaxaca-de-juarez,20375,Santa Cruz Amilpas
+city:oaxaca-de-juarez,20385,Santa Cruz Xoxocotlán
+city:oaxaca-de-juarez,20390,Santa Lucía del Camino
+city:oaxaca-de-juarez,20399,Santa María Atzompa
+city:oaxaca-de-juarez,20519,Santo Domingo Tomaltepec
+city:fresnillo,32010,Fresnillo
+state:01,1001,Aguascalientes
+state:01,1002,Asientos
+state:01,1003,Calvillo
+state:01,1004,Cosío
+state:01,1005,Jesús María
+state:01,1006,Pabellón de Arteaga
+state:01,1007,Rincón de Romos
+state:01,1008,San José de Gracia
+state:01,1009,Tepezalá
+state:01,1010,El Llano
+state:01,1011,San Francisco de los Romo
+state:02,2001,Ensenada
+state:02,2002,Mexicali
+state:02,2003,Tecate
+state:02,2004,Tijuana
+state:02,2005,Playas de Rosarito
+state:02,2006,San Quintín
+state:02,2007,San Felipe
+state:03,3001,Comondú
+state:03,3002,Mulegé
+state:03,3003,La Paz
+state:03,3008,Los Cabos
+state:03,3009,Loreto
+state:04,4001,Calkiní
+state:04,4002,Campeche
+state:04,4003,Carmen
+state:04,4004,Champotón
+state:04,4005,Hecelchakán
+state:04,4006,Hopelchén
+state:04,4007,Palizada
+state:04,4008,Tenabo
+state:04,4009,Escárcega
+state:04,4010,Calakmul
+state:04,4011,Candelaria
+state:04,4012,Seybaplaya
+state:04,4013,Dzitbalché
+state:05,5001,Abasolo
+state:05,5002,Acuña
+state:05,5003,Allende
+state:05,5004,Arteaga
+state:05,5005,Candela
+state:05,5006,Castaños
+state:05,5007,Cuatro Ciénegas
+state:05,5008,Escobedo
+state:05,5009,Francisco I. Madero
+state:05,5010,Frontera
+state:05,5011,General Cepeda
+state:05,5012,Guerrero
+state:05,5013,Hidalgo
+state:05,5014,Jiménez
+state:05,5015,Juárez
+state:05,5016,Lamadrid
+state:05,5017,Matamoros
+state:05,5018,Monclova
+state:05,5019,Morelos
+state:05,5020,Múzquiz
+state:05,5021,Nadadores
+state:05,5022,Nava
+state:05,5023,Ocampo
+state:05,5024,Parras
+state:05,5025,Piedras Negras
+state:05,5026,Progreso
+state:05,5027,Ramos Arizpe
+state:05,5028,Sabinas
+state:05,5029,Sacramento
+state:05,5030,Saltillo
+state:05,5031,San Buenaventura
+state:05,5032,San Juan de Sabinas
+state:05,5033,San Pedro
+state:05,5034,Sierra Mojada
+state:05,5035,Torreón
+state:05,5036,Viesca
+state:05,5037,Villa Unión
+state:05,5038,Zaragoza
+state:06,6001,Armería
+state:06,6002,Colima
+state:06,6003,Comala
+state:06,6004,Coquimatlán
+state:06,6005,Cuauhtémoc
+state:06,6006,Ixtlahuacán
+state:06,6007,Manzanillo
+state:06,6008,Minatitlán
+state:06,6009,Tecomán
+state:06,6010,Villa de Álvarez
+state:07,7001,Acacoyagua
+state:07,7002,Acala
+state:07,7003,Acapetahua
+state:07,7004,Altamirano
+state:07,7005,Amatán
+state:07,7006,Amatenango de la Frontera
+state:07,7007,Amatenango del Valle
+state:07,7008,Angel Albino Corzo
+state:07,7009,Arriaga
+state:07,7010,Bejucal de Ocampo
+state:07,7011,Bella Vista
+state:07,7012,Berriozábal
+state:07,7013,Bochil
+state:07,7014,El Bosque
+state:07,7015,Cacahoatán
+state:07,7016,Catazajá
+state:07,7017,Cintalapa de Figueroa
+state:07,7018,Coapilla
+state:07,7019,Comitán de Domínguez
+state:07,7020,La Concordia
+state:07,7021,Copainalá
+state:07,7022,Chalchihuitán
+state:07,7023,Chamula
+state:07,7024,Chanal
+state:07,7025,Chapultenango
+state:07,7026,Chenalhó
+state:07,7027,Chiapa de Corzo
+state:07,7028,Chiapilla
+state:07,7029,Chicoasén
+state:07,7030,Chicomuselo
+state:07,7031,Chilón
+state:07,7032,Escuintla
+state:07,7033,Francisco León
+state:07,7034,Frontera Comalapa
+state:07,7035,Frontera Hidalgo
+state:07,7036,La Grandeza
+state:07,7037,Huehuetán
+state:07,7038,Huixtán
+state:07,7039,Huitiupán
+state:07,7040,Huixtla
+state:07,7041,La Independencia
+state:07,7042,Ixhuatán
+state:07,7043,Ixtacomitán
+state:07,7044,Ixtapa
+state:07,7045,Ixtapangajoya
+state:07,7046,Jiquipilas
+state:07,7047,Jitotol
+state:07,7048,Juárez
+state:07,7049,Larráinzar
+state:07,7050,La Libertad
+state:07,7051,Mapastepec
+state:07,7052,Las Margaritas
+state:07,7053,Mazapa de Madero
+state:07,7054,Mazatán
+state:07,7055,Metapa
+state:07,7056,Mitontic
+state:07,7057,Motozintla
+state:07,7058,Nicolás Ruíz
+state:07,7059,Ocosingo
+state:07,7060,Ocotepec
+state:07,7061,Ocozocoautla de Espinosa
+state:07,7062,Ostuacán
+state:07,7063,Osumacinta
+state:07,7064,Oxchuc
+state:07,7065,Palenque
+state:07,7066,Pantelhó
+state:07,7067,Pantepec
+state:07,7068,Pichucalco
+state:07,7069,Pijijiapan
+state:07,7070,El Porvenir
+state:07,7071,Villa Comaltitlán
+state:07,7072,Pueblo Nuevo Solistahuacán
+state:07,7073,Rayón
+state:07,7074,Reforma
+state:07,7075,Las Rosas
+state:07,7076,Sabanilla
+state:07,7077,Salto de Agua
+state:07,7078,San Cristóbal de las Casas
+state:07,7079,San Fernando
+state:07,7080,Siltepec
+state:07,7081,Simojovel
+state:07,7082,Sitalá
+state:07,7083,Socoltenango
+state:07,7084,Solosuchiapa
+state:07,7085,Soyaló
+state:07,7086,Suchiapa
+state:07,7087,Suchiate
+state:07,7088,Sunuapa
+state:07,7089,Tapachula
+state:07,7090,Tapalapa
+state:07,7091,Tapilula
+state:07,7092,Tecpatán
+state:07,7093,Tenejapa
+state:07,7094,Teopisca
+state:07,7096,Tila
+state:07,7097,Tonalá
+state:07,7098,Totolapa
+state:07,7099,La Trinitaria
+state:07,7100,Tumbalá
+state:07,7101,Tuxtla Gutiérrez
+state:07,7102,Tuxtla Chico
+state:07,7103,Tuzantán
+state:07,7104,Tzimol
+state:07,7105,Unión Juárez
+state:07,7106,Venustiano Carranza
+state:07,7107,Villa Corzo
+state:07,7108,Villaflores
+state:07,7109,Yajalón
+state:07,7110,San Lucas
+state:07,7111,Zinacantán
+state:07,7112,San Juan Cancuc
+state:07,7113,Aldama
+state:07,7114,Benemérito de las Américas
+state:07,7115,Maravilla Tenejapa
+state:07,7116,Marqués de Comillas
+state:07,7117,Montecristo de Guerrero
+state:07,7118,San Andrés Duraznal
+state:07,7119,Santiago el Pinar
+state:07,7120,Capitán Luis Ángel Vidal
+state:07,7121,Rincón Chamula San Pedro
+state:07,7122,El Parral
+state:07,7123,Emiliano Zapata
+state:07,7124,Mezcalapa
+state:07,7125,Honduras de la Sierra
+state:08,8001,Ahumada
+state:08,8002,Aldama
+state:08,8003,Allende
+state:08,8004,Aquiles Serdán
+state:08,8005,Ascensión
+state:08,8006,Bachíniva
+state:08,8007,Balleza
+state:08,8008,Batopilas de Manuel Gómez Morín
+state:08,8009,Bocoyna
+state:08,8010,Buenaventura
+state:08,8011,Camargo
+state:08,8012,Carichí
+state:08,8013,Casas Grandes
+state:08,8014,Coronado
+state:08,8015,Coyame del Sotol
+state:08,8016,La Cruz
+state:08,8017,Cuauhtémoc
+state:08,8018,Cusihuiriachi
+state:08,8019,Chihuahua
+state:08,8020,Chínipas
+state:08,8021,Delicias
+state:08,8022,Dr. Belisario Domínguez
+state:08,8023,Galeana
+state:08,8024,Santa Isabel
+state:08,8025,Gómez Farías
+state:08,8026,Gran Morelos
+state:08,8027,Guachochi
+state:08,8028,Guadalupe
+state:08,8029,Guadalupe y Calvo
+state:08,8030,Guazapares
+state:08,8031,Guerrero
+state:08,8032,Hidalgo del Parral
+state:08,8033,Huejotitán
+state:08,8034,Ignacio Zaragoza
+state:08,8035,Janos
+state:08,8036,Jiménez
+state:08,8037,Juárez
+state:08,8038,Julimes
+state:08,8039,López
+state:08,8040,Madera
+state:08,8041,Maguarichi
+state:08,8042,Manuel Benavides
+state:08,8043,Matachí
+state:08,8044,Matamoros
+state:08,8045,Meoqui
+state:08,8046,Morelos
+state:08,8047,Moris
+state:08,8048,Namiquipa
+state:08,8049,Nonoava
+state:08,8050,Nuevo Casas Grandes
+state:08,8051,Ocampo
+state:08,8052,Ojinaga
+state:08,8053,Praxedis G. Guerrero
+state:08,8054,Riva Palacio
+state:08,8055,Rosales
+state:08,8056,Rosario
+state:08,8057,San Francisco de Borja
+state:08,8058,San Francisco de Conchos
+state:08,8059,San Francisco del Oro
+state:08,8060,Santa Bárbara
+state:08,8061,Satevó
+state:08,8062,Saucillo
+state:08,8063,Temósachic
+state:08,8064,El Tule
+state:08,8065,Urique
+state:08,8066,Uruachi
+state:08,8067,Valle de Zaragoza
+state:09,9002,Azcapotzalco
+state:09,9003,Coyoacán
+state:09,9004,Cuajimalpa de Morelos
+state:09,9005,Gustavo A. Madero
+state:09,9006,Iztacalco
+state:09,9007,Iztapalapa
+state:09,9008,La Magdalena Contreras
+state:09,9009,Milpa Alta
+state:09,9010,Álvaro Obregón
+state:09,9011,Tláhuac
+state:09,9012,Tlalpan
+state:09,9013,Xochimilco
+state:09,9014,Benito Juárez
+state:09,9015,Cuauhtémoc
+state:09,9016,Miguel Hidalgo
+state:09,9017,Venustiano Carranza
+state:10,10001,Canatlán
+state:10,10002,Canelas
+state:10,10003,Coneto de Comonfort
+state:10,10004,Cuencamé
+state:10,10005,Durango
+state:10,10006,General Simón Bolívar
+state:10,10007,Gómez Palacio
+state:10,10008,Guadalupe Victoria
+state:10,10009,Guanaceví
+state:10,10010,Hidalgo
+state:10,10011,Indé
+state:10,10012,Lerdo
+state:10,10013,Mapimí
+state:10,10014,Mezquital
+state:10,10015,Nazas
+state:10,10016,Nombre de Dios
+state:10,10017,Ocampo
+state:10,10018,El Oro
+state:10,10019,Otáez
+state:10,10020,Pánuco de Coronado
+state:10,10021,Peñón Blanco
+state:10,10022,Poanas
+state:10,10023,Pueblo Nuevo
+state:10,10024,Rodeo
+state:10,10025,San Bernardo
+state:10,10026,San Dimas
+state:10,10027,San Juan de Guadalupe
+state:10,10028,San Juan del Río
+state:10,10029,San Luis del Cordero
+state:10,10030,San Pedro del Gallo
+state:10,10031,Santa Clara
+state:10,10032,Santiago Papasquiaro
+state:10,10033,Súchil
+state:10,10034,Tamazula
+state:10,10035,Tepehuanes
+state:10,10036,Tlahualilo
+state:10,10037,Topia
+state:10,10038,Vicente Guerrero
+state:10,10039,Nuevo Ideal
+state:11,11001,Abasolo
+state:11,11002,Acámbaro
+state:11,11003,San Miguel de Allende
+state:11,11004,Apaseo el Alto
+state:11,11005,Apaseo el Grande
+state:11,11006,Atarjea
+state:11,11007,Celaya
+state:11,11008,Manuel Doblado
+state:11,11009,Comonfort
+state:11,11010,Coroneo
+state:11,11011,Cortazar
+state:11,11012,Cuerámaro
+state:11,11013,Doctor Mora
+state:11,11014,Dolores Hidalgo Cuna de la Independencia Nacional
+state:11,11015,Guanajuato
+state:11,11016,Huanímaro
+state:11,11017,Irapuato
+state:11,11018,Jaral del Progreso
+state:11,11019,Jerécuaro
+state:11,11020,León
+state:11,11021,Moroleón
+state:11,11022,Ocampo
+state:11,11023,Pénjamo
+state:11,11024,Pueblo Nuevo
+state:11,11025,Purísima del Rincón
+state:11,11026,Romita
+state:11,11027,Salamanca
+state:11,11028,Salvatierra
+state:11,11029,San Diego de la Unión
+state:11,11030,San Felipe
+state:11,11031,San Francisco del Rincón
+state:11,11032,San José Iturbide
+state:11,11033,San Luis de la Paz
+state:11,11034,Santa Catarina
+state:11,11035,Santa Cruz de Juventino Rosas
+state:11,11036,Santiago Maravatío
+state:11,11037,Silao de la Victoria
+state:11,11038,Tarandacuao
+state:11,11039,Tarimoro
+state:11,11040,Tierra Blanca
+state:11,11041,Uriangato
+state:11,11042,Valle de Santiago
+state:11,11043,Victoria
+state:11,11044,Villagrán
+state:11,11045,Xichú
+state:11,11046,Yuriria
+state:12,12001,Acapulco de Juárez
+state:12,12002,Ahuacuotzingo
+state:12,12003,Ajuchitlán del Progreso
+state:12,12004,Alcozauca de Guerrero
+state:12,12005,Alpoyeca
+state:12,12006,Apaxtla
+state:12,12007,Arcelia
+state:12,12008,Atenango del Río
+state:12,12009,Atlamajalcingo del Monte
+state:12,12010,Atlixtac
+state:12,12011,Atoyac de Álvarez
+state:12,12012,Ayutla de los Libres
+state:12,12013,Azoyú
+state:12,12014,Benito Juárez
+state:12,12015,Buenavista de Cuéllar
+state:12,12016,Coahuayutla de José María Izazaga
+state:12,12017,Cocula
+state:12,12018,Copala
+state:12,12019,Copalillo
+state:12,12020,Copanatoyac
+state:12,12021,Coyuca de Benítez
+state:12,12022,Coyuca de Catalán
+state:12,12023,Cuajinicuilapa
+state:12,12024,Cualác
+state:12,12025,Cuautepec
+state:12,12026,Cuetzala del Progreso
+state:12,12027,Cutzamala de Pinzón
+state:12,12028,Chilapa de Álvarez
+state:12,12029,Chilpancingo de los Bravo
+state:12,12030,Florencio Villarreal
+state:12,12031,General Canuto A. Neri
+state:12,12032,General Heliodoro Castillo
+state:12,12033,Huamuxtitlán
+state:12,12034,Huitzuco de los Figueroa
+state:12,12035,Iguala de la Independencia
+state:12,12036,Igualapa
+state:12,12037,Ixcateopan de Cuauhtémoc
+state:12,12038,Zihuatanejo de Azueta
+state:12,12039,Juan R. Escudero
+state:12,12040,Leonardo Bravo
+state:12,12041,Malinaltepec
+state:12,12042,Mártir de Cuilapan
+state:12,12043,Metlatónoc
+state:12,12044,Mochitlán
+state:12,12045,Olinalá
+state:12,12046,Ometepec
+state:12,12047,Pedro Ascencio Alquisiras
+state:12,12048,Petatlán
+state:12,12049,Pilcaya
+state:12,12050,Pungarabato
+state:12,12051,Quechultenango
+state:12,12052,San Luis Acatlán
+state:12,12053,San Marcos
+state:12,12054,San Miguel Totolapan
+state:12,12055,Taxco de Alarcón
+state:12,12056,Tecoanapa
+state:12,12057,Técpan de Galeana
+state:12,12058,Teloloapan
+state:12,12059,Tepecoacuilco de Trujano
+state:12,12060,Tetipac
+state:12,12061,Tixtla de Guerrero
+state:12,12062,Tlacoachistlahuaca
+state:12,12063,Tlacoapa
+state:12,12064,Tlalchapa
+state:12,12065,Tlalixtaquilla de Maldonado
+state:12,12066,Tlapa de Comonfort
+state:12,12067,Tlapehuala
+state:12,12068,La Unión de Isidoro Montes de Oca
+state:12,12069,Xalpatláhuac
+state:12,12070,Xochihuehuetlán
+state:12,12071,Xochistlahuaca
+state:12,12072,Zapotitlán Tablas
+state:12,12073,Zirándaro
+state:12,12074,Zitlala
+state:12,12075,Eduardo Neri
+state:12,12076,Acatepec
+state:12,12077,Marquelia
+state:12,12078,Cochoapa el Grande
+state:12,12079,José Joaquín de Herrera
+state:12,12080,Juchitán
+state:12,12081,Iliatenco
+state:12,12082,Las Vigas
+state:12,12083,Ñuu Savi
+state:12,12084,Santa Cruz del Rincón
+state:12,12085,San Nicolás
+state:13,13001,Acatlán
+state:13,13002,Acaxochitlán
+state:13,13003,Actopan
+state:13,13004,Agua Blanca de Iturbide
+state:13,13005,Ajacuba
+state:13,13006,Alfajayucan
+state:13,13007,Almoloya
+state:13,13008,Apan
+state:13,13009,El Arenal
+state:13,13010,Atitalaquia
+state:13,13011,Atlapexco
+state:13,13012,Atotonilco el Grande
+state:13,13013,Atotonilco de Tula
+state:13,13014,Calnali
+state:13,13015,Cardonal
+state:13,13016,Cuautepec de Hinojosa
+state:13,13017,Chapantongo
+state:13,13018,Chapulhuacán
+state:13,13019,Chilcuautla
+state:13,13020,Eloxochitlán
+state:13,13021,Emiliano Zapata
+state:13,13022,Epazoyucan
+state:13,13023,Francisco I. Madero
+state:13,13024,Huasca de Ocampo
+state:13,13025,Huautla
+state:13,13026,Huazalingo
+state:13,13027,Huehuetla
+state:13,13028,Huejutla de Reyes
+state:13,13029,Huichapan
+state:13,13030,Ixmiquilpan
+state:13,13031,Jacala de Ledezma
+state:13,13032,Jaltocán
+state:13,13033,Juárez Hidalgo
+state:13,13034,Lolotla
+state:13,13035,Metepec
+state:13,13036,San Agustín Metzquititlán
+state:13,13037,Metztitlán
+state:13,13038,Mineral del Chico
+state:13,13039,Mineral del Monte
+state:13,13040,La Misión
+state:13,13041,Mixquiahuala de Juárez
+state:13,13042,Molango de Escamilla
+state:13,13043,Nicolás Flores
+state:13,13044,Nopala de Villagrán
+state:13,13045,Omitlán de Juárez
+state:13,13046,San Felipe Orizatlán
+state:13,13047,Pacula
+state:13,13048,Pachuca de Soto
+state:13,13049,Pisaflores
+state:13,13050,Progreso de Obregón
+state:13,13051,Mineral de la Reforma
+state:13,13052,San Agustín Tlaxiaca
+state:13,13053,San Bartolo Tutotepec
+state:13,13054,San Salvador
+state:13,13055,Santiago de Anaya
+state:13,13056,Santiago Tulantepec de Lugo Guerrero
+state:13,13057,Singuilucan
+state:13,13058,Tasquillo
+state:13,13059,Tecozautla
+state:13,13060,Tenango de Doria
+state:13,13061,Tepeapulco
+state:13,13062,Tepehuacán de Guerrero
+state:13,13063,Tepeji del Río de Ocampo
+state:13,13064,Tepetitlán
+state:13,13065,Tetepango
+state:13,13066,Villa de Tezontepec
+state:13,13067,Tezontepec de Aldama
+state:13,13068,Tianguistengo
+state:13,13069,Tizayuca
+state:13,13070,Tlahuelilpan
+state:13,13071,Tlahuiltepa
+state:13,13072,Tlanalapa
+state:13,13073,Tlanchinol
+state:13,13074,Tlaxcoapan
+state:13,13075,Tolcayuca
+state:13,13076,Tula de Allende
+state:13,13077,Tulancingo de Bravo
+state:13,13078,Xochiatipan
+state:13,13079,Xochicoatlán
+state:13,13080,Yahualica
+state:13,13081,Zacualtipán de Ángeles
+state:13,13082,Zapotlán de Juárez
+state:13,13083,Zempoala
+state:13,13084,Zimapán
+state:14,14001,Acatic
+state:14,14002,Acatlán de Juárez
+state:14,14003,Ahualulco de Mercado
+state:14,14004,Amacueca
+state:14,14005,Amatitán
+state:14,14006,Ameca
+state:14,14007,San Juanito de Escobedo
+state:14,14008,Arandas
+state:14,14009,El Arenal
+state:14,14010,Atemajac de Brizuela
+state:14,14011,Atengo
+state:14,14012,Atenguillo
+state:14,14013,Atotonilco el Alto
+state:14,14014,Atoyac
+state:14,14015,Autlán de Navarro
+state:14,14016,Ayotlán
+state:14,14017,Ayutla
+state:14,14018,La Barca
+state:14,14019,Bolaños
+state:14,14020,Cabo Corrientes
+state:14,14021,Casimiro Castillo
+state:14,14022,Cihuatlán
+state:14,14023,Zapotlán el Grande
+state:14,14024,Cocula
+state:14,14025,Colotlán
+state:14,14026,Concepción de Buenos Aires
+state:14,14027,Cuautitlán de García Barragán
+state:14,14028,Cuautla
+state:14,14029,Cuquío
+state:14,14030,Chapala
+state:14,14031,Chimaltitán
+state:14,14032,Chiquilistlán
+state:14,14033,Degollado
+state:14,14034,Ejutla
+state:14,14035,Encarnación de Díaz
+state:14,14036,Etzatlán
+state:14,14037,El Grullo
+state:14,14038,Guachinango
+state:14,14039,Guadalajara
+state:14,14040,Hostotipaquillo
+state:14,14041,Huejúcar
+state:14,14042,Huejuquilla el Alto
+state:14,14043,La Huerta
+state:14,14044,Ixtlahuacán de los Membrillos
+state:14,14045,Ixtlahuacán del Río
+state:14,14046,Jalostotitlán
+state:14,14047,Jamay
+state:14,14048,Jesús María
+state:14,14049,Jilotlán de los Dolores
+state:14,14050,Jocotepec
+state:14,14051,Juanacatlán
+state:14,14052,Juchitlán
+state:14,14053,Lagos de Moreno
+state:14,14054,El Limón
+state:14,14055,Magdalena
+state:14,14056,Santa María del Oro
+state:14,14057,La Manzanilla de la Paz
+state:14,14058,Mascota
+state:14,14059,Mazamitla
+state:14,14060,Mexticacán
+state:14,14061,Mezquitic
+state:14,14062,Mixtlán
+state:14,14063,Ocotlán
+state:14,14064,Ojuelos de Jalisco
+state:14,14065,Pihuamo
+state:14,14066,Poncitlán
+state:14,14067,Puerto Vallarta
+state:14,14068,Villa Purificación
+state:14,14069,Quitupan
+state:14,14070,El Salto
+state:14,14071,San Cristóbal de la Barranca
+state:14,14072,San Diego de Alejandría
+state:14,14073,San Juan de los Lagos
+state:14,14074,San Julián
+state:14,14075,San Marcos
+state:14,14076,San Martín de Bolaños
+state:14,14077,San Martín Hidalgo
+state:14,14078,San Miguel el Alto
+state:14,14079,Gómez Farías
+state:14,14080,San Sebastián del Oeste
+state:14,14081,Santa María de los Ángeles
+state:14,14082,Sayula
+state:14,14083,Tala
+state:14,14084,Talpa de Allende
+state:14,14085,Tamazula de Gordiano
+state:14,14086,Tapalpa
+state:14,14087,Tecalitlán
+state:14,14088,Tecolotlán
+state:14,14089,Techaluta de Montenegro
+state:14,14090,Tenamaxtlán
+state:14,14091,Teocaltiche
+state:14,14092,Teocuitatlán de Corona
+state:14,14093,Tepatitlán de Morelos
+state:14,14094,Tequila
+state:14,14095,Teuchitlán
+state:14,14096,Tizapán el Alto
+state:14,14097,Tlajomulco de Zúñiga
+state:14,14098,San Pedro Tlaquepaque
+state:14,14099,Tolimán
+state:14,14100,Tomatlán
+state:14,14101,Tonalá
+state:14,14102,Tonaya
+state:14,14103,Tonila
+state:14,14104,Totatiche
+state:14,14105,Tototlán
+state:14,14106,Tuxcacuesco
+state:14,14107,Tuxcueca
+state:14,14108,Tuxpan
+state:14,14109,Unión de San Antonio
+state:14,14110,Unión de Tula
+state:14,14111,Valle de Guadalupe
+state:14,14112,Valle de Juárez
+state:14,14113,San Gabriel
+state:14,14114,Villa Corona
+state:14,14115,Villa Guerrero
+state:14,14116,Villa Hidalgo
+state:14,14117,Cañadas de Obregón
+state:14,14118,Yahualica de González Gallo
+state:14,14119,Zacoalco de Torres
+state:14,14120,Zapopan
+state:14,14121,Zapotiltic
+state:14,14122,Zapotitlán de Vadillo
+state:14,14123,Zapotlán del Rey
+state:14,14124,Zapotlanejo
+state:14,14125,San Ignacio Cerro Gordo
+state:15,15001,Acambay de Ruíz Castañeda
+state:15,15002,Acolman
+state:15,15003,Aculco
+state:15,15004,Almoloya de Alquisiras
+state:15,15005,Almoloya de Juárez
+state:15,15006,Almoloya del Río
+state:15,15007,Amanalco
+state:15,15008,Amatepec
+state:15,15009,Amecameca
+state:15,15010,Apaxco
+state:15,15011,Atenco
+state:15,15012,Atizapán
+state:15,15013,Atizapán de Zaragoza
+state:15,15014,Atlacomulco
+state:15,15015,Atlautla
+state:15,15016,Axapusco
+state:15,15017,Ayapango
+state:15,15018,Calimaya
+state:15,15019,Capulhuac
+state:15,15020,Coacalco de Berriozábal
+state:15,15021,Coatepec Harinas
+state:15,15022,Cocotitlán
+state:15,15023,Coyotepec
+state:15,15024,Cuautitlán
+state:15,15025,Chalco
+state:15,15026,Chapa de Mota
+state:15,15027,Chapultepec
+state:15,15028,Chiautla
+state:15,15029,Chicoloapan
+state:15,15030,Chiconcuac
+state:15,15031,Chimalhuacán
+state:15,15032,Donato Guerra
+state:15,15033,Ecatepec de Morelos
+state:15,15034,Ecatzingo
+state:15,15035,Huehuetoca
+state:15,15036,Hueypoxtla
+state:15,15037,Huixquilucan
+state:15,15038,Isidro Fabela
+state:15,15039,Ixtapaluca
+state:15,15040,Ixtapan de la Sal
+state:15,15041,Ixtapan del Oro
+state:15,15042,Ixtlahuaca
+state:15,15043,Xalatlaco
+state:15,15044,Jaltenco
+state:15,15045,Jilotepec
+state:15,15046,Jilotzingo
+state:15,15047,Jiquipilco
+state:15,15048,Jocotitlán
+state:15,15049,Joquicingo
+state:15,15050,Juchitepec
+state:15,15051,Lerma
+state:15,15052,Malinalco
+state:15,15053,Melchor Ocampo
+state:15,15054,Metepec
+state:15,15055,Mexicaltzingo
+state:15,15056,Morelos
+state:15,15057,Naucalpan de Juárez
+state:15,15058,Nezahualcóyotl
+state:15,15059,Nextlalpan
+state:15,15060,Nicolás Romero
+state:15,15061,Nopaltepec
+state:15,15062,Ocoyoacac
+state:15,15063,Ocuilan
+state:15,15064,El Oro
+state:15,15065,Otumba
+state:15,15066,Otzoloapan
+state:15,15067,Otzolotepec
+state:15,15068,Ozumba
+state:15,15069,Papalotla
+state:15,15070,La Paz
+state:15,15071,Polotitlán
+state:15,15072,Rayón
+state:15,15073,San Antonio la Isla
+state:15,15074,San Felipe del Progreso
+state:15,15075,San Martín de las Pirámides
+state:15,15076,San Mateo Atenco
+state:15,15077,San Simón de Guerrero
+state:15,15078,Santo Tomás
+state:15,15079,Soyaniquilpan de Juárez
+state:15,15080,Sultepec
+state:15,15081,Tecámac
+state:15,15082,Tejupilco
+state:15,15083,Temamatla
+state:15,15084,Temascalapa
+state:15,15085,Temascalcingo
+state:15,15086,Temascaltepec
+state:15,15087,Temoaya
+state:15,15088,Tenancingo
+state:15,15089,Tenango del Aire
+state:15,15090,Tenango del Valle
+state:15,15091,Teoloyucan
+state:15,15092,Teotihuacán
+state:15,15093,Tepetlaoxtoc
+state:15,15094,Tepetlixpa
+state:15,15095,Tepotzotlán
+state:15,15096,Tequixquiac
+state:15,15097,Texcaltitlán
+state:15,15098,Texcalyacac
+state:15,15099,Texcoco
+state:15,15100,Tezoyuca
+state:15,15101,Tianguistenco
+state:15,15102,Timilpan
+state:15,15103,Tlalmanalco
+state:15,15104,Tlalnepantla de Baz
+state:15,15105,Tlatlaya
+state:15,15106,Toluca
+state:15,15107,Tonatico
+state:15,15108,Tultepec
+state:15,15109,Tultitlán
+state:15,15110,Valle de Bravo
+state:15,15111,Villa de Allende
+state:15,15112,Villa del Carbón
+state:15,15113,Villa Guerrero
+state:15,15114,Villa Victoria
+state:15,15115,Xonacatlán
+state:15,15116,Zacazonapan
+state:15,15117,Zacualpan
+state:15,15118,Zinacantepec
+state:15,15119,Zumpahuacán
+state:15,15120,Zumpango
+state:15,15121,Cuautitlán Izcalli
+state:15,15122,Valle de Chalco Solidaridad
+state:15,15123,Luvianos
+state:15,15124,San José del Rincón
+state:15,15125,Tonanitla
+state:16,16001,Acuitzio
+state:16,16002,Aguililla
+state:16,16003,Álvaro Obregón
+state:16,16004,Angamacutiro
+state:16,16005,Angangueo
+state:16,16006,Apatzingán
+state:16,16007,Aporo
+state:16,16008,Aquila
+state:16,16009,Ario
+state:16,16010,Arteaga
+state:16,16011,Briseñas
+state:16,16012,Buenavista
+state:16,16013,Carácuaro
+state:16,16014,Coahuayana
+state:16,16015,Coalcomán de Vázquez Pallares
+state:16,16016,Coeneo
+state:16,16017,Contepec
+state:16,16018,Copándaro
+state:16,16019,Cotija
+state:16,16020,Cuitzeo
+state:16,16021,Charapan
+state:16,16022,Charo
+state:16,16023,Chavinda
+state:16,16024,Cherán
+state:16,16025,Chilchota
+state:16,16026,Chinicuila
+state:16,16027,Chucándiro
+state:16,16028,Churintzio
+state:16,16029,Churumuco
+state:16,16030,Ecuandureo
+state:16,16031,Epitacio Huerta
+state:16,16032,Erongarícuaro
+state:16,16033,Gabriel Zamora
+state:16,16034,Hidalgo
+state:16,16035,La Huacana
+state:16,16036,Huandacareo
+state:16,16037,Huaniqueo
+state:16,16038,Huetamo
+state:16,16039,Huiramba
+state:16,16040,Indaparapeo
+state:16,16041,Irimbo
+state:16,16042,Ixtlán
+state:16,16043,Jacona
+state:16,16044,Jiménez
+state:16,16045,Jiquilpan
+state:16,16046,Juárez
+state:16,16047,Jungapeo
+state:16,16048,Lagunillas
+state:16,16049,Madero
+state:16,16050,Maravatío
+state:16,16051,Marcos Castellanos
+state:16,16052,Lázaro Cárdenas
+state:16,16053,Morelia
+state:16,16054,Morelos
+state:16,16055,Múgica
+state:16,16056,Nahuatzen
+state:16,16057,Nocupétaro
+state:16,16058,Nuevo Parangaricutiro
+state:16,16059,Nuevo Urecho
+state:16,16060,Numarán
+state:16,16061,Ocampo
+state:16,16062,Pajacuarán
+state:16,16063,Panindícuaro
+state:16,16064,Parácuaro
+state:16,16065,Paracho
+state:16,16066,Pátzcuaro
+state:16,16067,Penjamillo
+state:16,16068,Peribán
+state:16,16069,La Piedad
+state:16,16070,Purépero
+state:16,16071,Puruándiro
+state:16,16072,Queréndaro
+state:16,16073,Quiroga
+state:16,16074,Cojumatlán de Régules
+state:16,16075,Los Reyes
+state:16,16076,Sahuayo
+state:16,16077,San Lucas
+state:16,16078,Santa Ana Maya
+state:16,16079,Salvador Escalante
+state:16,16080,Senguio
+state:16,16081,Susupuato
+state:16,16082,Tacámbaro
+state:16,16083,Tancítaro
+state:16,16084,Tangamandapio
+state:16,16085,Tangancícuaro
+state:16,16086,Tanhuato
+state:16,16087,Taretan
+state:16,16088,Tarímbaro
+state:16,16089,Tepalcatepec
+state:16,16090,Tingambato
+state:16,16091,Tingüindín
+state:16,16092,Tiquicheo de Nicolás Romero
+state:16,16093,Tlalpujahua
+state:16,16094,Tlazazalca
+state:16,16095,Tocumbo
+state:16,16096,Tumbiscatío
+state:16,16097,Turicato
+state:16,16098,Tuxpan
+state:16,16099,Tuzantla
+state:16,16100,Tzintzuntzan
+state:16,16101,Tzitzio
+state:16,16102,Uruapan
+state:16,16103,Venustiano Carranza
+state:16,16104,Villamar
+state:16,16105,Vista Hermosa
+state:16,16106,Yurécuaro
+state:16,16107,Zacapu
+state:16,16108,Zamora
+state:16,16109,Zináparo
+state:16,16110,Zinapécuaro
+state:16,16111,Ziracuaretiro
+state:16,16112,Zitácuaro
+state:16,16113,José Sixto Verduzco
+state:17,17001,Amacuzac
+state:17,17002,Atlatlahucan
+state:17,17003,Axochiapan
+state:17,17004,Ayala
+state:17,17005,Coatlán del Río
+state:17,17006,Cuautla
+state:17,17007,Cuernavaca
+state:17,17008,Emiliano Zapata
+state:17,17009,Huitzilac
+state:17,17010,Jantetelco
+state:17,17011,Jiutepec
+state:17,17012,Jojutla
+state:17,17013,Jonacatepec de Leandro Valle
+state:17,17014,Mazatepec
+state:17,17015,Miacatlán
+state:17,17016,Ocuituco
+state:17,17017,Puente de Ixtla
+state:17,17018,Temixco
+state:17,17019,Tepalcingo
+state:17,17020,Tepoztlán
+state:17,17021,Tetecala
+state:17,17022,Tetela del Volcán
+state:17,17023,Tlalnepantla
+state:17,17024,Tlaltizapán de Zapata
+state:17,17025,Tlaquiltenango
+state:17,17026,Tlayacapan
+state:17,17027,Totolapan
+state:17,17028,Xochitepec
+state:17,17029,Yautepec
+state:17,17030,Yecapixtla
+state:17,17031,Zacatepec
+state:17,17032,Zacualpan de Amilpas
+state:17,17033,Temoac
+state:17,17034,Coatetelco
+state:17,17035,Xoxocotla
+state:17,17036,Hueyapan
+state:18,18001,Acaponeta
+state:18,18002,Ahuacatlán
+state:18,18003,Amatlán de Cañas
+state:18,18004,Compostela
+state:18,18005,Huajicori
+state:18,18006,Ixtlán del Río
+state:18,18007,Jala
+state:18,18008,Xalisco
+state:18,18009,Del Nayar
+state:18,18010,Rosamorada
+state:18,18011,Ruíz
+state:18,18012,San Blas
+state:18,18013,San Pedro Lagunillas
+state:18,18014,Santa María del Oro
+state:18,18015,Santiago Ixcuintla
+state:18,18016,Tecuala
+state:18,18017,Tepic
+state:18,18018,Tuxpan
+state:18,18019,La Yesca
+state:18,18020,Bahía de Banderas
+state:19,19001,Abasolo
+state:19,19002,Agualeguas
+state:19,19003,Los Aldamas
+state:19,19004,Allende
+state:19,19005,Anáhuac
+state:19,19006,Apodaca
+state:19,19007,Aramberri
+state:19,19008,Bustamante
+state:19,19009,Cadereyta Jiménez
+state:19,19010,El Carmen
+state:19,19011,Cerralvo
+state:19,19012,Ciénega de Flores
+state:19,19013,China
+state:19,19014,Doctor Arroyo
+state:19,19015,Doctor Coss
+state:19,19016,Doctor González
+state:19,19017,Galeana
+state:19,19018,García
+state:19,19019,San Pedro Garza García
+state:19,19020,General Bravo
+state:19,19021,General Escobedo
+state:19,19022,General Terán
+state:19,19023,General Treviño
+state:19,19024,General Zaragoza
+state:19,19025,General Zuazua
+state:19,19026,Guadalupe
+state:19,19027,Los Herreras
+state:19,19028,Higueras
+state:19,19029,Hualahuises
+state:19,19030,Iturbide
+state:19,19031,Juárez
+state:19,19032,Lampazos de Naranjo
+state:19,19033,Linares
+state:19,19034,Marín
+state:19,19035,Melchor Ocampo
+state:19,19036,Mier y Noriega
+state:19,19037,Mina
+state:19,19038,Montemorelos
+state:19,19039,Monterrey
+state:19,19040,Parás
+state:19,19041,Pesquería
+state:19,19042,Los Ramones
+state:19,19043,Rayones
+state:19,19044,Sabinas Hidalgo
+state:19,19045,Salinas Victoria
+state:19,19046,San Nicolás de los Garza
+state:19,19047,Hidalgo
+state:19,19048,Santa Catarina
+state:19,19049,Santiago
+state:19,19050,Vallecillo
+state:19,19051,Villaldama
+state:20,20001,Abejones
+state:20,20002,Acatlán de Pérez Figueroa
+state:20,20003,Asunción Cacalotepec
+state:20,20004,Asunción Cuyotepeji
+state:20,20005,Asunción Ixtaltepec
+state:20,20006,Asunción Nochixtlán
+state:20,20007,Asunción Ocotlán
+state:20,20008,Asunción Tlacolulita
+state:20,20009,Ayotzintepec
+state:20,20010,El Barrio de la Soledad
+state:20,20011,Calihualá
+state:20,20012,Candelaria Loxicha
+state:20,20013,Ciénega de Zimatlán
+state:20,20014,Ciudad Ixtepec
+state:20,20015,Coatecas Altas
+state:20,20016,Coicoyán de las Flores
+state:20,20017,La Compañía
+state:20,20018,Concepción Buenavista
+state:20,20019,Concepción Pápalo
+state:20,20020,Constancia del Rosario
+state:20,20021,Cosolapa
+state:20,20022,Cosoltepec
+state:20,20023,Cuilápam de Guerrero
+state:20,20024,Cuyamecalco Villa de Zaragoza
+state:20,20025,Chahuites
+state:20,20026,Chalcatongo de Hidalgo
+state:20,20027,Chiquihuitlán de Benito Juárez
+state:20,20028,Heroica Ciudad de Ejutla de Crespo
+state:20,20029,Eloxochitlán de Flores Magón
+state:20,20030,El Espinal
+state:20,20031,Tamazulápam del Espíritu Santo
+state:20,20032,Fresnillo de Trujano
+state:20,20033,Guadalupe Etla
+state:20,20034,Guadalupe de Ramírez
+state:20,20035,Guelatao de Juárez
+state:20,20036,Guevea de Humboldt
+state:20,20037,Mesones Hidalgo
+state:20,20038,Villa Hidalgo Yalálag
+state:20,20039,Heroica Ciudad de Huajuapan de León
+state:20,20040,Huautepec
+state:20,20041,Huautla de Jiménez
+state:20,20042,Ixtlán de Juárez
+state:20,20043,Juchitán de Zaragoza
+state:20,20044,Loma Bonita
+state:20,20045,Magdalena Apasco
+state:20,20046,Magdalena Jaltepec
+state:20,20047,Santa Magdalena Jicotlán
+state:20,20048,Magdalena Mixtepec
+state:20,20049,Magdalena Ocotlán
+state:20,20050,Magdalena Peñasco
+state:20,20051,Magdalena Teitipac
+state:20,20052,Magdalena Tequisistlán
+state:20,20053,Magdalena Tlacotepec
+state:20,20054,Magdalena Zahuatlán
+state:20,20055,Mariscala de Juárez
+state:20,20056,Mártires de Tacubaya
+state:20,20057,Matías Romero Avendaño
+state:20,20058,Mazatlán Villa de Flores
+state:20,20059,Miahuatlán de Porfirio Díaz
+state:20,20060,Mixistlán de la Reforma
+state:20,20061,Monjas
+state:20,20062,Natividad
+state:20,20063,Nazareno Etla
+state:20,20064,Nejapa de Madero
+state:20,20065,Ixpantepec Nieves
+state:20,20066,Santiago Niltepec
+state:20,20067,Oaxaca de Juárez
+state:20,20068,Ocotlán de Morelos
+state:20,20069,La Pe
+state:20,20070,Pinotepa de Don Luis
+state:20,20071,Pluma Hidalgo
+state:20,20072,San José del Progreso
+state:20,20073,Putla Villa de Guerrero
+state:20,20074,Santa Catarina Quioquitani
+state:20,20075,Reforma de Pineda
+state:20,20076,La Reforma
+state:20,20077,Reyes Etla
+state:20,20078,Rojas de Cuauhtémoc
+state:20,20079,Salina Cruz
+state:20,20080,San Agustín Amatengo
+state:20,20081,San Agustín Atenango
+state:20,20082,San Agustín Chayuco
+state:20,20083,San Agustín de las Juntas
+state:20,20084,San Agustín Etla
+state:20,20085,San Agustín Loxicha
+state:20,20086,San Agustín Tlacotepec
+state:20,20087,San Agustín Yatareni
+state:20,20088,San Andrés Cabecera Nueva
+state:20,20089,San Andrés Dinicuiti
+state:20,20090,San Andrés Huaxpaltepec
+state:20,20091,San Andrés Huayápam
+state:20,20092,San Andrés Ixtlahuaca
+state:20,20093,San Andrés Lagunas
+state:20,20094,San Andrés Nuxiño
+state:20,20095,San Andrés Paxtlán
+state:20,20096,San Andrés Sinaxtla
+state:20,20097,San Andrés Solaga
+state:20,20098,San Andrés Teotilálpam
+state:20,20099,San Andrés Tepetlapa
+state:20,20100,San Andrés Yaá
+state:20,20101,San Andrés Zabache
+state:20,20102,San Andrés Zautla
+state:20,20103,San Antonino Castillo Velasco
+state:20,20104,San Antonino el Alto
+state:20,20105,San Antonino Monte Verde
+state:20,20106,San Antonio Acutla
+state:20,20107,San Antonio de la Cal
+state:20,20108,San Antonio Huitepec
+state:20,20109,San Antonio Nanahuatípam
+state:20,20110,San Antonio Sinicahua
+state:20,20111,San Antonio Tepetlapa
+state:20,20112,San Baltazar Chichicápam
+state:20,20113,San Baltazar Loxicha
+state:20,20114,San Baltazar Yatzachi el Bajo
+state:20,20115,San Bartolo Coyotepec
+state:20,20116,San Bartolomé Ayautla
+state:20,20117,San Bartolomé Loxicha
+state:20,20118,San Bartolomé Quialana
+state:20,20119,San Bartolomé Yucuañe
+state:20,20120,San Bartolomé Zoogocho
+state:20,20121,San Bartolo Soyaltepec
+state:20,20122,San Bartolo Yautepec
+state:20,20123,San Bernardo Mixtepec
+state:20,20124,Heroica Villa de San Blas Atempa
+state:20,20125,San Carlos Yautepec
+state:20,20126,San Cristóbal Amatlán
+state:20,20127,San Cristóbal Amoltepec
+state:20,20128,San Cristóbal Lachirioag
+state:20,20129,San Cristóbal Suchixtlahuaca
+state:20,20130,San Dionisio del Mar
+state:20,20131,San Dionisio Ocotepec
+state:20,20132,San Dionisio Ocotlán
+state:20,20133,San Esteban Atatlahuca
+state:20,20134,San Felipe Jalapa de Díaz
+state:20,20135,San Felipe Tejalápam
+state:20,20136,San Felipe Usila
+state:20,20137,San Francisco Cahuacuá
+state:20,20138,San Francisco Cajonos
+state:20,20139,San Francisco Chapulapa
+state:20,20140,San Francisco Chindúa
+state:20,20141,San Francisco del Mar
+state:20,20142,San Francisco Huehuetlán
+state:20,20143,San Francisco Ixhuatán
+state:20,20144,San Francisco Jaltepetongo
+state:20,20145,San Francisco Lachigoló
+state:20,20146,San Francisco Logueche
+state:20,20147,San Francisco Nuxaño
+state:20,20148,San Francisco Ozolotepec
+state:20,20149,San Francisco Sola
+state:20,20150,San Francisco Telixtlahuaca
+state:20,20151,San Francisco Teopan
+state:20,20152,San Francisco Tlapancingo
+state:20,20153,San Gabriel Mixtepec
+state:20,20154,San Ildefonso Amatlán
+state:20,20155,San Ildefonso Sola
+state:20,20156,San Ildefonso Villa Alta
+state:20,20157,San Jacinto Amilpas
+state:20,20158,San Jacinto Tlacotepec
+state:20,20159,San Jerónimo Coatlán
+state:20,20160,San Jerónimo Silacayoapilla
+state:20,20161,San Jerónimo Sosola
+state:20,20162,San Jerónimo Taviche
+state:20,20163,San Jerónimo Tecóatl
+state:20,20164,San Jorge Nuchita
+state:20,20165,San José Ayuquila
+state:20,20166,San José Chiltepec
+state:20,20167,San José del Peñasco
+state:20,20168,San José Estancia Grande
+state:20,20169,San José Independencia
+state:20,20170,San José Lachiguiri
+state:20,20171,San José Tenango
+state:20,20172,San Juan Achiutla
+state:20,20173,San Juan Atepec
+state:20,20174,Ánimas Trujano
+state:20,20175,San Juan Bautista Atatlahuca
+state:20,20176,San Juan Bautista Coixtlahuaca
+state:20,20177,San Juan Bautista Cuicatlán
+state:20,20178,San Juan Bautista Guelache
+state:20,20179,San Juan Bautista Jayacatlán
+state:20,20180,San Juan Bautista Lo de Soto
+state:20,20181,San Juan Bautista Suchitepec
+state:20,20182,San Juan Bautista Tlacoatzintepec
+state:20,20183,San Juan Bautista Tlachichilco
+state:20,20184,San Juan Bautista Tuxtepec
+state:20,20185,San Juan Cacahuatepec
+state:20,20186,San Juan Cieneguilla
+state:20,20187,San Juan Coatzóspam
+state:20,20188,San Juan Colorado
+state:20,20189,San Juan Comaltepec
+state:20,20190,San Juan Cotzocón
+state:20,20191,San Juan Chicomezúchil
+state:20,20192,San Juan Chilateca
+state:20,20193,San Juan del Estado
+state:20,20194,San Juan del Río
+state:20,20195,San Juan Diuxi
+state:20,20196,San Juan Evangelista Analco
+state:20,20197,San Juan Guelavía
+state:20,20198,San Juan Guichicovi
+state:20,20199,San Juan Ihualtepec
+state:20,20200,San Juan Juquila Mixes
+state:20,20201,San Juan Juquila Vijanos
+state:20,20202,San Juan Lachao
+state:20,20203,San Juan Lachigalla
+state:20,20204,San Juan Lajarcia
+state:20,20205,San Juan Lalana
+state:20,20206,San Juan de los Cués
+state:20,20207,San Juan Mazatlán
+state:20,20208,San Juan Mixtepec
+state:20,20209,San Juan Mixtepec
+state:20,20210,San Juan Ñumí
+state:20,20211,San Juan Ozolotepec
+state:20,20212,San Juan Petlapa
+state:20,20213,San Juan Quiahije
+state:20,20214,San Juan Quiotepec
+state:20,20215,San Juan Sayultepec
+state:20,20216,San Juan Tabaá
+state:20,20217,San Juan Tamazola
+state:20,20218,San Juan Teita
+state:20,20219,San Juan Teitipac
+state:20,20220,San Juan Tepeuxila
+state:20,20221,San Juan Teposcolula
+state:20,20222,San Juan Yaeé
+state:20,20223,San Juan Yatzona
+state:20,20224,San Juan Yucuita
+state:20,20225,San Lorenzo
+state:20,20226,San Lorenzo Albarradas
+state:20,20227,San Lorenzo Cacaotepec
+state:20,20228,San Lorenzo Cuaunecuiltitla
+state:20,20229,San Lorenzo Texmelúcan
+state:20,20230,San Lorenzo Victoria
+state:20,20231,San Lucas Camotlán
+state:20,20232,San Lucas Ojitlán
+state:20,20233,San Lucas Quiaviní
+state:20,20234,San Lucas Zoquiápam
+state:20,20235,San Luis Amatlán
+state:20,20236,San Marcial Ozolotepec
+state:20,20237,San Marcos Arteaga
+state:20,20238,San Martín de los Cansecos
+state:20,20239,San Martín Huamelúlpam
+state:20,20240,San Martín Itunyoso
+state:20,20241,San Martín Lachilá
+state:20,20242,San Martín Peras
+state:20,20243,San Martín Tilcajete
+state:20,20244,San Martín Toxpalan
+state:20,20245,San Martín Zacatepec
+state:20,20246,San Mateo Cajonos
+state:20,20247,Capulálpam de Méndez
+state:20,20248,San Mateo del Mar
+state:20,20249,San Mateo Yoloxochitlán
+state:20,20250,San Mateo Etlatongo
+state:20,20251,San Mateo Nejápam
+state:20,20252,San Mateo Peñasco
+state:20,20253,San Mateo Piñas
+state:20,20254,San Mateo Río Hondo
+state:20,20255,San Mateo Sindihui
+state:20,20256,San Mateo Tlapiltepec
+state:20,20257,San Melchor Betaza
+state:20,20258,San Miguel Achiutla
+state:20,20259,San Miguel Ahuehuetitlán
+state:20,20260,San Miguel Aloápam
+state:20,20261,San Miguel Amatitlán
+state:20,20262,San Miguel Amatlán
+state:20,20263,San Miguel Coatlán
+state:20,20264,San Miguel Chicahua
+state:20,20265,San Miguel Chimalapa
+state:20,20266,San Miguel del Puerto
+state:20,20267,San Miguel del Río
+state:20,20268,San Miguel Ejutla
+state:20,20269,San Miguel el Grande
+state:20,20270,San Miguel Huautla
+state:20,20271,San Miguel Mixtepec
+state:20,20272,San Miguel Panixtlahuaca
+state:20,20273,San Miguel Peras
+state:20,20274,San Miguel Piedras
+state:20,20275,San Miguel Quetzaltepec
+state:20,20276,San Miguel Santa Flor
+state:20,20277,Villa Sola de Vega
+state:20,20278,San Miguel Soyaltepec
+state:20,20279,San Miguel Suchixtepec
+state:20,20280,Villa Talea de Castro
+state:20,20281,San Miguel Tecomatlán
+state:20,20282,San Miguel Tenango
+state:20,20283,San Miguel Tequixtepec
+state:20,20284,San Miguel Tilquiápam
+state:20,20285,San Miguel Tlacamama
+state:20,20286,San Miguel Tlacotepec
+state:20,20287,San Miguel Tulancingo
+state:20,20288,San Miguel Yotao
+state:20,20289,San Nicolás
+state:20,20290,San Nicolás Hidalgo
+state:20,20291,San Pablo Coatlán
+state:20,20292,San Pablo Cuatro Venados
+state:20,20293,San Pablo Etla
+state:20,20294,San Pablo Huitzo
+state:20,20295,San Pablo Huixtepec
+state:20,20296,San Pablo Macuiltianguis
+state:20,20297,San Pablo Tijaltepec
+state:20,20298,San Pablo Villa de Mitla
+state:20,20299,San Pablo Yaganiza
+state:20,20300,San Pedro Amuzgos
+state:20,20301,San Pedro Apóstol
+state:20,20302,San Pedro Atoyac
+state:20,20303,San Pedro Cajonos
+state:20,20304,San Pedro Coxcaltepec Cántaros
+state:20,20305,San Pedro Comitancillo
+state:20,20306,San Pedro el Alto
+state:20,20307,San Pedro Huamelula
+state:20,20308,San Pedro Huilotepec
+state:20,20309,San Pedro Ixcatlán
+state:20,20310,San Pedro Ixtlahuaca
+state:20,20311,San Pedro Jaltepetongo
+state:20,20312,San Pedro Jicayán
+state:20,20313,San Pedro Jocotipac
+state:20,20314,San Pedro Juchatengo
+state:20,20315,San Pedro Mártir
+state:20,20316,San Pedro Mártir Quiechapa
+state:20,20317,San Pedro Mártir Yucuxaco
+state:20,20318,San Pedro Mixtepec
+state:20,20319,San Pedro Mixtepec
+state:20,20320,San Pedro Molinos
+state:20,20321,San Pedro Nopala
+state:20,20322,San Pedro Ocopetatillo
+state:20,20323,San Pedro Ocotepec
+state:20,20324,San Pedro Pochutla
+state:20,20325,San Pedro Quiatoni
+state:20,20326,San Pedro Sochiápam
+state:20,20327,San Pedro Tapanatepec
+state:20,20328,San Pedro Taviche
+state:20,20329,San Pedro Teozacoalco
+state:20,20330,San Pedro Teutila
+state:20,20331,San Pedro Tidaá
+state:20,20332,San Pedro Topiltepec
+state:20,20333,San Pedro Totolápam
+state:20,20334,Villa de Tututepec
+state:20,20335,San Pedro Yaneri
+state:20,20336,San Pedro Yólox
+state:20,20337,San Pedro y San Pablo Ayutla
+state:20,20338,Villa de Etla
+state:20,20339,San Pedro y San Pablo Teposcolula
+state:20,20340,San Pedro y San Pablo Tequixtepec
+state:20,20341,San Pedro Yucunama
+state:20,20342,San Raymundo Jalpan
+state:20,20343,San Sebastián Abasolo
+state:20,20344,San Sebastián Coatlán
+state:20,20345,San Sebastián Ixcapa
+state:20,20346,San Sebastián Nicananduta
+state:20,20347,San Sebastián Río Hondo
+state:20,20348,San Sebastián Tecomaxtlahuaca
+state:20,20349,San Sebastián Teitipac
+state:20,20350,San Sebastián Tutla
+state:20,20351,San Simón Almolongas
+state:20,20352,San Simón Zahuatlán
+state:20,20353,Santa Ana
+state:20,20354,Santa Ana Ateixtlahuaca
+state:20,20355,Santa Ana Cuauhtémoc
+state:20,20356,Santa Ana del Valle
+state:20,20357,Santa Ana Tavela
+state:20,20358,Santa Ana Tlapacoyan
+state:20,20359,Santa Ana Yareni
+state:20,20360,Santa Ana Zegache
+state:20,20361,Santa Catalina Quierí
+state:20,20362,Santa Catarina Cuixtla
+state:20,20363,Santa Catarina Ixtepeji
+state:20,20364,Santa Catarina Juquila
+state:20,20365,Santa Catarina Lachatao
+state:20,20366,Santa Catarina Loxicha
+state:20,20367,Santa Catarina Mechoacán
+state:20,20368,Santa Catarina Minas
+state:20,20369,Santa Catarina Quiané
+state:20,20370,Santa Catarina Tayata
+state:20,20371,Santa Catarina Ticuá
+state:20,20372,Santa Catarina Yosonotú
+state:20,20373,Santa Catarina Zapoquila
+state:20,20374,Santa Cruz Acatepec
+state:20,20375,Santa Cruz Amilpas
+state:20,20376,Santa Cruz de Bravo
+state:20,20377,Santa Cruz Itundujia
+state:20,20378,Santa Cruz Mixtepec
+state:20,20379,Santa Cruz Nundaco
+state:20,20380,Santa Cruz Papalutla
+state:20,20381,Santa Cruz Tacache de Mina
+state:20,20382,Santa Cruz Tacahua
+state:20,20383,Santa Cruz Tayata
+state:20,20384,Santa Cruz Xitla
+state:20,20385,Santa Cruz Xoxocotlán
+state:20,20386,Santa Cruz Zenzontepec
+state:20,20387,Santa Gertrudis
+state:20,20388,Santa Inés del Monte
+state:20,20389,Santa Inés Yatzeche
+state:20,20390,Santa Lucía del Camino
+state:20,20391,Santa Lucía Miahuatlán
+state:20,20392,Santa Lucía Monteverde
+state:20,20393,Santa Lucía Ocotlán
+state:20,20394,Santa María Alotepec
+state:20,20395,Santa María Apazco
+state:20,20396,Santa María la Asunción
+state:20,20397,Heroica Ciudad de Tlaxiaco
+state:20,20398,Ayoquezco de Aldama
+state:20,20399,Santa María Atzompa
+state:20,20400,Santa María Camotlán
+state:20,20401,Santa María Colotepec
+state:20,20402,Santa María Cortijo
+state:20,20403,Santa María Coyotepec
+state:20,20404,Santa María Chachoápam
+state:20,20405,Villa de Chilapa de Díaz
+state:20,20406,Santa María Chilchotla
+state:20,20407,Santa María Chimalapa
+state:20,20408,Santa María del Rosario
+state:20,20409,Santa María del Tule
+state:20,20410,Santa María Ecatepec
+state:20,20411,Santa María Guelacé
+state:20,20412,Santa María Guienagati
+state:20,20413,Santa María Huatulco
+state:20,20414,Santa María Huazolotitlán
+state:20,20415,Santa María Ipalapa
+state:20,20416,Santa María Ixcatlán
+state:20,20417,Santa María Jacatepec
+state:20,20418,Santa María Jalapa del Marqués
+state:20,20419,Santa María Jaltianguis
+state:20,20420,Santa María Lachixío
+state:20,20421,Santa María Mixtequilla
+state:20,20422,Santa María Nativitas
+state:20,20423,Santa María Nduayaco
+state:20,20424,Santa María Ozolotepec
+state:20,20425,Santa María Pápalo
+state:20,20426,Santa María Peñoles
+state:20,20427,Santa María Petapa
+state:20,20428,Santa María Quiegolani
+state:20,20429,Santa María Sola
+state:20,20430,Santa María Tataltepec
+state:20,20431,Santa María Tecomavaca
+state:20,20432,Santa María Temaxcalapa
+state:20,20433,Santa María Temaxcaltepec
+state:20,20434,Santa María Teopoxco
+state:20,20435,Santa María Tepantlali
+state:20,20436,Santa María Texcatitlán
+state:20,20437,Santa María Tlahuitoltepec
+state:20,20438,Santa María Tlalixtac
+state:20,20439,Santa María Tonameca
+state:20,20440,Santa María Totolapilla
+state:20,20441,Santa María Xadani
+state:20,20442,Santa María Yalina
+state:20,20443,Santa María Yavesía
+state:20,20444,Santa María Yolotepec
+state:20,20445,Santa María Yosoyúa
+state:20,20446,Santa María Yucuhiti
+state:20,20447,Santa María Zacatepec
+state:20,20448,Santa María Zaniza
+state:20,20449,Santa María Zoquitlán
+state:20,20450,Santiago Amoltepec
+state:20,20451,Santiago Apoala
+state:20,20452,Santiago Apóstol
+state:20,20453,Santiago Astata
+state:20,20454,Santiago Atitlán
+state:20,20455,Santiago Ayuquililla
+state:20,20456,Santiago Cacaloxtepec
+state:20,20457,Santiago Camotlán
+state:20,20458,Santiago Comaltepec
+state:20,20459,Villa de Santiago Chazumba
+state:20,20460,Santiago Choápam
+state:20,20461,Santiago del Río
+state:20,20462,Santiago Huajolotitlán
+state:20,20463,Santiago Huauclilla
+state:20,20464,Santiago Ihuitlán Plumas
+state:20,20465,Santiago Ixcuintepec
+state:20,20466,Santiago Ixtayutla
+state:20,20467,Santiago Jamiltepec
+state:20,20468,Santiago Jocotepec
+state:20,20469,Santiago Juxtlahuaca
+state:20,20470,Santiago Lachiguiri
+state:20,20471,Santiago Lalopa
+state:20,20472,Santiago Laollaga
+state:20,20473,Santiago Laxopa
+state:20,20474,Santiago Llano Grande
+state:20,20475,Santiago Matatlán
+state:20,20476,Santiago Miltepec
+state:20,20477,Santiago Minas
+state:20,20478,Santiago Nacaltepec
+state:20,20479,Santiago Nejapilla
+state:20,20480,Santiago Nundiche
+state:20,20481,Santiago Nuyoó
+state:20,20482,Santiago Pinotepa Nacional
+state:20,20483,Santiago Suchilquitongo
+state:20,20484,Santiago Tamazola
+state:20,20485,Santiago Tapextla
+state:20,20486,Villa Tejúpam de la Unión
+state:20,20487,Santiago Tenango
+state:20,20488,Santiago Tepetlapa
+state:20,20489,Santiago Tetepec
+state:20,20490,Santiago Texcalcingo
+state:20,20491,Santiago Textitlán
+state:20,20492,Santiago Tilantongo
+state:20,20493,Santiago Tillo
+state:20,20494,Santiago Tlazoyaltepec
+state:20,20495,Santiago Xanica
+state:20,20496,Santiago Xiacuí
+state:20,20497,Santiago Yaitepec
+state:20,20498,Santiago Yaveo
+state:20,20499,Santiago Yolomécatl
+state:20,20500,Santiago Yosondúa
+state:20,20501,Santiago Yucuyachi
+state:20,20502,Santiago Zacatepec
+state:20,20503,Santiago Zoochila
+state:20,20504,Nuevo Zoquiápam
+state:20,20505,Santo Domingo Ingenio
+state:20,20506,Santo Domingo Albarradas
+state:20,20507,Santo Domingo Armenta
+state:20,20508,Santo Domingo Chihuitán
+state:20,20509,Santo Domingo de Morelos
+state:20,20510,Santo Domingo Ixcatlán
+state:20,20511,Santo Domingo Nuxaá
+state:20,20512,Santo Domingo Ozolotepec
+state:20,20513,Santo Domingo Petapa
+state:20,20514,Santo Domingo Roayaga
+state:20,20515,Santo Domingo Tehuantepec
+state:20,20516,Santo Domingo Teojomulco
+state:20,20517,Santo Domingo Tepuxtepec
+state:20,20518,Santo Domingo Tlatayápam
+state:20,20519,Santo Domingo Tomaltepec
+state:20,20520,Santo Domingo Tonalá
+state:20,20521,Santo Domingo Tonaltepec
+state:20,20522,Santo Domingo Xagacía
+state:20,20523,Santo Domingo Yanhuitlán
+state:20,20524,Santo Domingo Yodohino
+state:20,20525,Santo Domingo Zanatepec
+state:20,20526,Santos Reyes Nopala
+state:20,20527,Santos Reyes Pápalo
+state:20,20528,Santos Reyes Tepejillo
+state:20,20529,Santos Reyes Yucuná
+state:20,20530,Santo Tomás Jalieza
+state:20,20531,Santo Tomás Mazaltepec
+state:20,20532,Santo Tomás Ocotepec
+state:20,20533,Santo Tomás Tamazulapan
+state:20,20534,San Vicente Coatlán
+state:20,20535,San Vicente Lachixío
+state:20,20536,San Vicente Nuñú
+state:20,20537,Silacayoápam
+state:20,20538,Sitio de Xitlapehua
+state:20,20539,Soledad Etla
+state:20,20540,Villa de Tamazulápam del Progreso
+state:20,20541,Tanetze de Zaragoza
+state:20,20542,Taniche
+state:20,20543,Tataltepec de Valdés
+state:20,20544,Teococuilco de Marcos Pérez
+state:20,20545,Teotitlán de Flores Magón
+state:20,20546,Teotitlán del Valle
+state:20,20547,Teotongo
+state:20,20548,Tepelmeme Villa de Morelos
+state:20,20549,"Heroica Villa Tezoatlán de Segura y Luna, Cuna de la Independencia de Oaxaca"
+state:20,20550,San Jerónimo Tlacochahuaya
+state:20,20551,Tlacolula de Matamoros
+state:20,20552,Tlacotepec Plumas
+state:20,20553,Tlalixtac de Cabrera
+state:20,20554,Totontepec Villa de Morelos
+state:20,20555,Trinidad Zaachila
+state:20,20556,La Trinidad Vista Hermosa
+state:20,20557,Unión Hidalgo
+state:20,20558,Valerio Trujano
+state:20,20559,San Juan Bautista Valle Nacional
+state:20,20560,Villa Díaz Ordaz
+state:20,20561,Yaxe
+state:20,20562,Magdalena Yodocono de Porfirio Díaz
+state:20,20563,Yogana
+state:20,20564,Yutanduchi de Guerrero
+state:20,20565,Villa de Zaachila
+state:20,20566,San Mateo Yucutindó
+state:20,20567,Zapotitlán Lagunas
+state:20,20568,Zapotitlán Palmas
+state:20,20569,Santa Inés de Zaragoza
+state:20,20570,Zimatlán de Álvarez
+state:21,21001,Acajete
+state:21,21002,Acateno
+state:21,21003,Acatlán
+state:21,21004,Acatzingo
+state:21,21005,Acteopan
+state:21,21006,Ahuacatlán
+state:21,21007,Ahuatlán
+state:21,21008,Ahuazotepec
+state:21,21009,Ahuehuetitla
+state:21,21010,Ajalpan
+state:21,21011,Albino Zertuche
+state:21,21012,Aljojuca
+state:21,21013,Altepexi
+state:21,21014,Amixtlán
+state:21,21015,Amozoc
+state:21,21016,Aquixtla
+state:21,21017,Atempan
+state:21,21018,Atexcal
+state:21,21019,Atlixco
+state:21,21020,Atoyatempan
+state:21,21021,Atzala
+state:21,21022,Atzitzihuacán
+state:21,21023,Atzitzintla
+state:21,21024,Axutla
+state:21,21025,Ayotoxco de Guerrero
+state:21,21026,Calpan
+state:21,21027,Caltepec
+state:21,21028,Camocuautla
+state:21,21029,Caxhuacan
+state:21,21030,Coatepec
+state:21,21031,Coatzingo
+state:21,21032,Cohetzala
+state:21,21033,Cohuecan
+state:21,21034,Coronango
+state:21,21035,Coxcatlán
+state:21,21036,Coyomeapan
+state:21,21037,Coyotepec
+state:21,21038,Cuapiaxtla de Madero
+state:21,21039,Cuautempan
+state:21,21040,Cuautinchán
+state:21,21041,Cuautlancingo
+state:21,21042,Cuayuca de Andrade
+state:21,21043,Cuetzalan del Progreso
+state:21,21044,Cuyoaco
+state:21,21045,Chalchicomula de Sesma
+state:21,21046,Chapulco
+state:21,21047,Chiautla
+state:21,21048,Chiautzingo
+state:21,21049,Chiconcuautla
+state:21,21050,Chichiquila
+state:21,21051,Chietla
+state:21,21052,Chigmecatitlán
+state:21,21053,Chignahuapan
+state:21,21054,Chignautla
+state:21,21055,Chila
+state:21,21056,Chila de la Sal
+state:21,21057,Honey
+state:21,21058,Chilchotla
+state:21,21059,Chinantla
+state:21,21060,Domingo Arenas
+state:21,21061,Eloxochitlán
+state:21,21062,Epatlán
+state:21,21063,Esperanza
+state:21,21064,Francisco Z. Mena
+state:21,21065,General Felipe Ángeles
+state:21,21066,Guadalupe
+state:21,21067,Guadalupe Victoria
+state:21,21068,Hermenegildo Galeana
+state:21,21069,Huaquechula
+state:21,21070,Huatlatlauca
+state:21,21071,Huauchinango
+state:21,21072,Huehuetla
+state:21,21073,Huehuetlán el Chico
+state:21,21074,Huejotzingo
+state:21,21075,Hueyapan
+state:21,21076,Hueytamalco
+state:21,21077,Hueytlalpan
+state:21,21078,Huitzilan de Serdán
+state:21,21079,Huitziltepec
+state:21,21080,Atlequizayan
+state:21,21081,Ixcamilpa de Guerrero
+state:21,21082,Ixcaquixtla
+state:21,21083,Ixtacamaxtitlán
+state:21,21084,Ixtepec
+state:21,21085,Izúcar de Matamoros
+state:21,21086,Jalpan
+state:21,21087,Jolalpan
+state:21,21088,Jonotla
+state:21,21089,Jopala
+state:21,21090,Juan C. Bonilla
+state:21,21091,Juan Galindo
+state:21,21092,Juan N. Méndez
+state:21,21093,Lafragua
+state:21,21094,Libres
+state:21,21095,La Magdalena Tlatlauquitepec
+state:21,21096,Mazapiltepec de Juárez
+state:21,21097,Mixtla
+state:21,21098,Molcaxac
+state:21,21099,Cañada Morelos
+state:21,21100,Naupan
+state:21,21101,Nauzontla
+state:21,21102,Nealtican
+state:21,21103,Nicolás Bravo
+state:21,21104,Nopalucan
+state:21,21105,Ocotepec
+state:21,21106,Ocoyucan
+state:21,21107,Olintla
+state:21,21108,Oriental
+state:21,21109,Pahuatlán
+state:21,21110,Palmar de Bravo
+state:21,21111,Pantepec
+state:21,21112,Petlalcingo
+state:21,21113,Piaxtla
+state:21,21114,Puebla
+state:21,21115,Quecholac
+state:21,21116,Quimixtlán
+state:21,21117,Rafael Lara Grajales
+state:21,21118,Los Reyes de Juárez
+state:21,21119,San Andrés Cholula
+state:21,21120,San Antonio Cañada
+state:21,21121,San Diego la Mesa Tochimiltzingo
+state:21,21122,San Felipe Teotlalcingo
+state:21,21123,San Felipe Tepatlán
+state:21,21124,San Gabriel Chilac
+state:21,21125,San Gregorio Atzompa
+state:21,21126,San Jerónimo Tecuanipan
+state:21,21127,San Jerónimo Xayacatlán
+state:21,21128,San José Chiapa
+state:21,21129,San José Miahuatlán
+state:21,21130,San Juan Atenco
+state:21,21131,San Juan Atzompa
+state:21,21132,San Martín Texmelucan
+state:21,21133,San Martín Totoltepec
+state:21,21134,San Matías Tlalancaleca
+state:21,21135,San Miguel Ixitlán
+state:21,21136,San Miguel Xoxtla
+state:21,21137,San Nicolás Buenos Aires
+state:21,21138,San Nicolás de los Ranchos
+state:21,21139,San Pablo Anicano
+state:21,21140,San Pedro Cholula
+state:21,21141,San Pedro Yeloixtlahuaca
+state:21,21142,San Salvador el Seco
+state:21,21143,San Salvador el Verde
+state:21,21144,San Salvador Huixcolotla
+state:21,21145,San Sebastián Tlacotepec
+state:21,21146,Santa Catarina Tlaltempan
+state:21,21147,Santa Inés Ahuatempan
+state:21,21148,Santa Isabel Cholula
+state:21,21149,Santiago Miahuatlán
+state:21,21150,Huehuetlán el Grande
+state:21,21151,Santo Tomás Hueyotlipan
+state:21,21152,Soltepec
+state:21,21153,Tecali de Herrera
+state:21,21154,Tecamachalco
+state:21,21155,Tecomatlán
+state:21,21156,Tehuacán
+state:21,21157,Tehuitzingo
+state:21,21158,Tenampulco
+state:21,21159,Teopantlán
+state:21,21160,Teotlalco
+state:21,21161,Tepanco de López
+state:21,21162,Tepango de Rodríguez
+state:21,21163,Tepatlaxco de Hidalgo
+state:21,21164,Tepeaca
+state:21,21165,Tepemaxalco
+state:21,21166,Tepeojuma
+state:21,21167,Tepetzintla
+state:21,21168,Tepexco
+state:21,21169,Tepexi de Rodríguez
+state:21,21170,Tepeyahualco
+state:21,21171,Tepeyahualco de Cuauhtémoc
+state:21,21172,Tetela de Ocampo
+state:21,21173,Teteles de Avila Castillo
+state:21,21174,Teziutlán
+state:21,21175,Tianguismanalco
+state:21,21176,Tilapa
+state:21,21177,Tlacotepec de Benito Juárez
+state:21,21178,Tlacuilotepec
+state:21,21179,Tlachichuca
+state:21,21180,Tlahuapan
+state:21,21181,Tlaltenango
+state:21,21182,Tlanepantla
+state:21,21183,Tlaola
+state:21,21184,Tlapacoya
+state:21,21185,Tlapanalá
+state:21,21186,Tlatlauquitepec
+state:21,21187,Tlaxco
+state:21,21188,Tochimilco
+state:21,21189,Tochtepec
+state:21,21190,Totoltepec de Guerrero
+state:21,21191,Tulcingo
+state:21,21192,Tuzamapan de Galeana
+state:21,21193,Tzicatlacoyan
+state:21,21194,Venustiano Carranza
+state:21,21195,Vicente Guerrero
+state:21,21196,Xayacatlán de Bravo
+state:21,21197,Xicotepec
+state:21,21198,Xicotlán
+state:21,21199,Xiutetelco
+state:21,21200,Xochiapulco
+state:21,21201,Xochiltepec
+state:21,21202,Xochitlán de Vicente Suárez
+state:21,21203,Xochitlán Todos Santos
+state:21,21204,Yaonáhuac
+state:21,21205,Yehualtepec
+state:21,21206,Zacapala
+state:21,21207,Zacapoaxtla
+state:21,21208,Zacatlán
+state:21,21209,Zapotitlán
+state:21,21210,Zapotitlán de Méndez
+state:21,21211,Zaragoza
+state:21,21212,Zautla
+state:21,21213,Zihuateutla
+state:21,21214,Zinacatepec
+state:21,21215,Zongozotla
+state:21,21216,Zoquiapan
+state:21,21217,Zoquitlán
+state:22,22001,Amealco de Bonfil
+state:22,22002,Pinal de Amoles
+state:22,22003,Arroyo Seco
+state:22,22004,Cadereyta de Montes
+state:22,22005,Colón
+state:22,22006,Corregidora
+state:22,22007,Ezequiel Montes
+state:22,22008,Huimilpan
+state:22,22009,Jalpan de Serra
+state:22,22010,Landa de Matamoros
+state:22,22011,El Marqués
+state:22,22012,Pedro Escobedo
+state:22,22013,Peñamiller
+state:22,22014,Querétaro
+state:22,22015,San Joaquín
+state:22,22016,San Juan del Río
+state:22,22017,Tequisquiapan
+state:22,22018,Tolimán
+state:23,23001,Cozumel
+state:23,23002,Felipe Carrillo Puerto
+state:23,23003,Isla Mujeres
+state:23,23004,Othón P. Blanco
+state:23,23005,Benito Juárez
+state:23,23006,José María Morelos
+state:23,23007,Lázaro Cárdenas
+state:23,23008,Solidaridad
+state:23,23009,Tulum
+state:23,23010,Bacalar
+state:23,23011,Puerto Morelos
+state:24,24001,Ahualulco del Sonido 13
+state:24,24002,Alaquines
+state:24,24003,Aquismón
+state:24,24004,Armadillo de los Infante
+state:24,24005,Cárdenas
+state:24,24006,Catorce
+state:24,24007,Cedral
+state:24,24008,Cerritos
+state:24,24009,Cerro de San Pedro
+state:24,24010,Ciudad del Maíz
+state:24,24011,Ciudad Fernández
+state:24,24012,Tancanhuitz
+state:24,24013,Ciudad Valles
+state:24,24014,Coxcatlán
+state:24,24015,Charcas
+state:24,24016,Ebano
+state:24,24017,Guadalcázar
+state:24,24018,Huehuetlán
+state:24,24019,Lagunillas
+state:24,24020,Matehuala
+state:24,24021,Mexquitic de Carmona
+state:24,24022,Moctezuma
+state:24,24023,Rayón
+state:24,24024,Rioverde
+state:24,24025,Salinas
+state:24,24026,San Antonio
+state:24,24027,San Ciro de Acosta
+state:24,24028,San Luis Potosí
+state:24,24029,San Martín Chalchicuautla
+state:24,24030,San Nicolás Tolentino
+state:24,24031,Santa Catarina
+state:24,24032,Santa María del Río
+state:24,24033,Santo Domingo
+state:24,24034,San Vicente Tancuayalab
+state:24,24035,Soledad de Graciano Sánchez
+state:24,24036,Tamasopo
+state:24,24037,Tamazunchale
+state:24,24038,Tampacán
+state:24,24039,Tampamolón Corona
+state:24,24040,Tamuín
+state:24,24041,Tanlajás
+state:24,24042,Tanquián de Escobedo
+state:24,24043,Tierra Nueva
+state:24,24044,Vanegas
+state:24,24045,Venado
+state:24,24046,Villa de Arriaga
+state:24,24047,Villa de Guadalupe
+state:24,24048,Villa de la Paz
+state:24,24049,Villa de Ramos
+state:24,24050,Villa de Reyes
+state:24,24051,Villa Hidalgo
+state:24,24052,Villa Juárez
+state:24,24053,Axtla de Terrazas
+state:24,24054,Xilitla
+state:24,24055,Zaragoza
+state:24,24056,Villa de Arista
+state:24,24057,Matlapa
+state:24,24058,El Naranjo
+state:25,25001,Ahome
+state:25,25002,Angostura
+state:25,25003,Badiraguato
+state:25,25004,Concordia
+state:25,25005,Cosalá
+state:25,25006,Culiacán
+state:25,25007,Choix
+state:25,25008,Elota
+state:25,25009,Escuinapa
+state:25,25010,El Fuerte
+state:25,25011,Guasave
+state:25,25012,Mazatlán
+state:25,25013,Mocorito
+state:25,25014,Rosario
+state:25,25015,Salvador Alvarado
+state:25,25016,San Ignacio
+state:25,25017,Sinaloa
+state:25,25018,Navolato
+state:26,26001,Aconchi
+state:26,26002,Agua Prieta
+state:26,26003,Alamos
+state:26,26004,Altar
+state:26,26005,Arivechi
+state:26,26006,Arizpe
+state:26,26007,Atil
+state:26,26008,Bacadéhuachi
+state:26,26009,Bacanora
+state:26,26010,Bacerac
+state:26,26011,Bacoachi
+state:26,26012,Bácum
+state:26,26013,Banámichi
+state:26,26014,Baviácora
+state:26,26015,Bavispe
+state:26,26016,Benjamín Hill
+state:26,26017,Caborca
+state:26,26018,Cajeme
+state:26,26019,Cananea
+state:26,26020,Carbó
+state:26,26021,La Colorada
+state:26,26022,Cucurpe
+state:26,26023,Cumpas
+state:26,26024,Divisaderos
+state:26,26025,Empalme
+state:26,26026,Etchojoa
+state:26,26027,Fronteras
+state:26,26028,Granados
+state:26,26029,Guaymas
+state:26,26030,Hermosillo
+state:26,26031,Huachinera
+state:26,26032,Huásabas
+state:26,26033,Huatabampo
+state:26,26034,Huépac
+state:26,26035,Imuris
+state:26,26036,Magdalena
+state:26,26037,Mazatán
+state:26,26038,Moctezuma
+state:26,26039,Naco
+state:26,26040,Nácori Chico
+state:26,26041,Nacozari de García
+state:26,26042,Navojoa
+state:26,26043,Nogales
+state:26,26044,Onavas
+state:26,26045,Opodepe
+state:26,26046,Oquitoa
+state:26,26047,Pitiquito
+state:26,26048,Puerto Peñasco
+state:26,26049,Quiriego
+state:26,26050,Rayón
+state:26,26051,Rosario
+state:26,26052,Sahuaripa
+state:26,26053,San Felipe de Jesús
+state:26,26054,San Javier
+state:26,26055,San Luis Río Colorado
+state:26,26056,San Miguel de Horcasitas
+state:26,26057,San Pedro de la Cueva
+state:26,26058,Santa Ana
+state:26,26059,Santa Cruz
+state:26,26060,Sáric
+state:26,26061,Soyopa
+state:26,26062,Suaqui Grande
+state:26,26063,Tepache
+state:26,26064,Trincheras
+state:26,26065,Tubutama
+state:26,26066,Ures
+state:26,26067,Villa Hidalgo
+state:26,26068,Villa Pesqueira
+state:26,26069,Yécora
+state:26,26070,General Plutarco Elías Calles
+state:26,26071,Benito Juárez
+state:26,26072,San Ignacio Río Muerto
+state:27,27001,Balancán
+state:27,27002,Cárdenas
+state:27,27003,Centla
+state:27,27004,Centro
+state:27,27005,Comalcalco
+state:27,27006,Cunduacán
+state:27,27007,Emiliano Zapata
+state:27,27008,Huimanguillo
+state:27,27009,Jalapa
+state:27,27010,Jalpa de Méndez
+state:27,27011,Jonuta
+state:27,27012,Macuspana
+state:27,27013,Nacajuca
+state:27,27014,Paraíso
+state:27,27015,Tacotalpa
+state:27,27016,Teapa
+state:27,27017,Tenosique
+state:28,28001,Abasolo
+state:28,28002,Aldama
+state:28,28003,Altamira
+state:28,28004,Antiguo Morelos
+state:28,28005,Burgos
+state:28,28006,Bustamante
+state:28,28007,Camargo
+state:28,28008,Casas
+state:28,28009,Ciudad Madero
+state:28,28010,Cruillas
+state:28,28011,Gómez Farías
+state:28,28012,González
+state:28,28013,Güémez
+state:28,28014,Guerrero
+state:28,28015,Gustavo Díaz Ordaz
+state:28,28016,Hidalgo
+state:28,28017,Jaumave
+state:28,28018,Jiménez
+state:28,28019,Llera
+state:28,28020,Mainero
+state:28,28021,El Mante
+state:28,28022,Matamoros
+state:28,28023,Méndez
+state:28,28024,Mier
+state:28,28025,Miguel Alemán
+state:28,28026,Miquihuana
+state:28,28027,Nuevo Laredo
+state:28,28028,Nuevo Morelos
+state:28,28029,Ocampo
+state:28,28030,Padilla
+state:28,28031,Palmillas
+state:28,28032,Reynosa
+state:28,28033,Río Bravo
+state:28,28034,San Carlos
+state:28,28035,San Fernando
+state:28,28036,San Nicolás
+state:28,28037,Soto la Marina
+state:28,28038,Tampico
+state:28,28039,Tula
+state:28,28040,Valle Hermoso
+state:28,28041,Victoria
+state:28,28042,Villagrán
+state:28,28043,Xicoténcatl
+state:29,29001,Amaxac de Guerrero
+state:29,29002,Apetatitlán de Antonio Carvajal
+state:29,29003,Atlangatepec
+state:29,29004,Atltzayanca
+state:29,29005,Apizaco
+state:29,29006,Calpulalpan
+state:29,29007,El Carmen Tequexquitla
+state:29,29008,Cuapiaxtla
+state:29,29009,Cuaxomulco
+state:29,29010,Chiautempan
+state:29,29011,Muñoz de Domingo Arenas
+state:29,29012,Españita
+state:29,29013,Huamantla
+state:29,29014,Hueyotlipan
+state:29,29015,Ixtacuixtla de Mariano Matamoros
+state:29,29016,Ixtenco
+state:29,29017,Mazatecochco de José María Morelos
+state:29,29018,Contla de Juan Cuamatzi
+state:29,29019,Tepetitla de Lardizábal
+state:29,29020,Sanctórum de Lázaro Cárdenas
+state:29,29021,Nanacamilpa de Mariano Arista
+state:29,29022,Acuamanala de Miguel Hidalgo
+state:29,29023,Natívitas
+state:29,29024,Panotla
+state:29,29025,San Pablo del Monte
+state:29,29026,Santa Cruz Tlaxcala
+state:29,29027,Tenancingo
+state:29,29028,Teolocholco
+state:29,29029,Tepeyanco
+state:29,29030,Terrenate
+state:29,29031,Tetla de la Solidaridad
+state:29,29032,Tetlatlahuca
+state:29,29033,Tlaxcala
+state:29,29034,Tlaxco
+state:29,29035,Tocatlán
+state:29,29036,Totolac
+state:29,29037,Ziltlaltépec de Trinidad Sánchez Santos
+state:29,29038,Tzompantepec
+state:29,29039,Xaloztoc
+state:29,29040,Xaltocan
+state:29,29041,Papalotla de Xicohténcatl
+state:29,29042,Xicohtzinco
+state:29,29043,Yauhquemehcan
+state:29,29044,Zacatelco
+state:29,29045,Benito Juárez
+state:29,29046,Emiliano Zapata
+state:29,29047,Lázaro Cárdenas
+state:29,29048,La Magdalena Tlaltelulco
+state:29,29049,San Damián Texóloc
+state:29,29050,San Francisco Tetlanohcan
+state:29,29051,San Jerónimo Zacualpan
+state:29,29052,San José Teacalco
+state:29,29053,San Juan Huactzinco
+state:29,29054,San Lorenzo Axocomanitla
+state:29,29055,San Lucas Tecopilco
+state:29,29056,Santa Ana Nopalucan
+state:29,29057,Santa Apolonia Teacalco
+state:29,29058,Santa Catarina Ayometla
+state:29,29059,Santa Cruz Quilehtla
+state:29,29060,Santa Isabel Xiloxoxtla
+state:30,30001,Acajete
+state:30,30002,Acatlán
+state:30,30003,Acayucan
+state:30,30004,Actopan
+state:30,30005,Acula
+state:30,30006,Acultzingo
+state:30,30007,Camarón de Tejeda
+state:30,30008,Alpatláhuac
+state:30,30009,Alto Lucero de Gutiérrez Barrios
+state:30,30010,Altotonga
+state:30,30011,Alvarado
+state:30,30012,Amatitlán
+state:30,30013,Naranjos Amatlán
+state:30,30014,Amatlán de los Reyes
+state:30,30015,Angel R. Cabada
+state:30,30016,La Antigua
+state:30,30017,Apazapan
+state:30,30018,Aquila
+state:30,30019,Astacinga
+state:30,30020,Atlahuilco
+state:30,30021,Atoyac
+state:30,30022,Atzacan
+state:30,30023,Atzalan
+state:30,30024,Tlaltetela
+state:30,30025,Ayahualulco
+state:30,30026,Banderilla
+state:30,30027,Benito Juárez
+state:30,30028,Boca del Río
+state:30,30029,Calcahualco
+state:30,30030,Camerino Z. Mendoza
+state:30,30031,Carrillo Puerto
+state:30,30032,Catemaco
+state:30,30033,Cazones de Herrera
+state:30,30034,Cerro Azul
+state:30,30035,Citlaltépetl
+state:30,30036,Coacoatzintla
+state:30,30037,Coahuitlán
+state:30,30038,Coatepec
+state:30,30039,Coatzacoalcos
+state:30,30040,Coatzintla
+state:30,30041,Coetzala
+state:30,30042,Colipa
+state:30,30043,Comapa
+state:30,30044,Córdoba
+state:30,30045,Cosamaloapan de Carpio
+state:30,30046,Cosautlán de Carvajal
+state:30,30047,Coscomatepec
+state:30,30048,Cosoleacaque
+state:30,30049,Cotaxtla
+state:30,30050,Coxquihui
+state:30,30051,Coyutla
+state:30,30052,Cuichapa
+state:30,30053,Cuitláhuac
+state:30,30054,Chacaltianguis
+state:30,30055,Chalma
+state:30,30056,Chiconamel
+state:30,30057,Chiconquiaco
+state:30,30058,Chicontepec
+state:30,30059,Chinameca
+state:30,30060,Chinampa de Gorostiza
+state:30,30061,Las Choapas
+state:30,30062,Chocamán
+state:30,30063,Chontla
+state:30,30064,Chumatlán
+state:30,30065,Emiliano Zapata
+state:30,30066,Espinal
+state:30,30067,Filomeno Mata
+state:30,30068,Fortín
+state:30,30069,Gutiérrez Zamora
+state:30,30070,Hidalgotitlán
+state:30,30071,Huatusco
+state:30,30072,Huayacocotla
+state:30,30073,Hueyapan de Ocampo
+state:30,30074,Huiloapan de Cuauhtémoc
+state:30,30075,Ignacio de la Llave
+state:30,30076,Ilamatlán
+state:30,30077,Isla
+state:30,30078,Ixcatepec
+state:30,30079,Ixhuacán de los Reyes
+state:30,30080,Ixhuatlán del Café
+state:30,30081,Ixhuatlancillo
+state:30,30082,Ixhuatlán del Sureste
+state:30,30083,Ixhuatlán de Madero
+state:30,30084,Ixmatlahuacan
+state:30,30085,Ixtaczoquitlán
+state:30,30086,Jalacingo
+state:30,30087,Xalapa
+state:30,30088,Jalcomulco
+state:30,30089,Jáltipan
+state:30,30090,Jamapa
+state:30,30091,Jesús Carranza
+state:30,30092,Xico
+state:30,30093,Jilotepec
+state:30,30094,Juan Rodríguez Clara
+state:30,30095,Juchique de Ferrer
+state:30,30096,Landero y Coss
+state:30,30097,Lerdo de Tejada
+state:30,30098,Magdalena
+state:30,30099,Maltrata
+state:30,30100,Manlio Fabio Altamirano
+state:30,30101,Mariano Escobedo
+state:30,30102,Martínez de la Torre
+state:30,30103,Mecatlán
+state:30,30104,Mecayapan
+state:30,30105,Medellín de Bravo
+state:30,30106,Miahuatlán
+state:30,30107,Las Minas
+state:30,30108,Minatitlán
+state:30,30109,Misantla
+state:30,30110,Mixtla de Altamirano
+state:30,30111,Moloacán
+state:30,30112,Naolinco
+state:30,30113,Naranjal
+state:30,30114,Nautla
+state:30,30115,Nogales
+state:30,30116,Oluta
+state:30,30117,Omealca
+state:30,30118,Orizaba
+state:30,30119,Otatitlán
+state:30,30120,Oteapan
+state:30,30121,Ozuluama de Mascareñas
+state:30,30122,Pajapan
+state:30,30123,Pánuco
+state:30,30124,Papantla
+state:30,30125,Paso del Macho
+state:30,30126,Paso de Ovejas
+state:30,30127,La Perla
+state:30,30128,Perote
+state:30,30129,Platón Sánchez
+state:30,30130,Playa Vicente
+state:30,30131,Poza Rica de Hidalgo
+state:30,30132,Las Vigas de Ramírez
+state:30,30133,Pueblo Viejo
+state:30,30134,Puente Nacional
+state:30,30135,Rafael Delgado
+state:30,30136,Rafael Lucio
+state:30,30137,Los Reyes
+state:30,30138,Río Blanco
+state:30,30139,Saltabarranca
+state:30,30140,San Andrés Tenejapan
+state:30,30141,San Andrés Tuxtla
+state:30,30142,San Juan Evangelista
+state:30,30143,Santiago Tuxtla
+state:30,30144,Sayula de Alemán
+state:30,30145,Soconusco
+state:30,30146,Sochiapa
+state:30,30147,Soledad Atzompa
+state:30,30148,Soledad de Doblado
+state:30,30149,Soteapan
+state:30,30150,Tamalín
+state:30,30151,Tamiahua
+state:30,30152,Tampico Alto
+state:30,30153,Tancoco
+state:30,30154,Tantima
+state:30,30155,Tantoyuca
+state:30,30156,Tatatila
+state:30,30157,Castillo de Teayo
+state:30,30158,Tecolutla
+state:30,30159,Tehuipango
+state:30,30160,Álamo Temapache
+state:30,30161,Tempoal
+state:30,30162,Tenampa
+state:30,30163,Tenochtitlán
+state:30,30164,Teocelo
+state:30,30165,Tepatlaxco
+state:30,30166,Tepetlán
+state:30,30167,Tepetzintla
+state:30,30168,Tequila
+state:30,30169,José Azueta
+state:30,30170,Texcatepec
+state:30,30171,Texhuacán
+state:30,30172,Texistepec
+state:30,30173,Tezonapa
+state:30,30174,Tierra Blanca
+state:30,30175,Tihuatlán
+state:30,30176,Tlacojalpan
+state:30,30177,Tlacolulan
+state:30,30178,Tlacotalpan
+state:30,30179,Tlacotepec de Mejía
+state:30,30180,Tlachichilco
+state:30,30181,Tlalixcoyan
+state:30,30182,Tlalnelhuayocan
+state:30,30183,Tlapacoyan
+state:30,30184,Tlaquilpa
+state:30,30185,Tlilapan
+state:30,30186,Tomatlán
+state:30,30187,Tonayán
+state:30,30188,Totutla
+state:30,30189,Tuxpan
+state:30,30190,Tuxtilla
+state:30,30191,Ursulo Galván
+state:30,30192,Vega de Alatorre
+state:30,30193,Veracruz
+state:30,30194,Villa Aldama
+state:30,30195,Xoxocotla
+state:30,30196,Yanga
+state:30,30197,Yecuatla
+state:30,30198,Zacualpan
+state:30,30199,Zaragoza
+state:30,30200,Zentla
+state:30,30201,Zongolica
+state:30,30202,Zontecomatlán de López y Fuentes
+state:30,30203,Zozocolco de Hidalgo
+state:30,30204,Agua Dulce
+state:30,30205,El Higo
+state:30,30206,Nanchital de Lázaro Cárdenas del Río
+state:30,30207,Tres Valles
+state:30,30208,Carlos A. Carrillo
+state:30,30209,Tatahuicapan de Juárez
+state:30,30210,Uxpanapa
+state:30,30211,San Rafael
+state:30,30212,Santiago Sochiapan
+state:31,31001,Abalá
+state:31,31002,Acanceh
+state:31,31003,Akil
+state:31,31004,Baca
+state:31,31005,Bokobá
+state:31,31006,Buctzotz
+state:31,31007,Cacalchén
+state:31,31008,Calotmul
+state:31,31009,Cansahcab
+state:31,31010,Cantamayec
+state:31,31011,Celestún
+state:31,31012,Cenotillo
+state:31,31013,Conkal
+state:31,31014,Cuncunul
+state:31,31015,Cuzamá
+state:31,31016,Chacsinkín
+state:31,31017,Chankom
+state:31,31018,Chapab
+state:31,31019,Chemax
+state:31,31020,Chicxulub Pueblo
+state:31,31021,Chichimilá
+state:31,31022,Chikindzonot
+state:31,31023,Chocholá
+state:31,31024,Chumayel
+state:31,31025,Dzán
+state:31,31026,Dzemul
+state:31,31027,Dzidzantún
+state:31,31028,Dzilam de Bravo
+state:31,31029,Dzilam González
+state:31,31030,Dzitás
+state:31,31031,Dzoncauich
+state:31,31032,Espita
+state:31,31033,Halachó
+state:31,31034,Hocabá
+state:31,31035,Hoctún
+state:31,31036,Homún
+state:31,31037,Huhí
+state:31,31038,Hunucmá
+state:31,31039,Ixil
+state:31,31040,Izamal
+state:31,31041,Kanasín
+state:31,31042,Kantunil
+state:31,31043,Kaua
+state:31,31044,Kinchil
+state:31,31045,Kopomá
+state:31,31046,Mama
+state:31,31047,Maní
+state:31,31048,Maxcanú
+state:31,31049,Mayapán
+state:31,31050,Mérida
+state:31,31051,Mocochá
+state:31,31052,Motul
+state:31,31053,Muna
+state:31,31054,Muxupip
+state:31,31055,Opichén
+state:31,31056,Oxkutzcab
+state:31,31057,Panabá
+state:31,31058,Peto
+state:31,31059,Progreso
+state:31,31060,Quintana Roo
+state:31,31061,Río Lagartos
+state:31,31062,Sacalum
+state:31,31063,Samahil
+state:31,31064,Sanahcat
+state:31,31065,San Felipe
+state:31,31066,Santa Elena
+state:31,31067,Seyé
+state:31,31068,Sinanché
+state:31,31069,Sotuta
+state:31,31070,Sucilá
+state:31,31071,Sudzal
+state:31,31072,Suma
+state:31,31073,Tahdziú
+state:31,31074,Tahmek
+state:31,31075,Teabo
+state:31,31076,Tecoh
+state:31,31077,Tekal de Venegas
+state:31,31078,Tekantó
+state:31,31079,Tekax
+state:31,31080,Tekit
+state:31,31081,Tekom
+state:31,31082,Telchac Pueblo
+state:31,31083,Telchac Puerto
+state:31,31084,Temax
+state:31,31085,Temozón
+state:31,31086,Tepakán
+state:31,31087,Tetiz
+state:31,31088,Teya
+state:31,31089,Ticul
+state:31,31090,Timucuy
+state:31,31091,Tinum
+state:31,31092,Tixcacalcupul
+state:31,31093,Tixkokob
+state:31,31094,Tixméhuac
+state:31,31095,Tixpéhual
+state:31,31096,Tizimín
+state:31,31097,Tunkás
+state:31,31098,Tzucacab
+state:31,31099,Uayma
+state:31,31100,Ucú
+state:31,31101,Umán
+state:31,31102,Valladolid
+state:31,31103,Xocchel
+state:31,31104,Yaxcabá
+state:31,31105,Yaxkukul
+state:31,31106,Yobaín
+state:32,32001,Apozol
+state:32,32002,Apulco
+state:32,32003,Atolinga
+state:32,32004,Benito Juárez
+state:32,32005,Calera
+state:32,32006,Cañitas de Felipe Pescador
+state:32,32007,Concepción del Oro
+state:32,32008,Cuauhtémoc
+state:32,32009,Chalchihuites
+state:32,32010,Fresnillo
+state:32,32011,Trinidad García de la Cadena
+state:32,32012,Genaro Codina
+state:32,32013,General Enrique Estrada
+state:32,32014,General Francisco R. Murguía
+state:32,32015,El Plateado de Joaquín Amaro
+state:32,32016,General Pánfilo Natera
+state:32,32017,Guadalupe
+state:32,32018,Huanusco
+state:32,32019,Jalpa
+state:32,32020,Jerez
+state:32,32021,Jiménez del Teul
+state:32,32022,Juan Aldama
+state:32,32023,Juchipila
+state:32,32024,Loreto
+state:32,32025,Luis Moya
+state:32,32026,Mazapil
+state:32,32027,Melchor Ocampo
+state:32,32028,Mezquital del Oro
+state:32,32029,Miguel Auza
+state:32,32030,Momax
+state:32,32031,Monte Escobedo
+state:32,32032,Morelos
+state:32,32033,Moyahua de Estrada
+state:32,32034,Nochistlán de Mejía
+state:32,32035,Noria de Ángeles
+state:32,32036,Ojocaliente
+state:32,32037,Pánuco
+state:32,32038,Pinos
+state:32,32039,Río Grande
+state:32,32040,Sain Alto
+state:32,32041,El Salvador
+state:32,32042,Sombrerete
+state:32,32043,Susticacán
+state:32,32044,Tabasco
+state:32,32045,Tepechitlán
+state:32,32046,Tepetongo
+state:32,32047,Teúl de González Ortega
+state:32,32048,Tlaltenango de Sánchez Román
+state:32,32049,Valparaíso
+state:32,32050,Vetagrande
+state:32,32051,Villa de Cos
+state:32,32052,Villa García
+state:32,32053,Villa González Ortega
+state:32,32054,Villa Hidalgo
+state:32,32055,Villanueva
+state:32,32056,Zacatecas
+state:32,32057,Trancoso
+state:32,32058,Santa María de la Paz
+network:GDP,10007,Gómez Palacio
+network:LER,10012,Lerdo
+network:ABA,11001,Abasolo
+network:CLY,11007,Celaya
+network:SAL,11027,Salamanca
+network:SPZ,11033,San Luis de la Paz
+network:SMA,11003,San Miguel de Allende
+network:SIL,11037,Silao
+network:GDL,14039,Guadalajara
+network:GDL,14120,Zapopan
+network:GDL,14101,Tonalá
+network:GDL,14097,Tlajomulco de Zúñiga
+network:GDL,14098,San Pedro Tlaquepaque
+network:CUA,17006,Cuautla
+network:OCU,17016,Ocuituco
+network:ZAC,17031,Zacatepec
+network:MTY,19039,Monterrey
+network:MTY,19026,Guadalupe
+network:MTY,19046,San Nicolás de los Garza
+network:MTY,19019,San Pedro Garza García
+network:MTY,19006,Apodaca
+network:MTY,19021,General Escobedo
+network:MTY,19048,Santa Catarina
+network:COR,22006,Corregidora
+network:MAR,22011,El Marqués
+network:SJR,22016,San Juan del Río
+network:APZ,29005,Apizaco
+network:MIN,30108,Minatitlán
+network:POZ,30131,Poza Rica
+network:MXCM,2002,Mexicali

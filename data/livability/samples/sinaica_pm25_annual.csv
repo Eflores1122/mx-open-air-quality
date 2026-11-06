@@ -1,0 +1,40 @@
+network_code,year,pm25_median_ugm3,pm25_mean_ugm3,pm25_worst_ugm3,worst_station,stations_valid,stations_in_file,min_daily_hours,min_valid_days,days_in_file,valid,network_name
+ABA,2022,13.6646,13.6646,13.6646,ABA,1,1,18,274,364,True,SMCA del Estado de Guanajuato / Abasolo
+AGS,2018,24.6237,24.6237,33.015,SMA,2,3,18,274,365,True,SMCA del Estado de Aguascalientes /Aguascalientes
+APZ,2022,15.3278,15.3278,15.3278,CSA,1,1,18,274,290,True,SMCA del Estado de Tlaxcala / Apizaco
+CHIEST,2021,13.7269,13.7269,13.7269,SUR,1,1,18,274,345,True,SMCA de Chihuahua Estatal / Chihuahua
+CJU2,2022,39.8738,39.8738,39.8738,ITT,1,1,18,274,365,True,SMCA del Estado de Chihuahua / Universidad Autónoma de Ciudad Juárez
+CLY,2022,19.5379,19.5379,21.475,SJC,2,2,18,274,365,True,SMCA del Estado de Guanajuato / Celaya
+CMX,2023,20.4291,20.2523,23.8395,SAC,10,19,18,274,365,True,SMCA de la Ciudad de México SIMAT / ZMVM
+COAH1,2022,12.7471,12.7471,12.7471,JUR,1,3,18,274,365,True,SMCA del Estado de Coahuila /Estatal
+COR,2022,15.0252,15.0252,15.0252,CAM,1,1,18,274,358,True,SMCA del Estado de Querétaro / Corregidora
+CUE,2022,15.2395,15.2395,15.2395,PGO,1,1,18,274,331,True,SMCA del Estado de Morelos / Cuernavaca
+DGO,2021,18.3972,18.3972,23.0781,IPN,2,3,18,274,365,True,SMCA del Estado de Durango
+GDL,2022,29.9221,29.9221,29.9221,MIR,1,7,18,274,361,True,SMCA del Estado de Jalisco / ZMG
+GTO,2022,12.6862,12.6862,12.6862,GTO,1,1,18,274,319,True,SMCA del estado de Guanajuato / Guanajuato
+HGO,2022,18.7695,18.9308,25.9382,ATO,5,9,18,274,365,True,SMCA del Estado de Hidalgo
+IRP,2022,18.4334,18.4334,20.305,TEO,2,2,18,274,365,True,SMCA del Estado de Guanajuato / Irapuato
+LEON,2022,17.457,17.457,17.457,CICEG,1,2,18,274,365,True,SMCA del Estado de Guanajuato / León
+MAR,2021,15.3193,15.3193,15.3193,MAR,1,1,18,274,308,True,SMCA del Estado de Querétaro / El Marqués
+MIN,2021,16.8492,16.8492,16.8492,TEC,1,1,18,274,329,True,SMCA del Estado de Veracruz / Minatitlán
+MLM,2020,16.3914,16.3914,16.3914,PM,1,2,18,275,350,True,SMCA del Estado de Michoacán / Morelia
+MTY,2022,20.4164,20.7643,28.9231,SE2,12,14,18,274,365,True,SMCA del Estado de Nuevo León / AMM
+MXC,2022,23.6826,23.6826,23.6826,COB,1,3,18,274,365,True,SMCA del Estado de Baja California / Mexicali
+MXCM,2022,22.4018,22.4018,22.4018,PMN,1,1,18,274,348,True,SMCA del Municipio de Mexicali
+OCU,2022,12.3708,12.3708,12.3708,PMNO,1,1,18,274,295,True,SMCA del Estado de Morelos / Ocuituco
+POZ,2019,17.3928,17.3928,17.3928,PR-03,1,1,18,274,321,True,SMCA del Estado de Veracruz / Poza Rica
+PUE,2022,15.0617,15.0617,16.0705,UTP,2,5,18,274,365,True,SMCA del Estado de Puebla
+SAL,2022,22.0332,22.0332,22.0332,CR,1,2,18,274,362,True,SMCA del Estado de Guanajuato / Salamanca
+SJR,2022,15.0566,15.0566,15.0566,UMMASJR,1,1,18,274,365,True,SMCA del Estado de Querétaro / San Juan del Río
+SLP,2022,15.0545,15.0545,15.0545,IPAC,1,1,18,274,320,True,SMCA del Estado de San Luis Potosí / San Luis Potosí
+SMA,2022,13.9044,13.9044,13.9044,SMA,1,1,18,274,359,True,SMCA del Estado de Guanajuato / San Miguel de Allende
+SON,2022,10.818,10.818,10.818,TEC,1,1,18,274,353,True,SMCA del Estado de Sonora
+SPZ,2022,14.3836,14.3836,14.3836,SPZ,1,1,18,274,336,True,SMCA del Estado de Guanajuato / San Luis de la Paz
+SQ,2022,14.7218,15.4558,17.0362,FEL,3,3,18,274,365,True,SMCA del Estado de Querétaro / Santiago de Querétaro
+TIJ,2022,34.4073,34.4073,42.0271,LAM,2,2,18,274,365,True,SMCA del Estado de Baja California / Tijuana
+TLC,2022,28.7865,28.6425,33.1698,SC,9,9,18,274,365,True,SMCA del Estado de México / ZMVT
+TPC,2020,11.2055,11.2055,12.5714,PRIM,2,2,18,275,366,True,SMCA del Estado de Nayarit / Tepic
+VER,2021,11.8342,11.8342,11.8342,VER-04,1,1,18,274,342,True,SMCA del Estado de Veracruz / VER
+XAL,2020,17.7029,17.7029,17.7029,STPS,1,1,18,275,362,True,SMCA del Estado de Veracruz / Xalapa
+ZA,2021,4.7833,4.7833,4.7833,CDA,1,1,18,274,349,True,SMCA del Estado de Zacatecas / Zacatecas
+ZAC,2022,16.0351,16.0351,16.0351,TEC,1,1,18,274,297,True,SMCA del Estado de Morelos / Zacatepec
