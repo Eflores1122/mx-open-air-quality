@@ -1,0 +1,812 @@
+[
+  {
+    "place_id": "city:acapulco-de-juarez",
+    "lat": 16.84942,
+    "lon": -99.90891,
+    "geoname_id": "3533462",
+    "geoname_name": "Acapulco de Juárez",
+    "note_es": "El punto es la localidad Acapulco de Juárez (GeoNames 3533462), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Acapulco de Juárez (GeoNames 3533462), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:aguascalientes",
+    "lat": 21.88262,
+    "lon": -102.2843,
+    "geoname_id": "4019233",
+    "geoname_name": "Aguascalientes",
+    "note_es": "El punto es la localidad Aguascalientes (GeoNames 4019233), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Aguascalientes (GeoNames 4019233), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:apodaca",
+    "lat": 25.78143,
+    "lon": -100.18911,
+    "geoname_id": "4018390",
+    "geoname_name": "Ciudad Apodaca",
+    "note_es": "El punto es la localidad Ciudad Apodaca (GeoNames 4018390), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ciudad Apodaca (GeoNames 4018390), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:atizapan-de-zaragoza",
+    "lat": 19.54367,
+    "lon": -99.23449,
+    "geoname_id": "3532624",
+    "geoname_name": "Ciudad López Mateos",
+    "note_es": "El punto es la localidad Ciudad López Mateos (GeoNames 3532624), no el polígono de la ciudad ENSU. GeoNames publica la localidad como Ciudad López Mateos.",
+    "note_en": "The pin is the locality Ciudad López Mateos (GeoNames 3532624), not the polygon of the ENSU city. GeoNames publishes the locality as Ciudad López Mateos."
+  },
+  {
+    "place_id": "city:azcapotzalco",
+    "lat": 19.48698,
+    "lon": -99.18594,
+    "geoname_id": "3532497",
+    "geoname_name": "Azcapotzalco",
+    "note_es": "El punto es la localidad Azcapotzalco (GeoNames 3532497), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Azcapotzalco (GeoNames 3532497), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:benito-juarez",
+    "lat": 19.3727,
+    "lon": -99.1564,
+    "geoname_id": "6957079",
+    "geoname_name": "Benito Juárez",
+    "note_es": "El punto es la localidad Benito Juárez (GeoNames 6957079), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Benito Juárez (GeoNames 6957079), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:cancun",
+    "lat": 21.17429,
+    "lon": -86.84656,
+    "geoname_id": "3531673",
+    "geoname_name": "Cancún",
+    "note_es": "El punto es la localidad Cancún (GeoNames 3531673), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Cancún (GeoNames 3531673), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:chetumal",
+    "lat": 18.51957,
+    "lon": -88.30397,
+    "geoname_id": "3531023",
+    "geoname_name": "Chetumal",
+    "note_es": "El punto es la localidad Chetumal (GeoNames 3531023), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Chetumal (GeoNames 3531023), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:chihuahua",
+    "lat": 28.63528,
+    "lon": -106.08889,
+    "geoname_id": "4014338",
+    "geoname_name": "Chihuahua",
+    "note_es": "El punto es la localidad Chihuahua (GeoNames 4014338), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Chihuahua (GeoNames 4014338), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:chilpancingo-de-los-bravo",
+    "lat": 17.55228,
+    "lon": -99.50124,
+    "geoname_id": "3530870",
+    "geoname_name": "Chilpancingo",
+    "note_es": "El punto es la localidad Chilpancingo (GeoNames 3530870), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Chilpancingo (GeoNames 3530870), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:chimalhuacan",
+    "lat": 19.42155,
+    "lon": -98.95038,
+    "geoname_id": "3517270",
+    "geoname_name": "Santa María Chimalhuacán",
+    "note_es": "El punto es la localidad Santa María Chimalhuacán (GeoNames 3517270), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Santa María Chimalhuacán (GeoNames 3517270), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:ciudad-nezahualcoyotl",
+    "lat": 19.40061,
+    "lon": -99.01483,
+    "geoname_id": "3530589",
+    "geoname_name": "Ciudad Nezahualcoyotl",
+    "note_es": "El punto es la localidad Ciudad Nezahualcoyotl (GeoNames 3530589), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ciudad Nezahualcoyotl (GeoNames 3530589), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:ciudad-obregon",
+    "lat": 27.48642,
+    "lon": -109.94079,
+    "geoname_id": "4013704",
+    "geoname_name": "Ciudad Obregón",
+    "note_es": "El punto es la localidad Ciudad Obregón (GeoNames 4013704), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ciudad Obregón (GeoNames 4013704), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:ciudad-victoria",
+    "lat": 23.74061,
+    "lon": -99.14364,
+    "geoname_id": "3530580",
+    "geoname_name": "Ciudad Victoria",
+    "note_es": "El punto es la localidad Ciudad Victoria (GeoNames 3530580), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ciudad Victoria (GeoNames 3530580), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:ciudad-del-carmen",
+    "lat": 18.64592,
+    "lon": -91.82991,
+    "geoname_id": "3530599",
+    "geoname_name": "Ciudad del Carmen",
+    "note_es": "El punto es la localidad Ciudad del Carmen (GeoNames 3530599), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ciudad del Carmen (GeoNames 3530599), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:coatzacoalcos",
+    "lat": 18.14905,
+    "lon": -94.4447,
+    "geoname_id": "3530517",
+    "geoname_name": "Coatzacoalcos",
+    "note_es": "El punto es la localidad Coatzacoalcos (GeoNames 3530517), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Coatzacoalcos (GeoNames 3530517), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:colima",
+    "lat": 19.24473,
+    "lon": -103.7127,
+    "geoname_id": "4013516",
+    "geoname_name": "Colima",
+    "note_es": "El punto es la localidad Colima (GeoNames 4013516), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Colima (GeoNames 4013516), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:coyoacan",
+    "lat": 19.3467,
+    "lon": -99.16174,
+    "geoname_id": "3530139",
+    "geoname_name": "Coyoacán",
+    "note_es": "El punto es la localidad Coyoacán (GeoNames 3530139), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Coyoacán (GeoNames 3530139), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:cuajimalpa-de-morelos",
+    "lat": 19.3692,
+    "lon": -99.29089,
+    "geoname_id": "3530049",
+    "geoname_name": "Delegación Cuajimalpa de Morelos",
+    "note_es": "El punto es la localidad Delegación Cuajimalpa de Morelos (GeoNames 3530049), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Delegación Cuajimalpa de Morelos (GeoNames 3530049), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:cuauhtemoc",
+    "lat": 19.44506,
+    "lon": -99.14612,
+    "geoname_id": "3827409",
+    "geoname_name": "Cuauhtémoc",
+    "note_es": "El punto es la localidad Cuauhtémoc (GeoNames 3827409), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Cuauhtémoc (GeoNames 3827409), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:cuautitlan-izcalli",
+    "lat": 19.64388,
+    "lon": -99.21598,
+    "geoname_id": "3515807",
+    "geoname_name": "Cuautitlán Izcalli",
+    "note_es": "El punto es la localidad Cuautitlán Izcalli (GeoNames 3515807), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Cuautitlán Izcalli (GeoNames 3515807), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:cuernavaca",
+    "lat": 18.9261,
+    "lon": -99.23075,
+    "geoname_id": "3529947",
+    "geoname_name": "Cuernavaca",
+    "note_es": "El punto es la localidad Cuernavaca (GeoNames 3529947), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Cuernavaca (GeoNames 3529947), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:culiacan-rosales",
+    "lat": 24.80209,
+    "lon": -107.39421,
+    "geoname_id": "4012176",
+    "geoname_name": "Culiacán",
+    "note_es": "El punto es la localidad Culiacán (GeoNames 4012176), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Culiacán (GeoNames 4012176), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:durango",
+    "lat": 24.02032,
+    "lon": -104.65756,
+    "geoname_id": "4011743",
+    "geoname_name": "Victoria de Durango",
+    "note_es": "El punto es la localidad Victoria de Durango (GeoNames 4011743), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Victoria de Durango (GeoNames 4011743), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:ecatepec-de-morelos",
+    "lat": 19.60006,
+    "lon": -99.04855,
+    "geoname_id": "3529612",
+    "geoname_name": "Ecatepec de Morelos",
+    "note_es": "El punto es la localidad Ecatepec de Morelos (GeoNames 3529612), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ecatepec de Morelos (GeoNames 3529612), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:fresnillo",
+    "lat": 23.1749,
+    "lon": -102.86785,
+    "geoname_id": "4006163",
+    "geoname_name": "Fresnillo",
+    "note_es": "El punto es la localidad Fresnillo (GeoNames 4006163), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Fresnillo (GeoNames 4006163), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:general-escobedo",
+    "lat": 25.79663,
+    "lon": -100.31767,
+    "geoname_id": "4005867",
+    "geoname_name": "Ciudad General Escobedo",
+    "note_es": "El punto es la localidad Ciudad General Escobedo (GeoNames 4005867), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ciudad General Escobedo (GeoNames 4005867), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:guadalajara",
+    "lat": 20.67738,
+    "lon": -103.34749,
+    "geoname_id": "4005539",
+    "geoname_name": "Guadalajara",
+    "note_es": "El punto es la localidad Guadalajara (GeoNames 4005539), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Guadalajara (GeoNames 4005539), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:guadalupe",
+    "lat": 25.67663,
+    "lon": -100.25907,
+    "geoname_id": "4005492",
+    "geoname_name": "Guadalupe",
+    "note_es": "El punto es la localidad Guadalupe (GeoNames 4005492), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Guadalupe (GeoNames 4005492), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:guanajuato",
+    "lat": 21.01858,
+    "lon": -101.2591,
+    "geoname_id": "4005270",
+    "geoname_name": "Guanajuato",
+    "note_es": "El punto es la localidad Guanajuato (GeoNames 4005270), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Guanajuato (GeoNames 4005270), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:gustavo-a-madero",
+    "lat": 19.49392,
+    "lon": -99.11075,
+    "geoname_id": "3514674",
+    "geoname_name": "Gustavo Adolfo Madero",
+    "note_es": "El punto es la localidad Gustavo Adolfo Madero (GeoNames 3514674), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Gustavo Adolfo Madero (GeoNames 3514674), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:hermosillo",
+    "lat": 29.08874,
+    "lon": -110.96677,
+    "geoname_id": "4004898",
+    "geoname_name": "Hermosillo",
+    "note_es": "El punto es la localidad Hermosillo (GeoNames 4004898), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Hermosillo (GeoNames 4004898), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:heroica-puebla-de-zaragoza",
+    "lat": 19.04778,
+    "lon": -98.20723,
+    "geoname_id": "3521081",
+    "geoname_name": "Puebla",
+    "note_es": "El punto es la localidad Puebla (GeoNames 3521081), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Puebla (GeoNames 3521081), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:irapuato",
+    "lat": 20.671,
+    "lon": -101.35577,
+    "geoname_id": "4004330",
+    "geoname_name": "Irapuato",
+    "note_es": "El punto es la localidad Irapuato (GeoNames 4004330), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Irapuato (GeoNames 4004330), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:ixtapa-zihuatanejo",
+    "lat": 17.64344,
+    "lon": -101.55212,
+    "geoname_id": "3979673",
+    "geoname_name": "Ixtapa-Zihuatanejo",
+    "note_es": "El punto es la localidad Ixtapa-Zihuatanejo (GeoNames 3979673), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ixtapa-Zihuatanejo (GeoNames 3979673), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:iztacalco",
+    "lat": 19.39528,
+    "lon": -99.09778,
+    "geoname_id": "3526700",
+    "geoname_name": "Iztacalco",
+    "note_es": "El punto es la localidad Iztacalco (GeoNames 3526700), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Iztacalco (GeoNames 3526700), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:iztapalapa",
+    "lat": 19.35529,
+    "lon": -99.06224,
+    "geoname_id": "3526683",
+    "geoname_name": "Iztapalapa",
+    "note_es": "El punto es la localidad Iztapalapa (GeoNames 3526683), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Iztapalapa (GeoNames 3526683), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:juarez",
+    "lat": 31.72024,
+    "lon": -106.46084,
+    "geoname_id": "4013708",
+    "geoname_name": "Ciudad Juárez",
+    "note_es": "El punto es la localidad Ciudad Juárez (GeoNames 4013708), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ciudad Juárez (GeoNames 4013708), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:la-magdalena-contreras",
+    "lat": 19.33212,
+    "lon": -99.21118,
+    "geoname_id": "3523760",
+    "geoname_name": "Magdalena Contreras",
+    "note_es": "El punto es la localidad Magdalena Contreras (GeoNames 3523760), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Magdalena Contreras (GeoNames 3523760), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:la-paz",
+    "lat": 24.14231,
+    "lon": -110.31316,
+    "geoname_id": "4000900",
+    "geoname_name": "La Paz",
+    "note_es": "El punto es la localidad La Paz (GeoNames 4000900), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality La Paz (GeoNames 4000900), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:leon-de-los-aldama",
+    "lat": 21.12183,
+    "lon": -101.68253,
+    "geoname_id": "3998655",
+    "geoname_name": "León de los Aldama",
+    "note_es": "El punto es la localidad León de los Aldama (GeoNames 3998655), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality León de los Aldama (GeoNames 3998655), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:los-cabos",
+    "lat": 23.05406,
+    "lon": -109.70367,
+    "geoname_id": "3986172",
+    "geoname_name": "San José del Cabo",
+    "note_es": "El punto es la localidad San José del Cabo (GeoNames 3986172), no el polígono de la ciudad ENSU. El catálogo ENSU nombra San José del Cabo como localidad cabecera. Cabo San Lucas es otra localidad del mismo municipio.",
+    "note_en": "The pin is the locality San José del Cabo (GeoNames 3986172), not the polygon of the ENSU city. The ENSU catalog names San José del Cabo as the head locality. Cabo San Lucas is another locality in the same municipality."
+  },
+  {
+    "place_id": "city:los-mochis",
+    "lat": 25.79097,
+    "lon": -108.99825,
+    "geoname_id": "3997479",
+    "geoname_name": "Los Mochis",
+    "note_es": "El punto es la localidad Los Mochis (GeoNames 3997479), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Los Mochis (GeoNames 3997479), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:lazaro-cardenas",
+    "lat": 17.96256,
+    "lon": -102.19887,
+    "geoname_id": "4026082",
+    "geoname_name": "Ciudad Lázaro Cárdenas",
+    "note_es": "El punto es la localidad Ciudad Lázaro Cárdenas (GeoNames 4026082), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Ciudad Lázaro Cárdenas (GeoNames 4026082), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:manzanillo",
+    "lat": 19.11695,
+    "lon": -104.34214,
+    "geoname_id": "3996663",
+    "geoname_name": "Manzanillo",
+    "note_es": "El punto es la localidad Manzanillo (GeoNames 3996663), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Manzanillo (GeoNames 3996663), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:mazatlan",
+    "lat": 23.22163,
+    "lon": -106.41885,
+    "geoname_id": "3996322",
+    "geoname_name": "Mazatlán",
+    "note_es": "El punto es la localidad Mazatlán (GeoNames 3996322), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Mazatlán (GeoNames 3996322), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:mexicali",
+    "lat": 32.62781,
+    "lon": -115.45446,
+    "geoname_id": "3996069",
+    "geoname_name": "Mexicali",
+    "note_es": "El punto es la localidad Mexicali (GeoNames 3996069), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Mexicali (GeoNames 3996069), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:miguel-hidalgo",
+    "lat": 19.43411,
+    "lon": -99.20024,
+    "geoname_id": "3827408",
+    "geoname_name": "Miguel Hidalgo",
+    "note_es": "El punto es la localidad Miguel Hidalgo (GeoNames 3827408), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Miguel Hidalgo (GeoNames 3827408), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:milpa-alta",
+    "lat": 19.19251,
+    "lon": -99.02317,
+    "geoname_id": "3523202",
+    "geoname_name": "Milpa Alta",
+    "note_es": "El punto es la localidad Milpa Alta (GeoNames 3523202), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Milpa Alta (GeoNames 3523202), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:monterrey",
+    "lat": 25.68435,
+    "lon": -100.31721,
+    "geoname_id": "3995465",
+    "geoname_name": "Monterrey",
+    "note_es": "El punto es la localidad Monterrey (GeoNames 3995465), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Monterrey (GeoNames 3995465), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:morelia",
+    "lat": 19.70078,
+    "lon": -101.18443,
+    "geoname_id": "3995402",
+    "geoname_name": "Morelia",
+    "note_es": "El punto es la localidad Morelia (GeoNames 3995402), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Morelia (GeoNames 3995402), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:merida",
+    "lat": 20.967,
+    "lon": -89.62318,
+    "geoname_id": "3523349",
+    "geoname_name": "Mérida",
+    "note_es": "El punto es la localidad Mérida (GeoNames 3523349), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Mérida (GeoNames 3523349), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:naucalpan-de-juarez",
+    "lat": 19.47851,
+    "lon": -99.23963,
+    "geoname_id": "3522790",
+    "geoname_name": "Naucalpan de Juárez",
+    "note_es": "El punto es la localidad Naucalpan de Juárez (GeoNames 3522790), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Naucalpan de Juárez (GeoNames 3522790), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:nogales",
+    "lat": 31.30862,
+    "lon": -110.94217,
+    "geoname_id": "4004886",
+    "geoname_name": "Nogales",
+    "note_es": "El punto es la localidad Nogales (GeoNames 4004886), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Nogales (GeoNames 4004886), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:nuevo-laredo",
+    "lat": 27.47629,
+    "lon": -99.51639,
+    "geoname_id": "3522551",
+    "geoname_name": "Nuevo Laredo",
+    "note_es": "El punto es la localidad Nuevo Laredo (GeoNames 3522551), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Nuevo Laredo (GeoNames 3522551), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:oaxaca-de-juarez",
+    "lat": 17.06025,
+    "lon": -96.72544,
+    "geoname_id": "3522507",
+    "geoname_name": "Oaxaca",
+    "note_es": "El punto es la localidad Oaxaca (GeoNames 3522507), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Oaxaca (GeoNames 3522507), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:pachuca-de-soto",
+    "lat": 20.11697,
+    "lon": -98.73329,
+    "geoname_id": "3522210",
+    "geoname_name": "Pachuca de Soto",
+    "note_es": "El punto es la localidad Pachuca de Soto (GeoNames 3522210), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Pachuca de Soto (GeoNames 3522210), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:piedras-negras",
+    "lat": 28.70007,
+    "lon": -100.52353,
+    "geoname_id": "3992619",
+    "geoname_name": "Piedras Negras",
+    "note_es": "El punto es la localidad Piedras Negras (GeoNames 3992619), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Piedras Negras (GeoNames 3992619), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:puerto-vallarta",
+    "lat": 20.617,
+    "lon": -105.23018,
+    "geoname_id": "3991328",
+    "geoname_name": "Puerto Vallarta",
+    "note_es": "El punto es la localidad Puerto Vallarta (GeoNames 3991328), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Puerto Vallarta (GeoNames 3991328), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:queretaro",
+    "lat": 20.58806,
+    "lon": -100.38806,
+    "geoname_id": "3991164",
+    "geoname_name": "Santiago de Querétaro",
+    "note_es": "El punto es la localidad Santiago de Querétaro (GeoNames 3991164), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Santiago de Querétaro (GeoNames 3991164), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:reynosa",
+    "lat": 26.08005,
+    "lon": -98.28456,
+    "geoname_id": "3520339",
+    "geoname_name": "Reynosa",
+    "note_es": "El punto es la localidad Reynosa (GeoNames 3520339), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Reynosa (GeoNames 3520339), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:saltillo",
+    "lat": 25.42595,
+    "lon": -100.97963,
+    "geoname_id": "3988086",
+    "geoname_name": "Saltillo",
+    "note_es": "El punto es la localidad Saltillo (GeoNames 3988086), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Saltillo (GeoNames 3988086), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:san-francisco-de-campeche",
+    "lat": 19.84073,
+    "lon": -90.51676,
+    "geoname_id": "3531732",
+    "geoname_name": "Campeche",
+    "note_es": "El punto es la localidad Campeche (GeoNames 3531732), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Campeche (GeoNames 3531732), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:san-luis-potosi",
+    "lat": 22.15234,
+    "lon": -100.97135,
+    "geoname_id": "3985606",
+    "geoname_name": "San Luis Potosí",
+    "note_es": "El punto es la localidad San Luis Potosí (GeoNames 3985606), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality San Luis Potosí (GeoNames 3985606), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:san-nicolas-de-los-garza",
+    "lat": 25.74167,
+    "lon": -100.30222,
+    "geoname_id": "3985241",
+    "geoname_name": "San Nicolás de los Garza",
+    "note_es": "El punto es la localidad San Nicolás de los Garza (GeoNames 3985241), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality San Nicolás de los Garza (GeoNames 3985241), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:san-pedro-garza-garcia",
+    "lat": 25.66158,
+    "lon": -100.4034,
+    "geoname_id": "4005937",
+    "geoname_name": "San Pedro Garza García",
+    "note_es": "El punto es la localidad San Pedro Garza García (GeoNames 4005937), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality San Pedro Garza García (GeoNames 4005937), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:san-pedro-tlaquepaque",
+    "lat": 20.64121,
+    "lon": -103.29342,
+    "geoname_id": "3981461",
+    "geoname_name": "Tlaquepaque",
+    "note_es": "El punto es la localidad Tlaquepaque (GeoNames 3981461), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tlaquepaque (GeoNames 3981461), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:santa-catarina",
+    "lat": 25.67325,
+    "lon": -100.45813,
+    "geoname_id": "3984583",
+    "geoname_name": "Santa Catarina",
+    "note_es": "El punto es la localidad Santa Catarina (GeoNames 3984583), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Santa Catarina (GeoNames 3984583), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tampico",
+    "lat": 22.28519,
+    "lon": -97.87777,
+    "geoname_id": "3516355",
+    "geoname_name": "Tampico",
+    "note_es": "El punto es la localidad Tampico (GeoNames 3516355), no el polígono de la ciudad ENSU. La ciudad ENSU también incluye municipios de Veracruz. El punto es Tampico, Tamaulipas.",
+    "note_en": "The pin is the locality Tampico (GeoNames 3516355), not the polygon of the ENSU city. The ENSU city also includes municipalities in Veracruz. The pin is Tampico, Tamaulipas."
+  },
+  {
+    "place_id": "city:tapachula",
+    "lat": 14.91074,
+    "lon": -92.26452,
+    "geoname_id": "3516266",
+    "geoname_name": "Tapachula de Córdova y Ordóñez",
+    "note_es": "El punto es la localidad Tapachula de Córdova y Ordóñez (GeoNames 3516266), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tapachula de Córdova y Ordóñez (GeoNames 3516266), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tepic",
+    "lat": 21.50733,
+    "lon": -104.89332,
+    "geoname_id": "3981941",
+    "geoname_name": "Tepic",
+    "note_es": "El punto es la localidad Tepic (GeoNames 3981941), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tepic (GeoNames 3981941), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tijuana",
+    "lat": 32.5027,
+    "lon": -117.00371,
+    "geoname_id": "3981609",
+    "geoname_name": "Tijuana",
+    "note_es": "El punto es la localidad Tijuana (GeoNames 3981609), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tijuana (GeoNames 3981609), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tlajomulco-de-zuniga",
+    "lat": 20.47421,
+    "lon": -103.44654,
+    "geoname_id": "3981467",
+    "geoname_name": "Tlajomulco de Zúñiga",
+    "note_es": "El punto es la localidad Tlajomulco de Zúñiga (GeoNames 3981467), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tlajomulco de Zúñiga (GeoNames 3981467), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tlalnepantla-de-baz",
+    "lat": 19.54005,
+    "lon": -99.19538,
+    "geoname_id": "3515431",
+    "geoname_name": "Tlalnepantla",
+    "note_es": "El punto es la localidad Tlalnepantla (GeoNames 3515431), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tlalnepantla (GeoNames 3515431), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tlalpan",
+    "lat": 19.29513,
+    "lon": -99.16206,
+    "geoname_id": "3515428",
+    "geoname_name": "Tlalpan",
+    "note_es": "El punto es la localidad Tlalpan (GeoNames 3515428), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tlalpan (GeoNames 3515428), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tlaxcala-de-xicohtencatl",
+    "lat": 19.31777,
+    "lon": -98.23846,
+    "geoname_id": "3815415",
+    "geoname_name": "Tlaxcala",
+    "note_es": "El punto es la localidad Tlaxcala (GeoNames 3815415), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tlaxcala (GeoNames 3815415), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tlahuac",
+    "lat": 19.28689,
+    "lon": -99.00507,
+    "geoname_id": "3515463",
+    "geoname_name": "Tláhuac",
+    "note_es": "El punto es la localidad Tláhuac (GeoNames 3515463), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tláhuac (GeoNames 3515463), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:toluca-de-lerdo",
+    "lat": 19.28786,
+    "lon": -99.65324,
+    "geoname_id": "3515302",
+    "geoname_name": "Toluca",
+    "note_es": "El punto es la localidad Toluca (GeoNames 3515302), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Toluca (GeoNames 3515302), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tonala",
+    "lat": 20.62263,
+    "lon": -103.24168,
+    "geoname_id": "3981369",
+    "geoname_name": "Tonalá",
+    "note_es": "El punto es la localidad Tonalá (GeoNames 3981369), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tonalá (GeoNames 3981369), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:torreon",
+    "lat": 25.54389,
+    "lon": -103.41898,
+    "geoname_id": "3981254",
+    "geoname_name": "Torreón",
+    "note_es": "El punto es la localidad Torreón (GeoNames 3981254), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Torreón (GeoNames 3981254), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:tuxtla-gutierrez",
+    "lat": 16.75357,
+    "lon": -93.11578,
+    "geoname_id": "3515001",
+    "geoname_name": "Tuxtla",
+    "note_es": "El punto es la localidad Tuxtla (GeoNames 3515001), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Tuxtla (GeoNames 3515001), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:uruapan",
+    "lat": 19.41677,
+    "lon": -102.05842,
+    "geoname_id": "3980760",
+    "geoname_name": "Uruapan",
+    "note_es": "El punto es la localidad Uruapan (GeoNames 3980760), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Uruapan (GeoNames 3980760), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:venustiano-carranza",
+    "lat": 19.44361,
+    "lon": -99.10499,
+    "geoname_id": "3827407",
+    "geoname_name": "Venustiano Carranza",
+    "note_es": "El punto es la localidad Venustiano Carranza (GeoNames 3827407), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Venustiano Carranza (GeoNames 3827407), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:veracruz",
+    "lat": 19.18095,
+    "lon": -96.1429,
+    "geoname_id": "3514783",
+    "geoname_name": "Veracruz",
+    "note_es": "El punto es la localidad Veracruz (GeoNames 3514783), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Veracruz (GeoNames 3514783), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:villahermosa",
+    "lat": 17.98625,
+    "lon": -92.93928,
+    "geoname_id": "3514670",
+    "geoname_name": "Villahermosa",
+    "note_es": "El punto es la localidad Villahermosa (GeoNames 3514670), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Villahermosa (GeoNames 3514670), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:xalapa",
+    "lat": 19.53124,
+    "lon": -96.91589,
+    "geoname_id": "3526617",
+    "geoname_name": "Xalapa de Enríquez",
+    "note_es": "El punto es la localidad Xalapa de Enríquez (GeoNames 3526617), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Xalapa de Enríquez (GeoNames 3526617), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:xochimilco",
+    "lat": 19.25465,
+    "lon": -99.10356,
+    "geoname_id": "3514450",
+    "geoname_name": "Xochimilco",
+    "note_es": "El punto es la localidad Xochimilco (GeoNames 3514450), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Xochimilco (GeoNames 3514450), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:zacatecas",
+    "lat": 22.76843,
+    "lon": -102.58141,
+    "geoname_id": "3979844",
+    "geoname_name": "Zacatecas",
+    "note_es": "El punto es la localidad Zacatecas (GeoNames 3979844), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Zacatecas (GeoNames 3979844), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:zapopan",
+    "lat": 20.72111,
+    "lon": -103.38742,
+    "geoname_id": "3979770",
+    "geoname_name": "Zapopan",
+    "note_es": "El punto es la localidad Zapopan (GeoNames 3979770), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Zapopan (GeoNames 3979770), not the polygon of the ENSU city."
+  },
+  {
+    "place_id": "city:alvaro-obregon",
+    "lat": 19.35867,
+    "lon": -99.20329,
+    "geoname_id": "3514663",
+    "geoname_name": "Álvaro Obregón",
+    "note_es": "El punto es la localidad Álvaro Obregón (GeoNames 3514663), no el polígono de la ciudad ENSU.",
+    "note_en": "The pin is the locality Álvaro Obregón (GeoNames 3514663), not the polygon of the ENSU city."
+  }
+]

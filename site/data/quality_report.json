@@ -1,0 +1,82 @@
+{
+  "as_of": "2026-11-05",
+  "data_kind": "official_excerpt",
+  "ok": true,
+  "checks": [
+    {
+      "id": "row_count",
+      "status": "pass",
+      "detail_es": "152 lugares (city, network, state).",
+      "detail_en": "152 places (city, network, state).",
+      "metrics": {
+        "rows": 152,
+        "place_types": [
+          "city",
+          "network",
+          "state"
+        ]
+      }
+    },
+    {
+      "id": "duplicate_places",
+      "status": "pass",
+      "detail_es": "Cada lugar tiene un identificador.",
+      "detail_en": "Each place has one identifier.",
+      "metrics": {
+        "duplicates": 0
+      }
+    },
+    {
+      "id": "ranges",
+      "status": "pass",
+      "detail_es": "PM2.5, tasas, percepción y renta caen en rangos posibles.",
+      "detail_en": "PM2.5, rates, perception, and rent fall in possible ranges.",
+      "metrics": {
+        "problems": 0
+      }
+    },
+    {
+      "id": "coverage",
+      "status": "pass",
+      "detail_es": "Hay lugares con aire, seguridad, percepción y renta aproximada.",
+      "detail_en": "Places have air, safety, perception, and approximate rent.",
+      "metrics": {
+        "places": 152,
+        "cities": 91,
+        "states": 32,
+        "networks": 29,
+        "with_air": 39,
+        "with_safety": 151,
+        "with_perception": 91,
+        "with_rent": 149,
+        "with_quality_score": 113,
+        "cities_with_perception": 91
+      }
+    },
+    {
+      "id": "freshness",
+      "status": "warn",
+      "detail_es": "Alguna fuente tiene más de unos años. Sirve para comparar, no para decidir el mes que entra.",
+      "detail_en": "At least one source is more than a couple of years old. It can compare places, not the coming month.",
+      "metrics": {
+        "air_year_min": 2018,
+        "air_year_max": 2023,
+        "safety_year": 2025,
+        "rent_year": 2024,
+        "perception_periods": [
+          "2024-12"
+        ],
+        "as_of": "2026-11-05"
+      }
+    },
+    {
+      "id": "join_warnings",
+      "status": "pass",
+      "detail_es": "Los cruces de nombres no dejaron huecos.",
+      "detail_en": "The name joins left no gaps.",
+      "metrics": {
+        "n": 0
+      }
+    }
+  ]
+}

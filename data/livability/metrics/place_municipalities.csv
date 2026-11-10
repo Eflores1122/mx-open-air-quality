@@ -15,8 +15,8 @@ city:san-francisco-de-campeche,4002,Campeche
 city:xochimilco,9013,Xochimilco
 city:ciudad-del-carmen,4003,Carmen
 city:alvaro-obregon,9010,Álvaro Obregón
+city:saltillo,5027,Ramos Arizpe
 city:saltillo,5030,Saltillo
-city:saltillo,50270,Ramos Arizpe
 city:azcapotzalco,9002,Azcapotzalco
 city:la-laguna,5017,Matamoros
 city:la-laguna,5035,Torreón
@@ -154,7 +154,6 @@ city:merida,31050,Mérida
 city:merida,31059,Progreso
 city:merida,31101,Umán
 city:santa-catarina,19048,Santa Catarina
-city:zacatecas,31017,Guadalupe
 city:zacatecas,32017,Guadalupe
 city:zacatecas,32056,Zacatecas
 city:oaxaca-de-juarez,20067,Oaxaca de Juárez

@@ -1,3 +1,5 @@
+Sitio público: https://eflores1122.github.io/mx-open-air-quality/
+
 # Vivir en México
 
 Comparación cívica para leer, en el mismo tablero, el aire, una renta aproximada y la seguridad de ciudades y entidades de México. Creció a partir de **Aire abierto**, la lectura del SIMAJ de Guadalajara, que sigue en el mismo tablero y en el mismo paquete de Python.
@@ -22,7 +24,7 @@ Tres preguntas, con la fuente al lado de cada número:
 2. ¿Cuál es la tasa de homicidio doloso más feminicidio por 100 mil, y qué dice la ENSU de quien siente insegura su ciudad?
 3. ¿Qué alquiler imputado promedio trae la ENIGH para el estado, como aproximación de costo, no como anuncio?
 
-La renta y la calidad van separadas a propósito. Un puntaje único se puede armar con pesos, y esos pesos se mueven en el tablero.
+La renta y la calidad van separadas a propósito. Un puntaje único se puede armar con pesos, y esos pesos se mueven en el sitio y en el tablero.
 
 ### Cómo correrlo
 
@@ -41,6 +43,12 @@ python -m aire_abierto.pipeline --source sample --out build/excerpt
 streamlit run dashboard/app.py
 ```
 
+El sitio público es la página estática del enlace de arriba. Lee `site/data/place_mart.json` y `site/data/place_mart.parquet`, el mismo mart. Los pesos, el ranking, el mapa y la ficha corren en el navegador. Para volver a escribir esos archivos después de armar el mart:
+
+```bash
+python -m aire_abierto.livability.webexport
+```
+
 En el tablero, la primera lectura es «Vivir en México». «Aire en Guadalajara» abre la serie horaria del SIMAJ.
 
 Sin red, y con datos inventados a la vista:
@@ -56,9 +64,9 @@ Para refrescar solo los extractos: `python -m aire_abierto.livability.download -
 
 ### Qué sale de los extractos de este repositorio
 
-Cifras del mart `data/livability/metrics`, construido el 5 de noviembre de 2026 con los extractos públicos. No son un ranking para elegir casa.
+Cifras del mart `data/livability/metrics`. Los extractos se bajaron el 5 de noviembre de 2026. El 10 de noviembre se corrigió el catálogo de Saltillo y de Zacatecas y se volvió a armar el mart. No son un ranking para elegir casa.
 
-Cobertura: **152 lugares** (91 ciudades ENSU, 32 entidades, 29 redes de monitoreo que no se pegaron a una sola ciudad). Hay PM2.5 en 39 lugares, tasa delictiva en 150, percepción en las 91 ciudades y renta estatal en 149. La Laguna, Tampico y la zona metropolitana del Valle de México no reciben una renta de un solo estado.
+Cobertura: **152 lugares** (91 ciudades ENSU, 32 entidades, 29 redes de monitoreo que no se pegaron a una sola ciudad). Hay PM2.5 en 39 lugares, tasa delictiva en 151, percepción en las 91 ciudades y renta estatal en 149. La Laguna, Tampico y la zona metropolitana del Valle de México no reciben una renta de un solo estado. Saltillo sí tiene tasa: el municipio de Ramos Arizpe ya entra con su clave de 5 dígitos.
 
 - **Aire.** La red SIMAT del Valle de México, 2023, tiene mediana anual de PM2.5 de **20.4 µg/m³** (10 estaciones con suficientes días; la peor, 23.8). Monterrey, red metropolitana, 2022: **20.4** (12 estaciones; la peor, 28.9). Tijuana, 2022: **34.4** (2 estaciones). Ciudad Juárez, 2022: **39.9**, y es una sola estación. Guadalajara en SINAICA, 2022: **29.9**, también una sola estación de siete en el archivo. El archivo SEMADET de 2025, leído aparte, da una mediana de **19.2 µg/m³** en 6 estaciones con suficientes días. Ese 19.2 no entra al puntaje nacional: las redes se comparan con SINAICA. Veintisiete de las 39 cifras de aire salen de una sola estación. Un año viejo también cuenta: Aguascalientes usa 2018 porque los años más nuevos no cubrieron el 75% de los días.
 - **Delitos, 2025, por 100 mil.** La suma de homicidio doloso y feminicidio, ya cruzada con la población CONAPO de mitad de 2025, es **15.5** en el país (20,649 muertes sobre 133,367,428 personas; el archivo trae 28 muertes más en municipios que no están en esa población). Yucatán **1.7**. Ciudad de México **8.4**. Jalisco **11.1**. Colima **73.0**, la entidad más alta de este corte. En ciudades ENSU: Mérida **1.8** (percepción de inseguridad **31.5%**), Zapopan **6.9** (percepción **53.1%**), Guadalajara **11.2** (percepción **82.9%**), Tijuana **50.7**, Juárez **47.6**, la ciudad ENSU de Colima **70.3** (Colima y Villa de Álvarez), Culiacán Rosales **83.3** (percepción **90.6%**). San Pedro Garza García publica **0** homicidios dolosos y **0** feminicidios, y **31** extorsiones: la extorsión no entra al puntaje, y un cero en un municipio de unos 123 mil habitantes no es una prueba de que no pase nada.
@@ -107,7 +115,7 @@ El puntaje de cada pieza va de 0 a 100. Más alto quiere decir menos carga medid
 | Percepción | 0% se siente inseguro | 100% | ENSU, diciembre de 2024. El margen de error por ciudad es amplio |
 | Renta | 2,000 pesos al mes o menos | 6,000 o más | Trimestral de la ENIGH / 3. Es alquiler imputado estatal |
 
-Calidad, sin renta: aire 0.40, delitos 0.35, percepción 0.25. Hace falta más de una pieza; si falta alguna, el peso se reparte entre las que sí están. Puntaje combinado, con renta: 0.30, 0.30, 0.20 y 0.20, también con al menos dos piezas. En el tablero esos cuatro pesos se mueven.
+Calidad, sin renta: aire 0.40, delitos 0.35, percepción 0.25. Hace falta más de una pieza; si falta alguna, el peso se reparte entre las que sí están. Puntaje combinado, con renta: 0.30, 0.30, 0.20 y 0.20, también con al menos dos piezas. En el sitio y en el tablero esos cuatro pesos se mueven.
 
 La tasa sale en DuckDB: suma de casos y de población de los municipios del lugar, por 100 mil. Si falta más del 10% de esos municipios en alguno de los dos archivos, la tasa se deja vacía.
 
@@ -127,7 +135,7 @@ Three questions, with the source next to each number:
 2. What is the rate of intentional homicide plus feminicide per 100,000, and what does ENSU say about people who feel their city is unsafe?
 3. What imputed rent does ENIGH give the state, as a cost approximation, not as a listing?
 
-Rent and quality stay apart on purpose. A single score can be built with weights, and those weights move in the dashboard.
+Rent and quality stay apart on purpose. A single score can be built with weights, and those weights move on the site and in the dashboard.
 
 ### How to run
 
@@ -146,6 +154,12 @@ python -m aire_abierto.pipeline --source sample --out build/excerpt
 streamlit run dashboard/app.py
 ```
 
+The public site is the static page at the top of this file. It reads `site/data/place_mart.json` and `site/data/place_mart.parquet`, which are the same mart. Weights, the ranking, the map, and the city sheet run in the browser. Regenerating those files after a mart build:
+
+```bash
+python -m aire_abierto.livability.webexport
+```
+
 In the dashboard, the first view is "Living in Mexico". "Air in Guadalajara" opens the SIMAJ hourly series.
 
 Offline, with invented rows clearly marked:
@@ -161,9 +175,9 @@ To refresh only the excerpts: `python -m aire_abierto.livability.download --out 
 
 ### What these excerpts show
 
-Figures from the mart in `data/livability/metrics`, built on 5 November 2026 from the public excerpts. They are not a ranking for choosing a home.
+Figures from the mart in `data/livability/metrics`. The excerpts were downloaded on 5 November 2026. On 10 November the Saltillo and Zacatecas catalog rows were corrected and the mart was rebuilt. They are not a ranking for choosing a home.
 
-Coverage: **152 places** (91 ENSU cities, 32 states, 29 monitoring networks that were not attached to a single city). PM2.5 is present for 39 places, a crime rate for 150, perception for all 91 cities, and state rent for 149. La Laguna, Tampico, and the Mexico City metro area do not receive one state's rent.
+Coverage: **152 places** (91 ENSU cities, 32 states, 29 monitoring networks that were not attached to a single city). PM2.5 is present for 39 places, a crime rate for 151, perception for all 91 cities, and state rent for 149. La Laguna, Tampico, and the Mexico City metro area do not receive one state's rent. Saltillo does have a rate: Ramos Arizpe is now joined on its 5-digit code.
 
 - **Air.** The Mexico City SIMAT network, 2023, has an annual median PM2.5 of **20.4 µg/m³** (10 stations with enough days; the worst, 23.8). Monterrey's metro network, 2022: **20.4** (12 stations; the worst, 28.9). Tijuana, 2022: **34.4** (2 stations). Ciudad Juárez, 2022: **39.9**, from a single station. Guadalajara in SINAICA, 2022: **29.9**, also one station out of seven in the file. The SEMADET file for 2025, read separately, gives a median of **19.2 µg/m³** across 6 stations with enough days. That 19.2 is not in the national score: networks are compared with SINAICA. Twenty-seven of the 39 air figures come from a single station. An old year counts too: Aguascalientes uses 2018 because later years did not cover 75% of days.
 - **Crime, 2025, per 100,000.** Intentional homicide plus feminicide, joined to CONAPO's mid-2025 population, is **15.5** nationally (20,649 deaths over 133,367,428 people; the file has 28 further deaths in municipalities absent from that population). Yucatán **1.7**. Mexico City **8.4**. Jalisco **11.1**. Colima **73.0**, the highest state in this cut. Among ENSU cities: Mérida **1.8** (insecurity perception **31.5%**), Zapopan **6.9** (perception **53.1%**), Guadalajara **11.2** (perception **82.9%**), Tijuana **50.7**, Juárez **47.6**, the ENSU city of Colima **70.3** (Colima and Villa de Álvarez), Culiacán Rosales **83.3** (perception **90.6%**). San Pedro Garza García publishes **0** intentional homicides and **0** feminicides, and **31** extortion records: extortion is not in the score, and a zero in a municipality of about 123,000 people is not proof that nothing happened.
@@ -212,7 +226,7 @@ Each piece is scored from 0 to 100. Higher means a lighter measured burden, not 
 | Perception | 0% feel unsafe | 100% | ENSU, December 2024. City margins of error are wide |
 | Rent | 2,000 pesos a month or below | 6,000 or above | ENIGH quarterly figure / 3. State imputed rent |
 
-Quality, without rent: air 0.40, crime 0.35, perception 0.25. More than one piece is required; if one is missing, its weight is shared by the pieces that exist. Combined score, with rent: 0.30, 0.30, 0.20, and 0.20, also with at least two pieces. In the dashboard those four weights move.
+Quality, without rent: air 0.40, crime 0.35, perception 0.25. More than one piece is required; if one is missing, its weight is shared by the pieces that exist. Combined score, with rent: 0.30, 0.30, 0.20, and 0.20, also with at least two pieces. On the site and in the dashboard those four weights move.
 
 The rate is a DuckDB sum: cases and population of the place's municipalities, per 100,000. If more than 10% of those municipalities are missing from either file, the rate is left empty.
 
@@ -248,6 +262,8 @@ flowchart LR
   Duck --> Score
   Gdl --> Score
   Score --> Mart["place_mart: city, network, state"]
+  Mart --> Files["JSON y Parquet estáticos"]
+  Files --> Site["Sitio: ranking, mapa y ficha"]
   Mart --> App["Streamlit, ES and EN"]
 ```
 

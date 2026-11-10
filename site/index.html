@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vivir en México</title>
+  <meta name="description" content="Comparación de PM2.5, homicidio doloso más feminicidio, percepción ENSU y alquiler imputado de la ENIGH, con pesos ajustables.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%230b6e4f' width='16' height='16'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#ranking">Ir al ranking</a>
+  <header class="site">
+    <div class="wrap bar">
+      <a class="wordmark" href="#ranking">Vivir en México</a>
+      <div class="lang" role="group" aria-label="Idioma">
+        <button type="button" id="lang-es" aria-pressed="true">ES</button>
+        <button type="button" id="lang-en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+  <main class="wrap" id="ranking">
+    <h1>Vivir en México</h1>
+    <p class="lede" id="lede">Cargando el mart…</p>
+    <p class="disclaimer" id="disclaimer"></p>
+    <ul class="warnings" id="warnings"></ul>
+
+    <form class="controls" id="controls">
+      <div class="presets" role="group" id="preset-group" aria-label="Pesos de origen">
+        <button type="button" id="preset-quality" aria-pressed="true">Calidad sin renta</button>
+        <button type="button" id="preset-rent" aria-pressed="false">Con renta</button>
+      </div>
+      <div class="weights">
+        <label class="weight" for="w-air"><span><span id="lbl-air">Aire</span><output id="out-air">40</output></span>
+          <input id="w-air" type="range" min="0" max="100" step="5" value="40">
+        </label>
+        <label class="weight" for="w-safety"><span><span id="lbl-safety">Seguridad</span><output id="out-safety">35</output></span>
+          <input id="w-safety" type="range" min="0" max="100" step="5" value="35">
+        </label>
+        <label class="weight" for="w-perception"><span><span id="lbl-perception">Percepción</span><output id="out-perception">25</output></span>
+          <input id="w-perception" type="range" min="0" max="100" step="5" value="25">
+        </label>
+        <label class="weight" for="w-rent"><span><span id="lbl-rent">Renta</span><output id="out-rent">0</output></span>
+          <input id="w-rent" type="range" min="0" max="100" step="5" value="0">
+        </label>
+      </div>
+      <p class="fine" id="weight-help"></p>
+      <div class="filters">
+        <label><input type="checkbox" id="type-city" checked> <span id="lbl-city">Ciudades</span></label>
+        <label><input type="checkbox" id="type-network"> <span id="lbl-network">Redes</span></label>
+        <label><input type="checkbox" id="type-state"> <span id="lbl-state">Entidades</span></label>
+        <input class="search" id="search" type="search" autocomplete="off">
+      </div>
+    </form>
+
+    <div class="work">
+      <div class="table-wrap" id="table-host"></div>
+      <div>
+        <section class="map-panel" aria-labelledby="map-title">
+          <div class="map-tools">
+            <h2 id="map-title">Mapa</h2>
+            <button type="button" class="frame-toggle" id="zoom" aria-pressed="false">Acercar</button>
+          </div>
+          <svg id="map" viewBox="0 0 640 420" role="group" aria-labelledby="map-title"></svg>
+          <p class="map-note" id="map-note"></p>
+        </section>
+        <section class="ficha" id="ficha" aria-live="polite"></section>
+      </div>
+    </div>
+
+    <section class="section" id="scatter-section">
+      <h2 id="scatter-title">Costo y calidad</h2>
+      <p class="fine" id="scatter-help"></p>
+      <svg class="scatter" id="scatter" viewBox="0 0 640 360" role="img" aria-labelledby="scatter-title"></svg>
+    </section>
+
+    <section class="section" id="method">
+      <h2 id="method-title">Cómo se arma el puntaje</h2>
+      <div id="method-body"></div>
+    </section>
+
+    <section class="section" id="lineage">
+      <h2 id="lineage-title">De la fuente al mart</h2>
+      <div id="lineage-body"></div>
+      <details id="diagram-details">
+        <summary id="diagram-summary">Diagrama</summary>
+        <pre class="mermaid" id="mermaid"></pre>
+      </details>
+    </section>
+
+    <section class="section" id="sql-section">
+      <h2 id="sql-title">Consultar el Parquet</h2>
+      <p class="fine" id="sql-help"></p>
+      <textarea id="sql" spellcheck="false"></textarea>
+      <p><button type="button" class="sql-run" id="sql-run">Correr la consulta sobre el Parquet</button></p>
+      <p class="fine" id="sql-status"></p>
+      <div class="table-wrap sql-table" id="sql-result"></div>
+    </section>
+
+    <section class="section">
+      <h2 id="checks-title">Calidad del corte</h2>
+      <div class="checks" id="checks"></div>
+    </section>
+
+    <section class="section">
+      <h2 id="sources-title">Fuentes</h2>
+      <div class="sources" id="sources"></div>
+    </section>
+  </main>
+  <footer class="site">
+    <div class="wrap">
+      <p><a href="https://github.com/Eflores1122">Eflores1122</a> · <a id="repo-link" href="https://github.com/Eflores1122/mx-open-air-quality">aire abierto / mx-open-air-quality</a></p>
+      <p class="fine" id="colophon"></p>
+    </div>
+  </footer>
+  <script src="score.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

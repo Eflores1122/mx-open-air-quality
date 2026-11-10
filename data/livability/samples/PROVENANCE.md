@@ -46,6 +46,7 @@ Retrieved on 5 November 2026. Nothing behind a login was opened.
 - The December 2025 presentation was fetched. Its city chart does not keep the city names in the text layer, and the tabulados zip was not at the URLs this build probed, so 2025 perception is not in the mart.
 - Municipalities: 2025 catalog PDF, https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2025_catalogo_ciudades_interes.pdf
 - Excerpt: `ensu_municipios.csv`. Torreón (Coahuila, 5035) and Fresnillo (Zacatecas, 32010) are separate cities in the December 2024 perception table. The 2025 catalog extract did not list them as their own areas (Torreón sits inside La Laguna there). Those two municipality links were added from that 2024 composition so the 2024 percentages still have a denominator. They are the single head municipality, not a longer list.
+- Corrected on 10 November 2026 against the same PDF. Two parser mistakes had survived in the first excerpt. Ramos Arizpe was stored as municipality 50270 because the PDF text prints CVEGEO `50270001` without the leading zero (it is `050270001`). Saltillo then failed the 90% coverage rule and published no rate. La Zacatecana, a locality of Guadalupe, Zacatecas, was rebuilt with Yucatán's state code because that cell is blank after Mérida, so the city of Zacatecas also carried Guadalupe, Yucatán (31017) and Yucatán's imputed rent. The excerpt now has Ramos Arizpe as 05027, and Zacatecas as Guadalupe (32017) and Zacatecas (32056) only. The mart was rebuilt from that file. The other excerpts were not re-downloaded.
 
 ## Rent — INEGI ENIGH 2024
 
@@ -57,6 +58,14 @@ Retrieved on 5 November 2026. Nothing behind a login was opened.
 - The interactive page needs a browser, so this file is a transcription of that published table made on 5 November 2026, not a second-hand estimate. The Estado de México value, 9,203 pesos, is the same figure the ENIGH 2024 results presentation prints for that state's imputed rent in 2024.
 - It is an imputed rent for the average household, including owners. Dividing by 3 is this project's monthly reading. It is not a listing and it is not a city's rent.
 - A machine-readable housing-price index from Sociedad Hipotecaria Federal was not retrieved. It is not in the mart. This project does not turn a price index into pesos.
+
+## Map pins and state outlines
+
+These files are not measurements. They only place the mart on a map.
+
+- City pins: `data/livability/reference/place_points.csv`, joined from the GeoNames cities5000 dump (CC BY 4.0, https://www.geonames.org/), retrieved 10 November 2026. The match keeps a locality inside the same state. Each row stores the GeoNames id. La Laguna has no pin: the ENSU city crosses Coahuila and Durango, and this project does not invent a center. Tampico's pin is the locality Tampico in Tamaulipas; the ENSU city also includes municipalities in Veracruz. Los Cabos is pinned at San José del Cabo, the head locality named in the ENSU catalog.
+- State outlines: `site/data/mexico_states.geojson`, simplified from Click That Hood `mexico.geojson` (MIT, Code for America, retrieved 10 November 2026). The license note is `site/data/STATES-LICENSE.txt`. The 2013 label Distrito Federal is shown as Ciudad de México. The geometry was simplified, not redrawn.
+- Rebuild, when the dumps are on disk: `python3 scripts/build_map_reference.py --geonames cities5000.zip --states mexico.geojson --mart data/livability/metrics/place_mart.csv --points data/livability/reference/place_points.csv --geojson site/data/mexico_states.geojson`
 
 ## Guadalajara hourly file
 

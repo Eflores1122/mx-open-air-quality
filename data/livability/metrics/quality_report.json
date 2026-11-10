@@ -46,10 +46,10 @@
         "states": 32,
         "networks": 29,
         "with_air": 39,
-        "with_safety": 150,
+        "with_safety": 151,
         "with_perception": 91,
         "with_rent": 149,
-        "with_quality_score": 112,
+        "with_quality_score": 113,
         "cities_with_perception": 91
       }
     },
