@@ -82,17 +82,21 @@ def municipalities_from_catalog_rows(table_rows: list[list[str | None]]) -> list
         if cells[5]:
             mun_name = cells[5]
         loc_code = cells[6]
-        cvegeo = cells[8]
+        cvegeo = _normalize_cvegeo(cells[8])
         if not cvegeo and state_code and mun_code and loc_code and _digits(state_code) and _digits(mun_code):
             cvegeo = f"{int(state_code):02d}{int(mun_code):03d}{int(loc_code):04d}"
         if not cvegeo or not city_name or not _digits(cvegeo[:5]):
             continue
+        # The next locality row often leaves the state cell blank. Carry the
+        # state from this key so a city that follows another state does not
+        # rebuild the locality with the previous entity (Zacatecas after Mérida).
+        state_code = f"{int(cvegeo[:2]):02d}"
         code = int(cvegeo[:5])
         key = (city_name, code)
         pairs[key] = {
             "ensu_city": city_name,
             "ensu_city_code": city_code,
-            "state_code": f"{int(cvegeo[:2]):02d}",
+            "state_code": state_code,
             "state_name": state_name,
             "mun_code": code,
             "mun_name": mun_name,
@@ -107,6 +111,21 @@ def _clean(value: str | None) -> str:
     if value is None:
         return ""
     return " ".join(str(value).replace("\n", " ").split())
+
+
+def _normalize_cvegeo(value: str) -> str:
+    """Pad a numeric CVEGEO that lost its leading zero in the PDF text.
+
+    A locality key is 9 digits (state, municipality, locality). The Saltillo
+    page prints Ramos Arizpe as 50270001. That is 050270001 with the first
+    zero dropped, not municipality 50270.
+    """
+    digits = "".join(ch for ch in value if ch.isdigit())
+    if not digits:
+        return ""
+    if len(digits) < 9:
+        return digits.zfill(9)
+    return digits
 
 
 def _digits(value: str) -> bool:

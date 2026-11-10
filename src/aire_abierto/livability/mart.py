@@ -83,9 +83,11 @@ def _places(bundle: Bundle) -> tuple[list[dict[str, object]], list[dict[str, obj
         catalog_by_city.setdefault(normalize_name(row["ensu_city"]), []).append(row)
     mun_by_state_name: dict[str, list[dict[str, str]]] = {}
     state_code_by_name: dict[str, str] = {}
+    pop_by_code: dict[int, dict[str, str]] = {}
     for row in bundle.population:
         mun_by_state_name.setdefault(normalize_name(row["state_name"]), []).append(row)
         state_code_by_name[normalize_name(row["state_name"])] = row["state_code"]
+        pop_by_code[int(row["mun_code"])] = row
 
     places: list[dict[str, object]] = []
     bridge: list[dict[str, object]] = []
@@ -103,9 +105,22 @@ def _places(bundle: Bundle) -> tuple[list[dict[str, object]], list[dict[str, obj
             state_code = ""
         else:
             state_names: list[str] = []
+            resolved: list[dict[str, str]] = []
             for mun in muns:
+                # The catalog label can keep the previous state's name when
+                # the PDF cell is blank. The municipality code is the join
+                # key, so the population file wins when it knows that code.
+                pop = pop_by_code.get(int(mun["mun_code"]))
+                if pop is not None:
+                    mun = {
+                        **mun,
+                        "state_code": pop["state_code"],
+                        "state_name": pop["state_name"],
+                    }
+                resolved.append(mun)
                 if mun["state_name"] not in state_names:
                     state_names.append(mun["state_name"])
+            muns = resolved
             if len(state_names) > 1:
                 state_name = " / ".join(state_names)
                 state_code = ""

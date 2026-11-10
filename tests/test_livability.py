@@ -112,6 +112,26 @@ Cambio porcentual de otra sección que no debe entrar 10.0 11.0  1.0
     assert "Cambio porcentual de otra sección que no debe entrar" not in by_name
 
 
+def test_catalog_pads_a_dropped_zero_and_does_not_carry_the_previous_state():
+    table = [
+        ["Clave", "Nombre", "Clave", "Nombre", "Clave", "Nombre", "Clave", "Nombre", "CVEGEO"],
+        ["52", "Mérida", "31", "Yucatán", "050", "Mérida", "0001", "Mérida", "310500001"],
+        ["53", "Zacatecas", None, None, "017", "Guadalupe", "0001", "Guadalupe", "320170001"],
+        [None, None, None, None, None, None, "0042", "La Zacatecana", None],
+        ["06", "Saltillo", None, None, "027", "Ramos Arizpe", "0001", "Ramos Arizpe", "50270001"],
+    ]
+    rows = municipalities_from_catalog_rows(table)
+    by_city = {}
+    for row in rows:
+        by_city.setdefault(row["ensu_city"], []).append(row["mun_code"])
+    assert by_city["Zacatecas"] == [32017]
+    assert 31017 not in by_city["Zacatecas"]
+    assert by_city["Saltillo"] == [5027]
+    saltillo = next(row for row in rows if row["ensu_city"] == "Saltillo")
+    assert saltillo["state_code"] == "05"
+    assert saltillo["cvegeo_example"] == "050270001"
+
+
 def test_catalog_rows_forward_fill_the_city_and_rebuild_a_missing_cvegeo():
     table = [
         ["Clave", "Nombre", "Clave", "Nombre", "Clave", "Nombre", "Clave", "Nombre", "CVEGEO"],
@@ -161,6 +181,12 @@ def test_sample_excerpt_builds_a_national_mart(tmp_path: Path):
     assert len(cities) >= 90
     zapopan = next(row for row in cities if row["place_name"] == "Zapopan")
     assert zapopan["perception_insecurity_pct"] == 53.1
+    saltillo = next(row for row in cities if row["place_name"] == "Saltillo")
+    assert saltillo["safety_coverage"] == 1.0
+    assert saltillo["lethal_per_100k"] != ""
+    zacatecas = next(row for row in cities if row["place_name"] == "Zacatecas")
+    assert zacatecas["state_name"] == "Zacatecas"
+    assert zacatecas["enigh_imputed_rent_quarterly_mxn"] == 5658.0
     jalisco = next(row for row in states if row["state_name"] == "Jalisco")
     assert jalisco["enigh_imputed_rent_quarterly_mxn"] == 9694
     assert jalisco["lethal_per_100k"] != ""
