@@ -1,0 +1,75 @@
+{
+  "project": "mx-livability",
+  "package": "aire_abierto",
+  "data_kind": "official_excerpt",
+  "source_mode": "sample",
+  "built_at": "2026-11-10T18:52:54+00:00",
+  "places": 152,
+  "fallback_reason": null,
+  "not_official_advice": true,
+  "scoring": {
+    "air_good_ugm3": 5,
+    "air_poor_ugm3": 35,
+    "safety_poor_per_100k": 80,
+    "safety_basket": "homicidio_doloso + feminicidio",
+    "rent_good_monthly_mxn": 2000,
+    "rent_poor_monthly_mxn": 6000,
+    "quality_weights": {
+      "air": 0.4,
+      "safety": 0.35,
+      "perception": 0.25
+    },
+    "combined_weights": {
+      "air": 0.3,
+      "safety": 0.3,
+      "perception": 0.2,
+      "rent": 0.2
+    }
+  },
+  "sources": [
+    {
+      "id": "sinaica",
+      "publisher": "Instituto Nacional de Ecología y Cambio Climático (INECC), SINAICA / SCICA",
+      "url": "http://scica.inecc.gob.mx/exec/datadl",
+      "vintage": "Latest validated PM2.5 year per network, mostly through 2022 or 2023",
+      "license": "No SPDX license is stated on the download page. Attributed to INECC."
+    },
+    {
+      "id": "semadet",
+      "publisher": "SEMADET, SIMAJ, Jalisco",
+      "url": "https://aire.jalisco.gob.mx/reportes/BD_2025.xlsx",
+      "vintage": "2025 hourly workbook, read by the existing Guadalajara pipeline",
+      "license": "No SPDX license is stated. Attributed to SEMADET. Not mixed into the national score."
+    },
+    {
+      "id": "sesnsp",
+      "publisher": "Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)",
+      "url": "https://www.datos.gob.mx/dataset/incidencia_delictiva",
+      "vintage": "Municipal nueva metodología, year used in the excerpt (2025 if that year is complete)",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "conapo",
+      "publisher": "CONAPO",
+      "url": "https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+      "vintage": "Mid-year municipal population, same year as the crime counts",
+      "license": "Open data published on datos.gob.mx. Attributed to CONAPO."
+    },
+    {
+      "id": "ensu",
+      "publisher": "INEGI, Encuesta Nacional de Seguridad Pública Urbana",
+      "url": "https://www.inegi.org.mx/programas/ensu/",
+      "vintage": "December 2024 perception; 2025 city-municipality catalog",
+      "license": "INEGI terms of use. Attributed to INEGI. Not a CC license claimed by this project."
+    },
+    {
+      "id": "enigh",
+      "publisher": "INEGI, ENIGH 2024",
+      "url": "https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Hogares_Hogares_11_861f5732-c3db-4614-be03-741f649d605c",
+      "vintage": "2024, quarterly imputed rent by state",
+      "license": "INEGI terms of use. Attributed to INEGI."
+    }
+  ],
+  "note_es": "Comparación cívica de aire, renta aproximada y seguridad. No es consejo oficial, ni médico, ni una evaluación de riesgo personal.",
+  "note_en": "A civic comparison of air, approximate rent, and safety. It is not official advice, not medical advice, and not a personal risk assessment."
+}
