@@ -1,129 +1,16 @@
-Sitio público: https://eflores1122.github.io/mx-open-air-quality/
-
-# Vivir en México
-
-Comparación cívica para leer, en el mismo tablero, el aire, una renta aproximada y la seguridad de ciudades y entidades de México. Creció a partir de **Aire abierto**, la lectura del SIMAJ de Guadalajara, que sigue en el mismo tablero y en el mismo paquete de Python.
-
-El repositorio y el paquete siguen llamándose `aire-abierto` / `aire_abierto`. El nombre más amplio, en la interfaz y en este texto, es **Vivir en México** (`mx-livability`). El código es MIT. Los datos no: cada cifra se queda con quien la publicó.
+# Living in Mexico
 
 A civic comparison of air, approximate rent, and safety for cities and states in Mexico. It grew out of **Aire abierto**, the Guadalajara SIMAJ reading, which is still in the same dashboard and the same Python package.
 
-The repository and the package are still named `aire-abierto` / `aire_abierto`. The broader name, in the interface and in this text, is **Living in Mexico** (`mx-livability`). The code is MIT. The data are not: each figure stays with its publisher.
+Public site: https://eflores1122.github.io/mx-open-air-quality/
 
-Esto no es consejo para mudarse, ni un parte oficial, ni una evaluación de riesgo personal. This is not advice about where to move, not an official bulletin, and not a personal risk assessment.
+The repository and the package are still named `aire-abierto` / `aire_abierto`. The broader name, in the interface and in this text, is **Living in Mexico** (`mx-livability`). The code is MIT. The measurements are not: each figure stays with its publisher, under the license named in [Sources and licenses](#sources-and-licenses).
 
-Se preparó como herramienta de interés público junto con Edgar Flores.
+This is not advice about where to move, not an official bulletin, and not a personal risk assessment.
 
-## Español
+Prepared as a public-interest portfolio tool with Edgar Flores. The files under `data/samples/` and `data/livability/samples/` are small excerpts of public statistics, kept so the project rebuilds without the network. `--source synthetic` writes invented rows and labels them as synthetic. Those invented rows do not describe any city. This is not a production pipeline and it does not contain company data.
 
-### Para qué sirve
-
-Tres preguntas, con la fuente al lado de cada número:
-
-1. ¿Qué PM2.5 anual publica la red de monitoreo de esa ciudad, cuando la red existe?
-2. ¿Cuál es la tasa de homicidio doloso más feminicidio por 100 mil, y qué dice la ENSU de quien siente insegura su ciudad?
-3. ¿Qué alquiler imputado promedio trae la ENIGH para el estado, como aproximación de costo, no como anuncio?
-
-La renta y la calidad van separadas a propósito. Un puntaje único se puede armar con pesos, y esos pesos se mueven en el sitio y en el tablero.
-
-### Cómo correrlo
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e ".[dev]"
-
-# Mart nacional, sin red: usa los extractos de data/livability/samples
-python -m aire_abierto.livability.pipeline --source sample
-
-# El archivo horario de Guadalajara, si se quiere reconstruir
-python -m aire_abierto.pipeline --source sample --out build/excerpt
-
-# Tablero en http://127.0.0.1:8741
-streamlit run dashboard/app.py
-```
-
-El sitio público es la página estática del enlace de arriba. Lee `site/data/place_mart.json` y `site/data/place_mart.parquet`, el mismo mart. Los pesos, el ranking, el mapa y la ficha corren en el navegador. Para volver a escribir esos archivos después de armar el mart:
-
-```bash
-python -m aire_abierto.livability.webexport
-```
-
-En el tablero, la primera lectura es «Vivir en México». «Aire en Guadalajara» abre la serie horaria del SIMAJ.
-
-Sin red, y con datos inventados a la vista:
-
-```bash
-python -m aire_abierto.livability.pipeline --source synthetic --out build/livability-synthetic
-python -m aire_abierto.pipeline --source synthetic --out build/synthetic
-```
-
-`--source live` vuelve a pedir SINAICA, el almacén de datos del SESNSP, CONAPO y los PDF de la ENSU. Tarda, porque el aire baja red por red. `--source auto` intenta eso y, si falla, usa los extractos. CI no usa la red.
-
-Para refrescar solo los extractos: `python -m aire_abierto.livability.download --out data/livability/samples`. El catálogo de municipios de la ENSU pide el paquete opcional `pdfplumber`. La ENIGH no se vuelve a bajar sola: la tabla oficial abre con JavaScript. El archivo comprometido y su procedencia están en `data/livability/samples/PROVENANCE.md`.
-
-### Qué sale de los extractos de este repositorio
-
-Cifras del mart `data/livability/metrics`. Los extractos se bajaron el 5 de noviembre de 2026. El 10 de noviembre se corrigió el catálogo de Saltillo y de Zacatecas y se volvió a armar el mart. No son un ranking para elegir casa.
-
-Cobertura: **152 lugares** (91 ciudades ENSU, 32 entidades, 29 redes de monitoreo que no se pegaron a una sola ciudad). Hay PM2.5 en 39 lugares, tasa delictiva en 151, percepción en las 91 ciudades y renta estatal en 149. La Laguna, Tampico y la zona metropolitana del Valle de México no reciben una renta de un solo estado. Saltillo sí tiene tasa: el municipio de Ramos Arizpe ya entra con su clave de 5 dígitos.
-
-- **Aire.** La red SIMAT del Valle de México, 2023, tiene mediana anual de PM2.5 de **20.4 µg/m³** (10 estaciones con suficientes días; la peor, 23.8). Monterrey, red metropolitana, 2022: **20.4** (12 estaciones; la peor, 28.9). Tijuana, 2022: **34.4** (2 estaciones). Ciudad Juárez, 2022: **39.9**, y es una sola estación. Guadalajara en SINAICA, 2022: **29.9**, también una sola estación de siete en el archivo. El archivo SEMADET de 2025, leído aparte, da una mediana de **19.2 µg/m³** en 6 estaciones con suficientes días. Ese 19.2 no entra al puntaje nacional: las redes se comparan con SINAICA. Veintisiete de las 39 cifras de aire salen de una sola estación. Un año viejo también cuenta: Aguascalientes usa 2018 porque los años más nuevos no cubrieron el 75% de los días.
-- **Delitos, 2025, por 100 mil.** La suma de homicidio doloso y feminicidio, ya cruzada con la población CONAPO de mitad de 2025, es **15.5** en el país (20,649 muertes sobre 133,367,428 personas; el archivo trae 28 muertes más en municipios que no están en esa población). Yucatán **1.7**. Ciudad de México **8.4**. Jalisco **11.1**. Colima **73.0**, la entidad más alta de este corte. En ciudades ENSU: Mérida **1.8** (percepción de inseguridad **31.5%**), Zapopan **6.9** (percepción **53.1%**), Guadalajara **11.2** (percepción **82.9%**), Tijuana **50.7**, Juárez **47.6**, la ciudad ENSU de Colima **70.3** (Colima y Villa de Álvarez), Culiacán Rosales **83.3** (percepción **90.6%**). San Pedro Garza García publica **0** homicidios dolosos y **0** feminicidios, y **31** extorsiones: la extorsión no entra al puntaje, y un cero en un municipio de unos 123 mil habitantes no es una prueba de que no pase nada.
-- **Renta aproximada, ENIGH 2024.** Alquiler imputado trimestral por hogar, dividido entre 3. Chiapas **1,501 pesos**. Yucatán **2,885**. Jalisco **3,231**. Nuevo León **4,137**. Ciudad de México **6,025**. Dos ciudades del mismo estado comparten el número. No es la renta de un anuncio y no dice si el salario local alcanza.
-- **Puntaje.** Con los pesos de origen (aire 0.40, delitos 0.35, percepción 0.25) hace falta más de una de esas piezas. Por eso una entidad que solo tiene tasa no queda arriba de una ciudad medida por dos lados. Mérida, sin PM2.5 en este corte, queda en **85.6**. Tijuana, con aire, tasa y percepción, queda en **23.1**. El puntaje que además mete la renta (pesos 0.30 / 0.30 / 0.20 / 0.20) sube a quien tiene alquiler imputado bajo. Conviene mirar la gráfica de costo contra calidad, no solo la barra.
-
-### Guadalajara, el archivo de 2025
-
-El tablero de «Aire en Guadalajara» sigue leyendo el horario público de SEMADET. Estas cifras salen de `data/metrics`, con las bandas de partículas vigentes desde enero de 2026, no la clasificación que regía durante 2025.
-
-- 13 estaciones, 113,880 horas, 365 días civiles.
-- En **309 de 365 días** al menos una estación cayó en Mala o peor. Solo 10 días quedaron en Buena en toda la red, bajo esta regla.
-- Eso es la peor estación del día. La mediana diaria de PM2.5 entre estaciones con datos suficientes tuvo, a su vez, una mediana de unos **18 µg/m³**.
-- **Santa Fe** sumó 254 días en Mala o peor. **Las Pintas** sumó 237. **Santa Margarita** tuvo el PM2.5 medio más bajo, unos 11 µg/m³.
-- El dióxido de azufre no trae número válido en el 63% de las horas. En Miravalle el canal de PM2.5 no tiene ni un día con 18 horas válidas.
-
-No dice cómo está el aire ahora. Para hoy hay que abrir el [reporte horario de SEMADET](https://aire.jalisco.gob.mx/).
-
-```bash
-python -m aire_abierto.pipeline --source live --year 2025
-```
-
-### Fuentes
-
-| Qué | Quién | Dónde | Corte | Licencia |
-| --- | --- | --- | --- | --- |
-| PM2.5 horario validado por red | INECC, SINAICA / SCICA | [Descarga](http://scica.inecc.gob.mx/exec/datadl) | El año más reciente con una estación completa; en este corte, 2018–2023 | La página no da una licencia SPDX. Atribuido al INECC |
-| Horario O3, NO2, SO2, CO, PM10, PM2.5 de Guadalajara | SEMADET, SIMAJ | [BD_2025.xlsx](https://aire.jalisco.gob.mx/reportes/BD_2025.xlsx) | 2025 | La página no da una licencia SPDX. Atribuido a SEMADET. No entra al puntaje nacional |
-| Bandas del tablero de Guadalajara | SEMARNAT | NOM-172-SEMARNAT-2023, DOF 25 de enero de 2024 | Partículas: columna «A partir de enero de 2026» | Norma publicada |
-| Incidencia delictiva municipal | SESNSP | [datos.gob.mx](https://www.datos.gob.mx/dataset/incidencia_delictiva) | 2025, año completo en los doce meses | CC BY 4.0 |
-| Población a mitad de año | CONAPO | [Proyecciones](https://www.datos.gob.mx/dataset/proyecciones-de-poblacion) | 2025, municipios | Datos abiertos en datos.gob.mx. Atribuido a CONAPO |
-| Percepción de inseguridad por ciudad | INEGI, ENSU | [Presentación diciembre 2024](https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2024_diciembre_presentacion_ejecutiva.pdf) | Diciembre de 2024, 91 ciudades | Términos de uso del INEGI. Atribuido al INEGI |
-| Municipios de cada ciudad ENSU | INEGI, ENSU | [Catálogo 2025](https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2025_catalogo_ciudades_interes.pdf) | Catálogo 2025; Torreón y Fresnillo se completaron con la composición de 2024 | Términos de uso del INEGI |
-| Alquiler imputado por entidad | INEGI, ENIGH 2024 | [Tabulado](https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Hogares_Hogares_11_861f5732-c3db-4614-be03-741f649d605c) | 2024, promedio trimestral por hogar | Términos de uso del INEGI. Transcripción del tabulado publicado |
-
-El detalle de cada archivo, con lo que no se pudo bajar, está en [`data/livability/samples/PROVENANCE.md`](data/livability/samples/PROVENANCE.md). No se entra a páginas con login ni se usan APIs de pago. OpenAQ pide una llave y aquí no se usa.
-
-### Metodología
-
-El puntaje de cada pieza va de 0 a 100. Más alto quiere decir menos carga medida, no una mejor vida.
-
-| Pieza | 100 | 0 | Notas |
-| --- | --- | --- | --- |
-| Aire | 5 µg/m³ de PM2.5 anual o menos | 35 µg/m³ o más | Escala de este proyecto. No es el Índice AIRE y SALUD ni la NOM-172, que es un índice diario |
-| Delitos | 0 por 100 mil | 80 por 100 mil | Homicidio doloso + feminicidio. Por encima de 80 el puntaje se queda en 0 y la tasa sigue visible. Secuestro y extorsión se publican y no entran |
-| Percepción | 0% se siente inseguro | 100% | ENSU, diciembre de 2024. El margen de error por ciudad es amplio |
-| Renta | 2,000 pesos al mes o menos | 6,000 o más | Trimestral de la ENIGH / 3. Es alquiler imputado estatal |
-
-Calidad, sin renta: aire 0.40, delitos 0.35, percepción 0.25. Hace falta más de una pieza; si falta alguna, el peso se reparte entre las que sí están. Puntaje combinado, con renta: 0.30, 0.30, 0.20 y 0.20, también con al menos dos piezas. En el sitio y en el tablero esos cuatro pesos se mueven.
-
-La tasa sale en DuckDB: suma de casos y de población de los municipios del lugar, por 100 mil. Si falta más del 10% de esos municipios en alguno de los dos archivos, la tasa se deja vacía.
-
-La geografía no es la misma en las tres columnas. El catálogo ENSU dice qué municipios entran en la ciudad (a veces varios; La Laguna cruza Coahuila y Durango). La red SINAICA a veces es una ciudad, a veces la zona metropolitana, a veces el estado. Cuando el nombre de la red es el de la ciudad, el PM2.5 se muestra en esa ciudad y la nota dice que puede no cubrir todos sus municipios. La ZMG y Monterrey quedan como redes: el aire es el de la red y la tasa suma las ciudades ENSU listadas en `data/livability/reference/networks.csv`, que no es la delimitación metropolitana oficial completa. La SIMAT del Valle de México solo trae aire: cruza dos entidades y aquí no se inventa una tasa única. La renta, cuando aparece, es siempre la del estado.
-
-### Qué no es
-
-No es consejo para elegir ciudad. No es el índice oficial del aire ni un parte de hoy: hay redes cuyo último año útil es 2018. No es un censo del delito: es lo que las fiscalías registraron. No es la renta que vas a pagar. No es una lectura de crédito, de hipoteca ni de pagos. No se armó un índice de precios de vivienda de la SHF porque no apareció un archivo público estable en esta construcción, y un índice no se convierte aquí en pesos.
+Comparación cívica del aire, una renta aproximada y la seguridad de ciudades y entidades de México. El texto en español está más abajo. El código es MIT. Los datos no: cada cifra se queda con quien la publicó.
 
 ## English
 
@@ -169,9 +56,11 @@ python -m aire_abierto.livability.pipeline --source synthetic --out build/livabi
 python -m aire_abierto.pipeline --source synthetic --out build/synthetic
 ```
 
-`--source live` fetches SINAICA, the SESNSP datastore, CONAPO, and the ENSU PDFs again. It takes a while, because air is downloaded network by network. `--source auto` tries that and falls back to the excerpts. CI never uses the network.
+### Fixtures, offline
 
-To refresh only the excerpts: `python -m aire_abierto.livability.download --out data/livability/samples`. The ENSU municipality catalog needs the optional `pdfplumber` package. ENIGH is not re-downloaded on its own: the official table needs a browser. The committed file and its trail are in `data/livability/samples/PROVENANCE.md`.
+The files in `data/livability/samples/` and `data/samples/` are the fixtures. They are cuts of public files, not today's feed and not invented rows. `--source sample` (the default for the national mart) reads only those files. `--source synthetic` writes invented rows into the output directory and labels them. `--source live` is the only mode that calls the publishers. CI sets `AIRE_OFFLINE=1`. With that variable, `--source live` fails before opening a socket, and the CI job runs `--source sample` and `--source synthetic` only. `--source auto` tries the network and, on failure or when `AIRE_OFFLINE` is set, keeps the fixtures.
+
+To refresh the excerpts on purpose, outside CI: `python -m aire_abierto.livability.download --out data/livability/samples`. The ENSU municipality catalog needs the optional `pdfplumber` package. ENIGH is not re-downloaded on its own: the official table needs a browser. The trail for each file is in `data/livability/samples/PROVENANCE.md`.
 
 ### What these excerpts show
 
@@ -200,18 +89,20 @@ It does not say what the air is like right now. For today, open [SEMADET's hourl
 python -m aire_abierto.pipeline --source live --year 2025
 ```
 
-### Sources
+### Sources and licenses
 
 | What | Who | Where | Vintage | License |
 | --- | --- | --- | --- | --- |
-| Validated hourly PM2.5 by network | INECC, SINAICA / SCICA | [Download](http://scica.inecc.gob.mx/exec/datadl) | Newest year with one complete station; in this cut, 2018–2023 | The page states no SPDX license. Attributed to INECC |
-| Hourly O3, NO2, SO2, CO, PM10, PM2.5 for Guadalajara | SEMADET, SIMAJ | [BD_2025.xlsx](https://aire.jalisco.gob.mx/reportes/BD_2025.xlsx) | 2025 | The page states no SPDX license. Attributed to SEMADET. Not in the national score |
-| Bands on the Guadalajara view | SEMARNAT | NOM-172-SEMARNAT-2023, Official Gazette 25 January 2024 | Particles: column "from January 2026" | Published standard |
-| Municipal crime incidence | SESNSP | [datos.gob.mx](https://www.datos.gob.mx/dataset/incidencia_delictiva) | 2025, all twelve months populated | CC BY 4.0 |
-| Mid-year population | CONAPO | [Projections](https://www.datos.gob.mx/dataset/proyecciones-de-poblacion) | 2025, municipalities | Open data on datos.gob.mx. Attributed to CONAPO |
-| Perception of insecurity by city | INEGI, ENSU | [December 2024 presentation](https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2024_diciembre_presentacion_ejecutiva.pdf) | December 2024, 91 cities | INEGI terms of use. Attributed to INEGI |
-| Municipalities inside each ENSU city | INEGI, ENSU | [2025 catalog](https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2025_catalogo_ciudades_interes.pdf) | 2025 catalog; Torreón and Fresnillo completed from the 2024 composition | INEGI terms of use |
-| Imputed rent by state | INEGI, ENIGH 2024 | [Table](https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Hogares_Hogares_11_861f5732-c3db-4614-be03-741f649d605c) | 2024, quarterly average per household | INEGI terms of use. Transcription of the published table |
+| Validated hourly PM2.5 by network | INECC, SINAICA / SCICA | [Download](http://scica.inecc.gob.mx/exec/datadl) | Newest year with one complete station; in this cut, 2018–2023 | The download page states no SPDX license. Measurements stay attributed to INECC. The committed CSV is an annual-median excerpt, not the hourly archive |
+| Hourly O3, NO2, SO2, CO, PM10, PM2.5 for Guadalajara | SEMADET, SIMAJ | [Historical data](https://aire.jalisco.gob.mx/Dhistoricos) and [BD_2025.xlsx](https://aire.jalisco.gob.mx/reportes/BD_2025.xlsx) | 2025 | The historical-data page states no SPDX license. Excerpt attributed to SEMADET. Not in the national score |
+| Bands on the Guadalajara view | SEMARNAT | NOM-172-SEMARNAT-2023, Official Gazette 25 January 2024 | Particles: column "from January 2026" | Published official standard. Not an open-data license. It only defines the bands on that view |
+| Municipal crime incidence | SESNSP | [Dataset](https://www.datos.gob.mx/dataset/incidencia_delictiva) and [municipal resource](https://www.datos.gob.mx/dataset/incidencia_delictiva/resource/57fbd692-3e5c-4b1b-8621-694cb3a33035) | 2025, all twelve months populated | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) on that datos.gob.mx resource. Attributed to SESNSP |
+| Mid-year population | CONAPO | [Projections](https://www.datos.gob.mx/dataset/proyecciones-de-poblacion) and [pobproy_inddemo.csv](https://www.datos.gob.mx/dataset/proyecciones-de-poblacion/resource/e9160552-769b-41ee-88d1-afc765552608) | 2025, municipalities | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) on resource `e9160552-769b-41ee-88d1-afc765552608`. Attributed to CONAPO |
+| Perception of insecurity by city | INEGI, ENSU | [December 2024 presentation](https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2024_diciembre_presentacion_ejecutiva.pdf) | December 2024, 91 cities | [INEGI Términos de Libre Uso](https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf). Cite "Fuente: INEGI". This project does not relicense the table as CC |
+| Municipalities inside each ENSU city | INEGI, ENSU | [2025 catalog](https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2025_catalogo_ciudades_interes.pdf) | 2025 catalog; Torreón and Fresnillo completed from the 2024 composition | [INEGI Términos de Libre Uso](https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf) |
+| Imputed rent by state | INEGI, ENIGH 2024 | [Table](https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Hogares_Hogares_11_861f5732-c3db-4614-be03-741f649d605c) | 2024, quarterly average per household | [INEGI Términos de Libre Uso](https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf). Transcription of the published table, not a second estimate |
+| City pins | GeoNames cities5000 | [geonames.org](https://www.geonames.org/) | Dump retrieved 10 November 2026 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Each row stores the GeoNames id. Not a measurement |
+| State outlines | Click That Hood, Code for America | [mexico.geojson](https://github.com/codeforamerica/click_that_hood) | Retrieved 10 November 2026 | MIT. The notice is `site/data/STATES-LICENSE.txt`. Geometry was simplified, not redrawn |
 
 The trail for each file, including what could not be downloaded, is in [`data/livability/samples/PROVENANCE.md`](data/livability/samples/PROVENANCE.md). Nothing behind a login is opened, and no paid API is called. OpenAQ needs a key and is not used.
 
@@ -273,10 +164,159 @@ Each livability build writes `quality_report.json`. The build fails if there are
 
 The Guadalajara hourly build keeps its own checks: no rows, duplicate station-hours, units, nulls, and freshness. A historical annual workbook is expected to be old. Flagged cells stay empty.
 
+## Tech stack
+
+Python 3.11 or newer. DuckDB joins crime counts to population and builds the rates. pandas and openpyxl read the SEMADET workbook. The national mart is CSV plus a quality report. Streamlit and Altair serve the local dashboard on port 8741. The public site is static HTML, CSS, and JavaScript in `site/`, published with GitHub Pages from the committed JSON and Parquet. Ruff and pytest run in GitHub Actions. No API key and no paid data API. OpenAQ is not used.
+
+## Project structure
+
+```text
+src/aire_abierto/            Python package
+  pipeline.py                Guadalajara hourly build
+  ingest.py                  SEMADET workbook, or the committed excerpt, or synthetic rows
+  livability/                national mart: air, crime, perception, rent
+    pipeline.py              --source sample | synthetic | live | auto
+    download.py              optional refresh of the public excerpts (not used in CI)
+dashboard/                   Streamlit views, Spanish and English
+site/                        static ranking, map, and city sheet
+data/samples/                Guadalajara fixture (1–14 May 2025 excerpt)
+data/livability/samples/     national fixtures and PROVENANCE.md
+data/livability/reference/   network crosswalk and GeoNames pins
+data/metrics/                committed Guadalajara metrics from the full 2025 file
+tests/                       pytest, with the network blocked
+.github/workflows/ci.yml     lint, tests, and the four offline builds
+```
+
+## Tests
+
+```bash
+AIRE_OFFLINE=1 pytest
+ruff check src tests dashboard
+```
+
+`tests/conftest.py` replaces `urllib.request.urlopen` for every test. The offline tests check that `--source live` raises before a socket opens when `AIRE_OFFLINE=1`, and that `--source auto` falls back to the committed fixtures.
+
 ## CI
 
-GitHub Actions installs the package, runs Ruff, runs pytest, and builds four offline products: the Guadalajara excerpt, the Guadalajara synthetic file, the livability mart from the committed excerpts, and the livability synthetic file.
+GitHub Actions sets `AIRE_OFFLINE=1`, installs the package, runs Ruff, runs pytest, and builds four offline products from fixtures: the Guadalajara excerpt, the Guadalajara synthetic file, the livability mart from the committed excerpts, and the livability synthetic file. The job does not call INECC, SEMADET, datos.gob.mx, or INEGI.
 
 ## License
 
 The code is [MIT](LICENSE). Measurements and survey tables stay with their publishers, named above and in the provenance files.
+
+The site font is Atkinson Hyperlegible, SIL Open Font License 1.1, copyright 2020 Braille Institute of America, Inc. The license text is `site/fonts/OFL.txt`. The code license does not replace that font license, the GeoNames CC BY 4.0 terms, the Click That Hood MIT notice, the INEGI Términos de Libre Uso, or the CC BY 4.0 terms on the SESNSP and CONAPO resources.
+
+## Español
+
+### Para qué sirve
+
+Tres preguntas, con la fuente al lado de cada número:
+
+1. ¿Qué PM2.5 anual publica la red de monitoreo de esa ciudad, cuando la red existe?
+2. ¿Cuál es la tasa de homicidio doloso más feminicidio por 100 mil, y qué dice la ENSU de quien siente insegura su ciudad?
+3. ¿Qué alquiler imputado promedio trae la ENIGH para el estado, como aproximación de costo, no como anuncio?
+
+La renta y la calidad van separadas a propósito. Un puntaje único se puede armar con pesos, y esos pesos se mueven en el sitio y en el tablero.
+
+### Cómo correrlo
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
+
+# Mart nacional, sin red: usa los extractos de data/livability/samples
+python -m aire_abierto.livability.pipeline --source sample
+
+# El archivo horario de Guadalajara, si se quiere reconstruir
+python -m aire_abierto.pipeline --source sample --out build/excerpt
+
+# Tablero en http://127.0.0.1:8741
+streamlit run dashboard/app.py
+```
+
+El sitio público es la página estática del enlace de arriba. Lee `site/data/place_mart.json` y `site/data/place_mart.parquet`, el mismo mart. Los pesos, el ranking, el mapa y la ficha corren en el navegador. Para volver a escribir esos archivos después de armar el mart:
+
+```bash
+python -m aire_abierto.livability.webexport
+```
+
+En el tablero, la primera lectura es «Vivir en México». «Aire en Guadalajara» abre la serie horaria del SIMAJ.
+
+Sin red, y con datos inventados a la vista:
+
+```bash
+python -m aire_abierto.livability.pipeline --source synthetic --out build/livability-synthetic
+python -m aire_abierto.pipeline --source synthetic --out build/synthetic
+```
+
+### Fixtures, sin red
+
+Los archivos en `data/livability/samples/` y `data/samples/` son los fixtures. Son recortes de archivos públicos, no un feed de hoy y no filas inventadas. `--source sample` (el valor por omisión del mart nacional) solo lee esos archivos. `--source synthetic` escribe filas inventadas en el directorio de salida y las marca. `--source live` es el único modo que llama a los publicadores. CI exporta `AIRE_OFFLINE=1`: con esa variable, `--source live` falla antes de abrir un socket, y el flujo de CI usa solo `--source sample` y `--source synthetic`. `--source auto` intenta la red y, si falla o si `AIRE_OFFLINE` está puesta, se queda con los fixtures.
+
+Para refrescar los extractos a propósito, fuera de CI: `python -m aire_abierto.livability.download --out data/livability/samples`. El catálogo de municipios de la ENSU pide el paquete opcional `pdfplumber`. La ENIGH no se vuelve a bajar sola: la tabla oficial abre con JavaScript. La procedencia de cada archivo está en `data/livability/samples/PROVENANCE.md`.
+
+### Qué sale de los extractos de este repositorio
+
+Cifras del mart `data/livability/metrics`. Los extractos se bajaron el 5 de noviembre de 2026. El 10 de noviembre se corrigió el catálogo de Saltillo y de Zacatecas y se volvió a armar el mart. No son un ranking para elegir casa.
+
+Cobertura: **152 lugares** (91 ciudades ENSU, 32 entidades, 29 redes de monitoreo que no se pegaron a una sola ciudad). Hay PM2.5 en 39 lugares, tasa delictiva en 151, percepción en las 91 ciudades y renta estatal en 149. La Laguna, Tampico y la zona metropolitana del Valle de México no reciben una renta de un solo estado. Saltillo sí tiene tasa: el municipio de Ramos Arizpe ya entra con su clave de 5 dígitos.
+
+- **Aire.** La red SIMAT del Valle de México, 2023, tiene mediana anual de PM2.5 de **20.4 µg/m³** (10 estaciones con suficientes días; la peor, 23.8). Monterrey, red metropolitana, 2022: **20.4** (12 estaciones; la peor, 28.9). Tijuana, 2022: **34.4** (2 estaciones). Ciudad Juárez, 2022: **39.9**, y es una sola estación. Guadalajara en SINAICA, 2022: **29.9**, también una sola estación de siete en el archivo. El archivo SEMADET de 2025, leído aparte, da una mediana de **19.2 µg/m³** en 6 estaciones con suficientes días. Ese 19.2 no entra al puntaje nacional: las redes se comparan con SINAICA. Veintisiete de las 39 cifras de aire salen de una sola estación. Un año viejo también cuenta: Aguascalientes usa 2018 porque los años más nuevos no cubrieron el 75% de los días.
+- **Delitos, 2025, por 100 mil.** La suma de homicidio doloso y feminicidio, ya cruzada con la población CONAPO de mitad de 2025, es **15.5** en el país (20,649 muertes sobre 133,367,428 personas; el archivo trae 28 muertes más en municipios que no están en esa población). Yucatán **1.7**. Ciudad de México **8.4**. Jalisco **11.1**. Colima **73.0**, la entidad más alta de este corte. En ciudades ENSU: Mérida **1.8** (percepción de inseguridad **31.5%**), Zapopan **6.9** (percepción **53.1%**), Guadalajara **11.2** (percepción **82.9%**), Tijuana **50.7**, Juárez **47.6**, la ciudad ENSU de Colima **70.3** (Colima y Villa de Álvarez), Culiacán Rosales **83.3** (percepción **90.6%**). San Pedro Garza García publica **0** homicidios dolosos y **0** feminicidios, y **31** extorsiones: la extorsión no entra al puntaje, y un cero en un municipio de unos 123 mil habitantes no es una prueba de que no pase nada.
+- **Renta aproximada, ENIGH 2024.** Alquiler imputado trimestral por hogar, dividido entre 3. Chiapas **1,501 pesos**. Yucatán **2,885**. Jalisco **3,231**. Nuevo León **4,137**. Ciudad de México **6,025**. Dos ciudades del mismo estado comparten el número. No es la renta de un anuncio y no dice si el salario local alcanza.
+- **Puntaje.** Con los pesos de origen (aire 0.40, delitos 0.35, percepción 0.25) hace falta más de una de esas piezas. Por eso una entidad que solo tiene tasa no queda arriba de una ciudad medida por dos lados. Mérida, sin PM2.5 en este corte, queda en **85.6**. Tijuana, con aire, tasa y percepción, queda en **23.1**. El puntaje que además mete la renta (pesos 0.30 / 0.30 / 0.20 / 0.20) sube a quien tiene alquiler imputado bajo. Conviene mirar la gráfica de costo contra calidad, no solo la barra.
+
+### Guadalajara, el archivo de 2025
+
+El tablero de «Aire en Guadalajara» sigue leyendo el horario público de SEMADET. Estas cifras salen de `data/metrics`, con las bandas de partículas vigentes desde enero de 2026, no la clasificación que regía durante 2025.
+
+- 13 estaciones, 113,880 horas, 365 días civiles.
+- En **309 de 365 días** al menos una estación cayó en Mala o peor. Solo 10 días quedaron en Buena en toda la red, bajo esta regla.
+- Eso es la peor estación del día. La mediana diaria de PM2.5 entre estaciones con datos suficientes tuvo, a su vez, una mediana de unos **18 µg/m³**.
+- **Santa Fe** sumó 254 días en Mala o peor. **Las Pintas** sumó 237. **Santa Margarita** tuvo el PM2.5 medio más bajo, unos 11 µg/m³.
+- El dióxido de azufre no trae número válido en el 63% de las horas. En Miravalle el canal de PM2.5 no tiene ni un día con 18 horas válidas.
+
+No dice cómo está el aire ahora. Para hoy hay que abrir el [reporte horario de SEMADET](https://aire.jalisco.gob.mx/).
+
+```bash
+python -m aire_abierto.pipeline --source live --year 2025
+```
+
+### Fuentes
+
+| Qué | Quién | Dónde | Corte | Licencia |
+| --- | --- | --- | --- | --- |
+| PM2.5 horario validado por red | INECC, SINAICA / SCICA | [Descarga](http://scica.inecc.gob.mx/exec/datadl) | El año más reciente con una estación completa; en este corte, 2018–2023 | La página de descarga no declara una licencia SPDX. Las mediciones siguen atribuidas al INECC. El CSV del repositorio es un extracto de medianas anuales, no el horario completo |
+| Horario O3, NO2, SO2, CO, PM10, PM2.5 de Guadalajara | SEMADET, SIMAJ | [Datos históricos](https://aire.jalisco.gob.mx/Dhistoricos) y [BD_2025.xlsx](https://aire.jalisco.gob.mx/reportes/BD_2025.xlsx) | 2025 | La página de históricos no declara una licencia SPDX. Extracto atribuido a SEMADET. No entra al puntaje nacional |
+| Bandas del tablero de Guadalajara | SEMARNAT | NOM-172-SEMARNAT-2023, Diario Oficial de la Federación, 25 de enero de 2024 | Partículas: columna «A partir de enero de 2026» | Norma oficial publicada. No es una licencia de datos abiertos. Solo define las bandas de ese tablero |
+| Incidencia delictiva municipal | SESNSP | [Dataset](https://www.datos.gob.mx/dataset/incidencia_delictiva) y [recurso municipal](https://www.datos.gob.mx/dataset/incidencia_delictiva/resource/57fbd692-3e5c-4b1b-8621-694cb3a33035) | 2025, año completo en los doce meses | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) en ese recurso de datos.gob.mx. Atribuido al SESNSP |
+| Población a mitad de año | CONAPO | [Proyecciones](https://www.datos.gob.mx/dataset/proyecciones-de-poblacion) y [pobproy_inddemo.csv](https://www.datos.gob.mx/dataset/proyecciones-de-poblacion/resource/e9160552-769b-41ee-88d1-afc765552608) | 2025, municipios | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) en el recurso `e9160552-769b-41ee-88d1-afc765552608`. Atribuido a CONAPO |
+| Percepción de inseguridad por ciudad | INEGI, ENSU | [Presentación diciembre 2024](https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2024_diciembre_presentacion_ejecutiva.pdf) | Diciembre de 2024, 91 ciudades | [Términos de Libre Uso del INEGI](https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf). Hay que citar «Fuente: INEGI». Este proyecto no relicencia la tabla como CC |
+| Municipios de cada ciudad ENSU | INEGI, ENSU | [Catálogo 2025](https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2025_catalogo_ciudades_interes.pdf) | Catálogo 2025; Torreón y Fresnillo se completaron con la composición de 2024 | [Términos de Libre Uso del INEGI](https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf) |
+| Alquiler imputado por entidad | INEGI, ENIGH 2024 | [Tabulado](https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Hogares_Hogares_11_861f5732-c3db-4614-be03-741f649d605c) | 2024, promedio trimestral por hogar | [Términos de Libre Uso del INEGI](https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf). Transcripción del tabulado publicado, no una segunda estimación |
+| Pines de ciudades | GeoNames, cities5000 | [geonames.org](https://www.geonames.org/) | Descarga del 10 de noviembre de 2026 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Cada fila guarda el id de GeoNames. No es una medición |
+| Contornos estatales | Click That Hood, Code for America | [mexico.geojson](https://github.com/codeforamerica/click_that_hood) | Descarga del 10 de noviembre de 2026 | MIT. El aviso está en `site/data/STATES-LICENSE.txt`. Geometría simplificada, no redibujada |
+
+El detalle de cada archivo, con lo que no se pudo bajar, está en [`data/livability/samples/PROVENANCE.md`](data/livability/samples/PROVENANCE.md). No se entra a páginas con login ni se usan APIs de pago. OpenAQ pide una llave y aquí no se usa.
+
+### Metodología
+
+El puntaje de cada pieza va de 0 a 100. Más alto quiere decir menos carga medida, no una mejor vida.
+
+| Pieza | 100 | 0 | Notas |
+| --- | --- | --- | --- |
+| Aire | 5 µg/m³ de PM2.5 anual o menos | 35 µg/m³ o más | Escala de este proyecto. No es el Índice AIRE y SALUD ni la NOM-172, que es un índice diario |
+| Delitos | 0 por 100 mil | 80 por 100 mil | Homicidio doloso + feminicidio. Por encima de 80 el puntaje se queda en 0 y la tasa sigue visible. Secuestro y extorsión se publican y no entran |
+| Percepción | 0% se siente inseguro | 100% | ENSU, diciembre de 2024. El margen de error por ciudad es amplio |
+| Renta | 2,000 pesos al mes o menos | 6,000 o más | Trimestral de la ENIGH / 3. Es alquiler imputado estatal |
+
+Calidad, sin renta: aire 0.40, delitos 0.35, percepción 0.25. Hace falta más de una pieza; si falta alguna, el peso se reparte entre las que sí están. Puntaje combinado, con renta: 0.30, 0.30, 0.20 y 0.20, también con al menos dos piezas. En el sitio y en el tablero esos cuatro pesos se mueven.
+
+La tasa sale en DuckDB: suma de casos y de población de los municipios del lugar, por 100 mil. Si falta más del 10% de esos municipios en alguno de los dos archivos, la tasa se deja vacía.
+
+La geografía no es la misma en las tres columnas. El catálogo ENSU dice qué municipios entran en la ciudad (a veces varios; La Laguna cruza Coahuila y Durango). La red SINAICA a veces es una ciudad, a veces la zona metropolitana, a veces el estado. Cuando el nombre de la red es el de la ciudad, el PM2.5 se muestra en esa ciudad y la nota dice que puede no cubrir todos sus municipios. La ZMG y Monterrey quedan como redes: el aire es el de la red y la tasa suma las ciudades ENSU listadas en `data/livability/reference/networks.csv`, que no es la delimitación metropolitana oficial completa. La SIMAT del Valle de México solo trae aire: cruza dos entidades y aquí no se inventa una tasa única. La renta, cuando aparece, es siempre la del estado.
+
+### Qué no es
+
+No es consejo para elegir ciudad. No es el índice oficial del aire ni un parte de hoy: hay redes cuyo último año útil es 2018. No es un censo del delito: es lo que las fiscalías registraron. No es la renta que vas a pagar. No es una lectura de crédito, de hipoteca ni de pagos. No se armó un índice de precios de vivienda de la SHF porque no apareció un archivo público estable en esta construcción, y un índice no se convierte aquí en pesos.

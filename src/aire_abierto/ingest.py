@@ -2,8 +2,9 @@
 
 The live file is the annual workbook SEMADET publishes for direct download.
 No account and no API key. If that download fails, ``auto`` uses the
-committed excerpt of the same public file. ``synthetic`` never touches the
-network. This module does not scrape pages behind a login.
+committed excerpt of the same public file. ``synthetic`` and ``sample`` never
+touch the network. ``AIRE_OFFLINE=1`` refuses the download before a socket
+opens. This module does not scrape pages behind a login.
 """
 
 from __future__ import annotations
@@ -16,6 +17,7 @@ from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 
+from aire_abierto.offline import OfflineError, require_network
 from aire_abierto.paths import sample_csv
 from aire_abierto.synthetic import write_synthetic_csv
 
@@ -152,6 +154,10 @@ def _synthetic(work_dir: Path) -> Acquisition:
 
 
 def _download(url: str, destination: Path) -> None:
+    try:
+        require_network("Downloading the SEMADET workbook")
+    except OfflineError as exc:
+        raise IngestError(str(exc)) from exc
     temporary = destination.with_suffix(destination.suffix + ".part")
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:

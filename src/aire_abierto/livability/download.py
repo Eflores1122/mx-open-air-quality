@@ -1,5 +1,8 @@
 """Refresh the public excerpts. CI does not run this module.
 
+``AIRE_OFFLINE=1`` makes every fetch raise ``OfflineError`` before a socket
+opens. The committed files under ``data/livability/samples`` are the fixtures.
+
 Official hosts, in the order this file tries them:
 
 - Air: INECC SCICA form at http://scica.inecc.gob.mx/exec/addl
@@ -31,6 +34,7 @@ from pathlib import Path
 from aire_abierto.livability.air import annual_pm25_from_hourly
 from aire_abierto.livability.ensu import municipalities_from_catalog_rows, parse_perception_text
 from aire_abierto.livability.safety import EXTORSION, FEMINICIDIO, SECUESTRO, aggregate_municipios, month_total
+from aire_abierto.offline import require_network
 
 USER_AGENT = "aire-abierto/0.2 (civic open-data; public INECC, SESNSP, CONAPO, INEGI)"
 SCICA_NETWORKS = "http://scica.inecc.gob.mx/exec/jx_nwkbyct"
@@ -242,6 +246,7 @@ def _pdftotext(path: Path) -> str:
 
 
 def _post(url: str, fields: dict[str, str]) -> bytes:
+    require_network("Refreshing a public excerpt")
     data = urllib.parse.urlencode(fields).encode("utf-8")
     request = urllib.request.Request(url, data=data, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=90) as response:
@@ -253,6 +258,7 @@ def _post_file(url: str, fields: dict[str, str], destination: Path) -> None:
 
 
 def _get(url: str, *, timeout: int) -> bytes:
+    require_network("Refreshing a public excerpt")
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read()
