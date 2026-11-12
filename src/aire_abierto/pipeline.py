@@ -4,10 +4,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from datetime import date, datetime
 from pathlib import Path
 
-from aire_abierto.ingest import acquire
+from aire_abierto.ingest import IngestError, acquire
 from aire_abierto.parse import write_hourly_csv
 from aire_abierto.paths import repo_root
 from aire_abierto.publish import metro_rows, rank_rows, write_dicts
@@ -103,13 +104,17 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--refresh", action="store_true", help="Download the workbook again.")
     args = parser.parse_args(argv)
     out_dir = args.out or (repo_root() / "data" / "metrics")
-    result = run_pipeline(
-        source=args.source,
-        year=args.year,
-        out_dir=out_dir,
-        as_of=args.as_of,
-        refresh=args.refresh,
-    )
+    try:
+        result = run_pipeline(
+            source=args.source,
+            year=args.year,
+            out_dir=out_dir,
+            as_of=args.as_of,
+            refresh=args.refresh,
+        )
+    except IngestError as exc:
+        print(exc, file=sys.stderr)
+        return 2
     manifest = result["manifest"]
     print(
         f"{manifest['data_kind']}: {manifest['hourly_rows']} hourly rows -> {result['out_dir']}"

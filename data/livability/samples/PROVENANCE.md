@@ -15,7 +15,7 @@ Retrieved on 5 November 2026. Nothing behind a login was opened.
 - Excerpt: `sinaica_pm25_annual.csv` — annual median of station means, not the hourly file
 - Rule: a station-day needs 18 hours; a station-year needs 75% of the days; the network figure is the median of those station means. The year is the newest one in which at least one station qualifies.
 - Coverage in this cut: 39 networks. Years run from 2018 to 2023; 27 of them are 2022. Seven networks on the public list had no year that met the day rule (Gómez Palacio, Lerdo, Silao, Cuautla, Oaxaca, Tlaxcala estatal, Mérida).
-- License: the download page does not state an SPDX license. The measurements stay attributed to INECC.
+- License: the download page does not state an SPDX license. The measurements stay attributed to INECC. This project does not relicense them.
 
 ## Population — CONAPO
 
@@ -23,6 +23,8 @@ Retrieved on 5 November 2026. Nothing behind a login was opened.
 - Page: https://www.datos.gob.mx/dataset/proyecciones-de-poblacion
 - File: `pobproy_inddemo.csv` (mid-year municipal population)
 - Direct file: https://www.datos.gob.mx/dataset/f2b9b220-3ef7-4e3a-bde6-87e1dac78c6a/resource/e9160552-769b-41ee-88d1-afc765552608/download/pobproy_inddemo.csv
+- Resource page: https://www.datos.gob.mx/dataset/proyecciones-de-poblacion/resource/e9160552-769b-41ee-88d1-afc765552608
+- License on that resource page: Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/). Attributed to CONAPO.
 - Excerpt: `conapo_mun_2025.csv` — 2,475 municipalities, year 2025, column `POB_MIT_MUN`
 - Sum of that column: 133,367,428 people
 
@@ -30,8 +32,9 @@ Retrieved on 5 November 2026. Nothing behind a login was opened.
 
 - Publisher: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública
 - Page: https://www.datos.gob.mx/dataset/incidencia_delictiva
-- License on that page: Creative Commons Attribution 4.0
+- License on the municipal resource: Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/). Attributed to SESNSP.
 - Resource id: `57fbd692-3e5c-4b1b-8621-694cb3a33035` (incidencia delictiva municipal, nueva metodología)
+- Resource page: https://www.datos.gob.mx/dataset/incidencia_delictiva/resource/57fbd692-3e5c-4b1b-8621-694cb3a33035
 - The direct CSV `https://repodatos.atdt.gob.mx/api_update/sesnsp/incidencia_delictiva/IDM_NM_dic25.csv` returned HTTP 403 from the machine that built this excerpt. The rows were read from the public datastore API on datos.gob.mx, filtered to 2025 and to four crime types.
 - Excerpt: `sesnsp_municipio_2025.csv` — one row per municipality, sums of homicidio doloso, feminicidio, secuestro, and extorsión. 2,486 municipalities. `sesnsp_raw_excerpt.csv` is the first 12 raw API rows, kept so the column names stay visible.
 - Intentional homicide by month in 2025, national sum of the municipal file: January 2,008 through December 1,414. No month is empty, so 2025 is treated as a full year.
@@ -40,6 +43,7 @@ Retrieved on 5 November 2026. Nothing behind a login was opened.
 ## Perception — INEGI ENSU
 
 - Publisher: INEGI, Encuesta Nacional de Seguridad Pública Urbana
+- License: Términos de Libre Uso de la Información del INEGI (https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf). Attribution is required ("Fuente: INEGI"). This project does not relicense the tables as Creative Commons.
 - Program: https://www.inegi.org.mx/programas/ensu/
 - Perception: executive presentation for December 2024, https://www.inegi.org.mx/contenidos/programas/ensu/doc/ensu2024_diciembre_presentacion_ejecutiva.pdf
 - Excerpt: `ensu_percepcion_2024q4.csv` — 91 cities plus the national row. The figure is the December 2024 column (percent of people 18 and older who say living in their city is unsafe). The presentation says the city margins of error average about 11% and can be much wider.
@@ -51,6 +55,7 @@ Retrieved on 5 November 2026. Nothing behind a login was opened.
 ## Rent — INEGI ENIGH 2024
 
 - Publisher: INEGI, Encuesta Nacional de Ingresos y Gastos de los Hogares 2024
+- License: the same Términos de Libre Uso (https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf). Attribution is required.
 - Table: «Ingreso corriente total promedio trimestral por hogar, por entidad federativa según principales fuentes de ingreso, 2024»
 - Column used: «Estimación del alquiler de la vivienda»
 - Page: https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Hogares_Hogares_11_861f5732-c3db-4614-be03-741f649d605c
@@ -63,7 +68,7 @@ Retrieved on 5 November 2026. Nothing behind a login was opened.
 
 These files are not measurements. They only place the mart on a map.
 
-- City pins: `data/livability/reference/place_points.csv`, joined from the GeoNames cities5000 dump (CC BY 4.0, https://www.geonames.org/), retrieved 10 November 2026. The match keeps a locality inside the same state. Each row stores the GeoNames id. La Laguna has no pin: the ENSU city crosses Coahuila and Durango, and this project does not invent a center. Tampico's pin is the locality Tampico in Tamaulipas; the ENSU city also includes municipalities in Veracruz. Los Cabos is pinned at San José del Cabo, the head locality named in the ENSU catalog.
+- City pins: `data/livability/reference/place_points.csv`, joined from the GeoNames cities5000 dump (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/, https://www.geonames.org/), retrieved 10 November 2026. The GeoNames readme states that license: https://download.geonames.org/export/dump/readme.txt. The match keeps a locality inside the same state. Each row stores the GeoNames id. La Laguna has no pin: the ENSU city crosses Coahuila and Durango, and this project does not invent a center. Tampico's pin is the locality Tampico in Tamaulipas; the ENSU city also includes municipalities in Veracruz. Los Cabos is pinned at San José del Cabo, the head locality named in the ENSU catalog.
 - State outlines: `site/data/mexico_states.geojson`, simplified from Click That Hood `mexico.geojson` (MIT, Code for America, retrieved 10 November 2026). The license note is `site/data/STATES-LICENSE.txt`. The 2013 label Distrito Federal is shown as Ciudad de México. The geometry was simplified, not redrawn.
 - Rebuild, when the dumps are on disk: `python3 scripts/build_map_reference.py --geonames cities5000.zip --states mexico.geojson --mart data/livability/metrics/place_mart.csv --points data/livability/reference/place_points.csv --geojson site/data/mexico_states.geojson`
 

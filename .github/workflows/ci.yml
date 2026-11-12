@@ -7,6 +7,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      # Sample and synthetic builds must not call INECC, SEMADET, datos.gob.mx, or INEGI.
+      # The committed files under data/samples and data/livability/samples are the fixtures.
+      AIRE_OFFLINE: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

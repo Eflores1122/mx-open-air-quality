@@ -17,3 +17,9 @@ data/livability/**/_live/
 data/warehouse/
 .streamlit/secrets.toml
 .DS_Store
+.idea/
+.vscode/
+*.swp
+.coverage
+htmlcov/
+coverage.xml

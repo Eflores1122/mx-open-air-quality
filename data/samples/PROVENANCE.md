@@ -10,9 +10,11 @@ Jalisco (SEMADET) for the Sistema de Monitoreo Atmosférico de Jalisco (SIMAJ).
 - Columns kept: STATION, DATE, HOUR, O3, NO, NO2, NOX, SO2, CO, PM10, PM2.5
 - Flags such as `IO` and `ND` are the ones SEMADET published. They were not filled in.
 
-The historical-data page does not state an SPDX license. This excerpt is
-redistributed so the project can be rebuilt without the network, with
-attribution. The full year is not committed; download it from SEMADET.
+The historical-data page (https://aire.jalisco.gob.mx/Dhistoricos) does not
+state an SPDX license. This excerpt is redistributed so the project can be
+rebuilt without the network, with attribution to SEMADET. The full year is
+not committed; download it from SEMADET. This file is a fixture for tests
+and CI, not a live feed.
 
 The code in this repository is MIT. That license does not replace SEMADET's
 terms for the measurements.

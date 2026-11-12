@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from datetime import date, datetime
 from pathlib import Path
 
@@ -12,6 +13,7 @@ from aire_abierto.livability.air import semadet_annual_pm25
 from aire_abierto.livability.mart import Bundle, assemble_mart, read_csv
 from aire_abierto.livability.quality import assess
 from aire_abierto.livability.synthetic import synthetic_bundle
+from aire_abierto.offline import OfflineError
 from aire_abierto.paths import repo_root
 
 
@@ -161,28 +163,43 @@ def _source_cards() -> list[dict[str, str]]:
             "publisher": "Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)",
             "url": "https://www.datos.gob.mx/dataset/incidencia_delictiva",
             "vintage": "Municipal nueva metodología, year used in the excerpt (2025 if that year is complete)",
-            "license": "CC BY 4.0",
+            "license": (
+                "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) on datos.gob.mx "
+                "resource 57fbd692-3e5c-4b1b-8621-694cb3a33035. Attributed to SESNSP."
+            ),
         },
         {
             "id": "conapo",
             "publisher": "CONAPO",
             "url": "https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
             "vintage": "Mid-year municipal population, same year as the crime counts",
-            "license": "Open data published on datos.gob.mx. Attributed to CONAPO.",
+            "license": (
+                "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) on datos.gob.mx "
+                "resource e9160552-769b-41ee-88d1-afc765552608 (pobproy_inddemo.csv). "
+                "Attributed to CONAPO."
+            ),
         },
         {
             "id": "ensu",
             "publisher": "INEGI, Encuesta Nacional de Seguridad Pública Urbana",
             "url": "https://www.inegi.org.mx/programas/ensu/",
             "vintage": "December 2024 perception; 2025 city-municipality catalog",
-            "license": "INEGI terms of use. Attributed to INEGI. Not a CC license claimed by this project.",
+            "license": (
+                "INEGI Términos de Libre Uso "
+                "(https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf). "
+                "Attribution required. Not relicensed as CC by this project."
+            ),
         },
         {
             "id": "enigh",
             "publisher": "INEGI, ENIGH 2024",
             "url": "https://www.inegi.org.mx/app/tabulados/interactivos/?pxq=Hogares_Hogares_11_861f5732-c3db-4614-be03-741f649d605c",
             "vintage": "2024, quarterly imputed rent by state",
-            "license": "INEGI terms of use. Attributed to INEGI.",
+            "license": (
+                "INEGI Términos de Libre Uso "
+                "(https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf). "
+                "Attribution required. The committed file is a transcription of the published table."
+            ),
         },
     ]
 
@@ -211,7 +228,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--as-of", type=date.fromisoformat, default=None)
     args = parser.parse_args(argv)
     out_dir = args.out or (repo_root() / "data" / "livability" / "metrics")
-    result = run_livability(source=args.source, out_dir=out_dir, as_of=args.as_of)
+    try:
+        result = run_livability(source=args.source, out_dir=out_dir, as_of=args.as_of)
+    except OfflineError as exc:
+        print(exc, file=sys.stderr)
+        return 2
     manifest = result["manifest"]
     print(f"{manifest['data_kind']}: {manifest['places']} places -> {result['out_dir']}")
     if manifest["fallback_reason"]:
